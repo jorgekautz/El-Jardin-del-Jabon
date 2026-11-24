@@ -345,7 +345,7 @@ export function RecipeEditorPage() {
                     ...ingredients.map((item) => ({ value: item.id, label: item.name })),
                   ]}
                 />
-                <div className="row" style={{ gap: 'var(--space-3xs)', paddingTop: '1.4rem' }}>
+                <div className="row" style={{ gap: 'var(--space-3xs)', paddingTop: '1.65rem' }}>
                   <button
                     type="button"
                     className="btn btn--quiet btn--sm"

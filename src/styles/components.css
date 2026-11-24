@@ -90,7 +90,7 @@
 .btn--sm {
   min-height: 2.25rem;
   padding: 0.35rem var(--space-s);
-  font-size: var(--step--1);
+  font-size: var(--step--3);
 }
 
 .btn--block {
@@ -141,7 +141,7 @@
 /* --- Campos de formulario ------------------------------------------------ */
 
 .field {
-  display: grid;
+  display: block;
   gap: var(--space-3xs);
   min-width: 0;
 }
@@ -168,9 +168,9 @@
 .input,
 .textarea,
 .select {
-  width: 100%;
-  padding: 0.6rem var(--space-xs);
-  min-height: 2.75rem;
+  width: 90%;
+  padding: 0rem var(--space-xs);
+  min-height: 2.5rem;
   background: var(--surface);
   border: var(--border-strong);
   border-radius: var(--radius-control);
@@ -181,12 +181,14 @@
 }
 
 .textarea {
+  padding: 0.5rem var(--space-xs);
   min-height: 5.5rem;
   resize: vertical;
   line-height: 1.5;
 }
 
 .select {
+  width: 100%;
   appearance: none;
   background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%),
     linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
@@ -310,7 +312,7 @@
 }
 
 .card__text {
-  font-size: var(--step--1);
+  font-size: var(--step--3);
   color: var(--ink-2);
 }
 
@@ -632,7 +634,7 @@
 .table {
   width: 100%;
   border-collapse: collapse;
-  font-size: var(--step--1);
+  font-size: var(--step--2);
 }
 
 .table th,

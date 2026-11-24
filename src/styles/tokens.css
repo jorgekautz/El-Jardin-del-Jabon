@@ -10,10 +10,11 @@
   --font-text: 'Karla', 'Segoe UI', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
 
-  --step--2: 0.75rem;
-  --step--1: 1rem;
+  --step--1: 0.7rem;
+  --step--2: 0.8rem;
+  --step--3: 1rem;
   --step-0: 1rem;
-  --step-1: 1.333rem;
+  --step-1: 1.2rem;
   --step-2: 1.777rem;
   --step-3: 2.369rem;
   --step-4: 3.158rem;

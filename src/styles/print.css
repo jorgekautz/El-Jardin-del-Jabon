@@ -1,0 +1,131 @@
+/* ==========================================================================
+   Impresión: la receta en formato limpio, sin navegación ni decoración.
+   ========================================================================== */
+
+@media print {
+  @page {
+    margin: 16mm;
+  }
+
+  html,
+  body {
+    background: #fff;
+    color: #14130f;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  .app-shell {
+    display: block;
+    min-height: 0;
+  }
+
+  .site-header,
+  .site-footer,
+  .toasts,
+  .dialog-backdrop,
+  .no-print {
+    display: none !important;
+  }
+
+  .page {
+    max-width: none;
+    padding: 0;
+  }
+
+  .section,
+  .section--tight {
+    padding: 0;
+  }
+
+  a {
+    color: #14130f;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 22pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin-top: 14pt;
+  }
+
+  .detail-head,
+  .split,
+  .grid-two {
+    display: block;
+  }
+
+  .detail-media,
+  .card__media,
+  .hero__media {
+    aspect-ratio: auto;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    margin-bottom: 10pt;
+  }
+
+  .detail-media img {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .plate {
+    display: none;
+  }
+
+  .spec-sheet,
+  .notice,
+  .card,
+  .filters {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .formula {
+    border-top: 1px solid #14130f;
+  }
+
+  .formula__row {
+    border-bottom: 1px solid #d5d1c6;
+    padding: 4pt 0;
+    break-inside: avoid;
+  }
+
+  .steps__item {
+    break-inside: avoid;
+    padding: 4pt 0;
+  }
+
+  .badge {
+    border: 0;
+    padding: 0;
+    background: none;
+    color: #14130f;
+    font-size: 8pt;
+  }
+
+  .print-header {
+    display: block;
+    border-bottom: 1px solid #14130f;
+    padding-bottom: 6pt;
+    margin-bottom: 12pt;
+  }
+
+  .print-header__meta {
+    font-family: var(--font-mono);
+    font-size: 9pt;
+    color: #4a4740;
+  }
+
+  section {
+    break-inside: avoid-page;
+  }
+}

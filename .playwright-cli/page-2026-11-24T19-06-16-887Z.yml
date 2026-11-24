@@ -1,0 +1,200 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - link "Saltar al contenido" [ref=f2e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f2e5]:
+      - generic [ref=f2e6]:
+        - link "El Jardín del Jabón" [ref=f2e7] [cursor=pointer]:
+          - /url: /
+        - combobox "Buscar recetas e ingredientes" [ref=f2e13]
+        - navigation "Principal" [ref=f2e14]:
+          - link "Recetas (sección actual)" [ref=f2e15] [cursor=pointer]:
+            - /url: /recetas
+            - text: Recetas
+            - generic [ref=f2e16]: (sección actual)
+          - link "Ingredientes" [ref=f2e17] [cursor=pointer]:
+            - /url: /ingredientes
+          - link "Utensilios" [ref=f2e18] [cursor=pointer]:
+            - /url: /utensilios
+          - link "Lista de compras" [ref=f2e19] [cursor=pointer]:
+            - /url: /compras
+          - link "Favoritos" [ref=f2e20] [cursor=pointer]:
+            - /url: /favoritos
+          - link "Administración" [ref=f2e21] [cursor=pointer]:
+            - /url: /administracion
+    - main [ref=f2e22]:
+      - article [ref=f2e23]:
+        - navigation "Migas de pan" [ref=f2e24]:
+          - link "Catálogo de recetas" [ref=f2e25] [cursor=pointer]:
+            - /url: /recetas
+          - generic [aria-hidden] [ref=f2e28]: /
+          - generic [ref=f2e29]: Jabón exfoliante
+        - generic [ref=f2e30]:
+          - generic [ref=f2e31]:
+            - generic [ref=f2e32]:
+              - generic [ref=f2e33]: Exfoliantes
+              - generic [ref=f2e34]: 4 datos pendientes
+            - generic [ref=f2e35]:
+              - heading "Jabón exfoliante" [level=1] [ref=f2e36]
+              - paragraph [ref=f2e37]: "Muy vendible: avena o amapola en la masa."
+            - generic [ref=f2e38]:
+              - button "Guardar Jabón exfoliante en favoritos" [ref=f2e39] [cursor=pointer]: Añadir a favoritos
+              - button "Imprimir receta" [ref=f2e42] [cursor=pointer]
+              - link "Editar" [ref=f2e48] [cursor=pointer]:
+                - /url: /administracion/recetas/r-jabon-exfoliante/editar
+            - generic [ref=f2e53]:
+              - generic [ref=f2e54]:
+                - generic [ref=f2e55]: Ingrediente principal
+                - generic [ref=f2e56]: Avena molida o semillas de amapola
+              - generic [ref=f2e57]:
+                - generic [ref=f2e58]: Propiedades
+                - generic [ref=f2e59]:
+                  - generic [ref=f2e60]: exfoliante
+                  - generic "Documentado en recetas.txt" [ref=f2e61]
+              - generic [ref=f2e62]:
+                - generic [ref=f2e63]: Nivel
+                - generic [ref=f2e64]:
+                  - text: Principiante
+                  - generic "Clasificación editorial" [ref=f2e65]
+              - generic [ref=f2e66]:
+                - generic [ref=f2e67]: Elaboración
+                - generic "Información pendiente de completar" [ref=f2e69]: Tiempo pendiente de completar
+              - generic [ref=f2e70]:
+                - generic [ref=f2e71]: Categoría
+                - generic [ref=f2e72]:
+                  - text: Exfoliantes
+                  - generic "Clasificación editorial" [ref=f2e73]
+              - generic [ref=f2e74]:
+                - generic [ref=f2e75]: Completitud
+                - generic [ref=f2e76]: 43 % de los campos clave con dato
+          - generic [ref=f2e80]:
+            - 'img "Ilustración: Fotografía de Jabón exfoliante" [ref=f2e82]'
+            - generic [ref=f2e86]: Fotografía pendiente
+        - region "Ingredientes y cantidades" [ref=f2e87]:
+          - generic [ref=f2e88]:
+            - generic [ref=f2e89]: Fórmula
+            - heading "Ingredientes y cantidades" [level=2] [ref=f2e90]
+          - list [ref=f2e91]:
+            - listitem [ref=f2e92]:
+              - generic [aria-hidden] [ref=f2e93]: "01"
+              - generic [ref=f2e94]:
+                - strong [ref=f2e95]: Base de glicerina
+                - generic "Información pendiente de completar" [ref=f2e97]: Dato del archivo incompleto
+              - generic [ref=f2e98]: Cantidad pendiente
+            - listitem [ref=f2e99]:
+              - generic [aria-hidden] [ref=f2e100]: "02"
+              - generic [ref=f2e101]:
+                - strong [ref=f2e102]: Avena molida o semillas de amapola
+                - generic [ref=f2e103]: No mucho
+              - generic [ref=f2e104]: 1–2 cucharadas
+            - listitem [ref=f2e105]:
+              - generic [aria-hidden] [ref=f2e106]: "03"
+              - generic [ref=f2e107]:
+                - strong [ref=f2e108]: Esencia de miel, vainilla o coco
+                - generic "Información pendiente de completar" [ref=f2e110]: Dato del archivo incompleto
+              - generic [ref=f2e111]: Cantidad pendiente
+          - paragraph [ref=f2e112]: El archivo documenta la clave de la receta, no la secuencia completa de pasos.
+        - region "Utensilios necesarios" [ref=f2e113]:
+          - generic [ref=f2e114]:
+            - generic [ref=f2e115]: Mesa de trabajo
+            - heading "Utensilios necesarios" [level=2] [ref=f2e116]
+          - paragraph [ref=f2e117]: "Información pendiente de completar: el archivo no especifica los utensilios de esta receta. Las herramientas básicas del sitio aplican al método de glicerina."
+        - region "Preparación paso a paso" [ref=f2e118]:
+          - generic [ref=f2e119]:
+            - generic [ref=f2e120]: Elaboración
+            - heading "Preparación paso a paso" [level=2] [ref=f2e121]
+          - paragraph [ref=f2e122]: "Información pendiente de completar: el archivo no describe la secuencia de pasos de esta receta."
+        - region "Consejos de elaboración" [ref=f2e123]:
+          - generic [ref=f2e124]:
+            - generic [ref=f2e125]: Consejos
+            - heading "Consejos de elaboración" [level=2] [ref=f2e126]
+          - list [ref=f2e127]:
+            - listitem [ref=f2e128]: "La clave del archivo: agregar la avena justo antes de verter en el molde."
+        - region "Estado de la información" [ref=f2e129]:
+          - generic [ref=f2e130]:
+            - generic [ref=f2e131]:
+              - generic [ref=f2e132]: Observaciones
+              - heading "Estado de la información" [level=2] [ref=f2e133]
+            - generic [ref=f2e134]:
+              - paragraph [ref=f2e135]: Información pendiente de completar
+              - paragraph [ref=f2e138]: "El archivo original no documenta estos datos. El sitio no los inventa: quedan vacíos hasta que se completen con una fuente de confianza."
+              - list [ref=f2e139]:
+                - listitem [ref=f2e140]:
+                  - strong [ref=f2e141]: Cantidades de ingredientes
+                  - generic [ref=f2e142]: "Sin cantidad documentada: Base de glicerina, Esencia de miel, vainilla o coco."
+                - listitem [ref=f2e143]:
+                  - strong [ref=f2e144]: Preparación paso a paso
+                  - generic [ref=f2e145]: El archivo no describe los pasos de esta receta.
+                - listitem [ref=f2e146]:
+                  - strong [ref=f2e147]: Utensilios necesarios
+                  - generic [ref=f2e148]: El archivo no especifica los utensilios de esta receta.
+                - listitem [ref=f2e149]:
+                  - strong [ref=f2e150]: Tiempo de elaboración
+                  - generic [ref=f2e151]: Sin tiempo documentado.
+              - paragraph [ref=f2e152]:
+                - link "Completar desde la administración" [ref=f2e153] [cursor=pointer]:
+                  - /url: /administracion/recetas/r-jabon-exfoliante/editar
+          - generic [ref=f2e157]:
+            - generic [ref=f2e158]:
+              - generic [ref=f2e159]: Responsabilidad
+              - heading "Advertencias" [level=2] [ref=f2e160]
+            - region "Antes de elaborar" [ref=f2e161]:
+              - paragraph [ref=f2e162]: Antes de elaborar
+              - list [ref=f2e165]:
+                - listitem [ref=f2e166]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+                - listitem [ref=f2e167]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+                - listitem [ref=f2e168]: Estas recetas son cosméticas. No tratan enfermedades ni sustituyen la indicación de un profesional de la salud.
+                - listitem [ref=f2e169]: "El archivo no documenta dosificaciones seguras para todos los ingredientes: no excedas las cantidades indicadas y completa los huecos con fuentes de confianza."
+                - listitem [ref=f2e170]: Etiqueta cada jabón con sus ingredientes para poder identificar qué causó una reacción.
+                - listitem [ref=f2e171]: "Derretir la base requiere calor y líquido caliente: usa recipiente apto, manipula con cuidado y ventila la zona de trabajo."
+              - paragraph [ref=f2e172]: Recomendaciones generales del sitio. No sustituyen la ficha técnica del proveedor de cada ingrediente.
+        - region "Ingredientes de esta receta" [ref=f2e173]:
+          - generic [ref=f2e174]:
+            - generic [ref=f2e175]: Fichas relacionadas
+            - heading "Ingredientes de esta receta" [level=2] [ref=f2e176]
+          - list [ref=f2e177]:
+            - listitem [ref=f2e178]:
+              - link "Bases de jabón Base de glicerina" [ref=f2e179] [cursor=pointer]:
+                - /url: /ingredientes/base-de-glicerina
+                - generic [ref=f2e180]: Bases de jabón
+                - text: Base de glicerina
+            - listitem [ref=f2e181]:
+              - link "Exfoliantes y complementarios Avena" [ref=f2e182] [cursor=pointer]:
+                - /url: /ingredientes/avena
+                - generic [ref=f2e183]: Exfoliantes y complementarios
+                - text: Avena
+    - contentinfo [ref=f2e184]:
+      - generic [ref=f2e185]:
+        - generic [ref=f2e186]:
+          - generic [ref=f2e187]:
+            - generic [ref=f2e188]: El Jardín del Jabón
+            - paragraph [ref=f2e189]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f2e190]:
+            - text: Secciones
+            - list [ref=f2e191]:
+              - listitem [ref=f2e192]:
+                - link "Catálogo de recetas" [ref=f2e193] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f2e194]:
+                - link "Biblioteca de ingredientes" [ref=f2e195] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f2e196]:
+                - link "Herramientas y materiales" [ref=f2e197] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f2e198]:
+                - link "Lista de compras" [ref=f2e199] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f2e200]:
+                - link "Favoritos" [ref=f2e201] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f2e202]:
+            - generic [ref=f2e203]: Contenido
+            - paragraph [ref=f2e204]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f2e205]: Los cambios se guardan en este navegador.
+          - generic [ref=f2e206]:
+            - generic [ref=f2e207]: Antes de empezar
+            - paragraph [ref=f2e208]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f2e209]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f2e210]
+        - paragraph [ref=f2e211]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

@@ -1,0 +1,364 @@
+- generic [ref=f30e2]:
+  - generic [ref=f30e3]:
+    - link "Saltar al contenido" [ref=f30e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f30e5]:
+      - generic [ref=f30e6]:
+        - link "El Jardín del Jabón" [ref=f30e7] [cursor=pointer]:
+          - /url: /
+        - combobox "Buscar recetas e ingredientes" [ref=f30e13]
+        - navigation "Principal" [ref=f30e14]:
+          - link "Recetas" [ref=f30e15] [cursor=pointer]:
+            - /url: /recetas
+          - link "Ingredientes" [ref=f30e16] [cursor=pointer]:
+            - /url: /ingredientes
+          - link "Utensilios" [ref=f30e17] [cursor=pointer]:
+            - /url: /utensilios
+          - link "Lista de compras" [ref=f30e18] [cursor=pointer]:
+            - /url: /compras
+          - link "Favoritos" [ref=f30e19] [cursor=pointer]:
+            - /url: /favoritos
+          - link "Administración" [ref=f30e20] [cursor=pointer]:
+            - /url: /administracion
+    - main [ref=f30e21]:
+      - generic [ref=f30e23]:
+        - generic [ref=f30e24]:
+          - generic [ref=f30e25]:
+            - generic [ref=f30e26]: Biblioteca de jabones artesanales
+            - heading "El Jardín del Jabón" [level=1] [ref=f30e27]
+            - paragraph [ref=f30e28]: Descubre el arte de crear tus propios jabones naturales.
+          - search [ref=f30e29]:
+            - combobox "Buscar recetas e ingredientes" [ref=f30e31]
+            - link "Explorar recetas" [ref=f30e32] [cursor=pointer]:
+              - /url: /recetas
+          - generic [ref=f30e34]:
+            - generic [ref=f30e35]:
+              - term [ref=f30e36]: Recetas
+              - definition [ref=f30e37]: "6"
+            - generic [ref=f30e38]:
+              - term [ref=f30e39]: Ingredientes
+              - definition [ref=f30e40]: "27"
+            - generic [ref=f30e41]:
+              - term [ref=f30e42]: Categorías
+              - definition [ref=f30e43]: "6"
+        - generic [ref=f30e44]:
+          - 'img "Ilustración: Jabones artesanales elaborados a mano" [ref=f30e46]'
+          - generic [ref=f30e50]: Fotografía de portada pendiente
+      - region [ref=f30e51]:
+        - generic [ref=f30e52]:
+          - generic [ref=f30e53]:
+            - generic [ref=f30e54]: Selección del sitio
+            - heading "Recetas destacadas" [level=2] [ref=f30e55]
+            - paragraph [ref=f30e56]: Las recetas que el archivo describe como punto de partida y las más vendibles.
+          - link "Ver todas" [ref=f30e58] [cursor=pointer]:
+            - /url: /recetas
+        - generic [ref=f30e62]:
+          - article [ref=f30e63]:
+            - generic [ref=f30e64]:
+              - 'img "Ilustración: Ilustración de Jabón básico para empezar" [ref=f30e66]'
+              - generic [ref=f30e70]: Fotografía pendiente
+            - generic [ref=f30e71]:
+              - generic [ref=f30e72]:
+                - generic [ref=f30e73]: Básicos
+                - generic [ref=f30e74]: Datos pendientes
+              - heading [level=3] [ref=f30e75]:
+                - link "Jabón básico para empezar" [ref=f30e76] [cursor=pointer]:
+                  - /url: /recetas/jabon-basico-para-empezar
+              - paragraph [ref=f30e77]: "Para empezar: solo derretir y moldear."
+              - paragraph [ref=f30e78]: Ingrediente principalBase de glicerina
+              - paragraph [ref=f30e79]: "Elaboración: 1–2 horas"
+            - generic [ref=f30e83]:
+              - link "Ver receta" [ref=f30e84] [cursor=pointer]:
+                - /url: /recetas/jabon-basico-para-empezar
+              - button "Guardar Jabón básico para empezar en favoritos" [ref=f30e88] [cursor=pointer]
+          - article [ref=f30e91]:
+            - generic [ref=f30e92]:
+              - 'img "Ilustración: Ilustración de Jabón exfoliante" [ref=f30e94]'
+              - generic [ref=f30e98]: Fotografía pendiente
+            - generic [ref=f30e99]:
+              - generic [ref=f30e100]:
+                - generic [ref=f30e101]: Exfoliantes
+                - generic [ref=f30e102]: Datos pendientes
+              - heading [level=3] [ref=f30e103]:
+                - link "Jabón exfoliante" [ref=f30e104] [cursor=pointer]:
+                  - /url: /recetas/jabon-exfoliante
+              - paragraph [ref=f30e105]: "Muy vendible: avena o amapola en la masa."
+              - paragraph [ref=f30e106]: Ingrediente principalAvena molida o semillas de amapola
+              - paragraph [ref=f30e107]: Tiempo pendiente de completar
+            - generic [ref=f30e111]:
+              - link "Ver receta" [ref=f30e112] [cursor=pointer]:
+                - /url: /recetas/jabon-exfoliante
+              - button "Guardar Jabón exfoliante en favoritos" [ref=f30e116] [cursor=pointer]
+          - article [ref=f30e119]:
+            - generic [ref=f30e120]:
+              - 'img "Ilustración: Ilustración de Jabón hidratante" [ref=f30e122]'
+              - generic [ref=f30e126]: Fotografía pendiente
+            - generic [ref=f30e127]:
+              - generic [ref=f30e128]:
+                - generic [ref=f30e129]: Hidratantes
+                - generic [ref=f30e130]: Datos pendientes
+              - heading [level=3] [ref=f30e131]:
+                - link "Jabón hidratante" [ref=f30e132] [cursor=pointer]:
+                  - /url: /recetas/jabon-hidratante
+              - paragraph [ref=f30e133]: Pensado para piel seca.
+              - paragraph [ref=f30e134]: Ingrediente principalAceite de almendras o coco
+              - paragraph [ref=f30e135]: Tiempo pendiente de completar
+            - generic [ref=f30e139]:
+              - link "Ver receta" [ref=f30e140] [cursor=pointer]:
+                - /url: /recetas/jabon-hidratante
+              - button "Guardar Jabón hidratante en favoritos" [ref=f30e144] [cursor=pointer]
+      - region [ref=f30e147]:
+        - generic [ref=f30e149]:
+          - generic [ref=f30e150]: Navegar por tipo
+          - heading "Categorías de jabones" [level=2] [ref=f30e151]
+          - paragraph [ref=f30e152]: Cada categoría agrupa las recetas por su finalidad. Las etiquetas son del sitio; las propiedades, del archivo.
+        - generic [ref=f30e153]:
+          - article [ref=f30e154]:
+            - generic [ref=f30e155]:
+              - generic [ref=f30e156]:
+                - heading "Básicos" [level=3] [ref=f30e157]
+                - generic [ref=f30e158]: 1 receta
+              - paragraph [ref=f30e159]: "El método de derretir y verter: la base del 90 % de los jabones artesanales comerciales."
+              - paragraph [ref=f30e160]:
+                - link "Ver básicos" [ref=f30e161] [cursor=pointer]:
+                  - /url: /recetas?categoria=basicos
+          - article [ref=f30e165]:
+            - generic [ref=f30e166]:
+              - generic [ref=f30e167]:
+                - heading "Exfoliantes" [level=3] [ref=f30e168]
+                - generic [ref=f30e169]: 2 recetas
+              - paragraph [ref=f30e170]: Con avena, amapola o café. El archivo los señala como los más vendibles.
+              - paragraph [ref=f30e171]:
+                - link "Ver exfoliantes" [ref=f30e172] [cursor=pointer]:
+                  - /url: /recetas?categoria=exfoliantes
+          - article [ref=f30e176]:
+            - generic [ref=f30e177]:
+              - generic [ref=f30e178]:
+                - heading "Hidratantes" [level=3] [ref=f30e179]
+                - generic [ref=f30e180]: 1 receta
+              - paragraph [ref=f30e181]: Con aceites añadidos a la base blanca. Pensados para piel seca.
+              - paragraph [ref=f30e182]:
+                - link "Ver hidratantes" [ref=f30e183] [cursor=pointer]:
+                  - /url: /recetas?categoria=hidratantes
+          - article [ref=f30e187]:
+            - generic [ref=f30e188]:
+              - generic [ref=f30e189]:
+                - heading "Absorbentes" [level=3] [ref=f30e190]
+                - generic [ref=f30e191]: 1 receta
+              - paragraph [ref=f30e192]: Con arroz en polvo. El archivo los describe como jabones absorbentes.
+              - paragraph [ref=f30e193]:
+                - link "Ver absorbentes" [ref=f30e194] [cursor=pointer]:
+                  - /url: /recetas?categoria=absorbentes
+          - article [ref=f30e198]:
+            - generic [ref=f30e199]:
+              - generic [ref=f30e200]:
+                - heading "Botánicos y aromáticos" [level=3] [ref=f30e201]
+                - generic [ref=f30e202]: 1 receta
+              - paragraph [ref=f30e203]: "Manzanilla, cúrcuma y aceites esenciales: aroma y color sin exfoliantes."
+              - paragraph [ref=f30e204]:
+                - link "Ver aromáticos" [ref=f30e205] [cursor=pointer]:
+                  - /url: /recetas?categoria=aromaticos
+          - article [ref=f30e209]:
+            - generic [ref=f30e210]:
+              - generic [ref=f30e211]:
+                - heading "Otros" [level=3] [ref=f30e212]
+                - generic [ref=f30e213]: 0 recetas
+              - paragraph [ref=f30e214]: Recetas que todavía no encajan en ninguna categoría definida.
+              - paragraph [ref=f30e215]:
+                - link "Ver otros" [ref=f30e216] [cursor=pointer]:
+                  - /url: /recetas?categoria=otros
+      - region [ref=f30e220]:
+        - generic [ref=f30e221]:
+          - generic [ref=f30e222]:
+            - generic [ref=f30e223]:
+              - generic [ref=f30e224]: Materia prima
+              - heading "Ingredientes naturales" [level=2] [ref=f30e225]
+              - paragraph [ref=f30e226]: Bases, aceites, aromas y complementos con la propiedad que les atribuye el archivo.
+            - link "Biblioteca completa" [ref=f30e228] [cursor=pointer]:
+              - /url: /ingredientes
+          - generic [ref=f30e230]:
+            - article [ref=f30e231]:
+              - 'img "Ilustración: Aceite de coco" [ref=f30e234]'
+              - generic [ref=f30e239]:
+                - generic [ref=f30e240]: Aceites y mantecas
+                - heading [level=3] [ref=f30e242]:
+                  - link "Aceite de coco" [ref=f30e243] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-de-coco
+                - paragraph [ref=f30e244]: Espuma y limpieza.
+                - paragraph [ref=f30e245]: Aparece en Jabón hidratante
+            - article [ref=f30e246]:
+              - 'img "Ilustración: Aceite de oliva" [ref=f30e249]'
+              - generic [ref=f30e254]:
+                - generic [ref=f30e255]: Aceites y mantecas
+                - heading [level=3] [ref=f30e257]:
+                  - link "Aceite de oliva" [ref=f30e258] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-de-oliva
+                - paragraph [ref=f30e259]: Hidratación.
+                - paragraph [ref=f30e260]: Sin recetas documentadas que lo incluyan
+            - article [ref=f30e261]:
+              - 'img "Ilustración: Aceite de almendras" [ref=f30e264]'
+              - generic [ref=f30e269]:
+                - generic [ref=f30e270]: Aceites y mantecas
+                - heading [level=3] [ref=f30e272]:
+                  - link "Aceite de almendras" [ref=f30e273] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-de-almendras
+                - paragraph [ref=f30e274]: Suavidad.
+                - paragraph [ref=f30e275]: Aparece en Jabón hidratante
+            - article [ref=f30e276]:
+              - 'img "Ilustración: Manteca de karité" [ref=f30e279]'
+              - generic [ref=f30e284]:
+                - generic [ref=f30e285]: Aceites y mantecas
+                - heading [level=3] [ref=f30e287]:
+                  - link "Manteca de karité" [ref=f30e288] [cursor=pointer]:
+                    - /url: /ingredientes/manteca-de-karite
+                - paragraph [ref=f30e289]: Nutrición profunda.
+                - paragraph [ref=f30e290]: Sin recetas documentadas que lo incluyan
+            - article [ref=f30e291]:
+              - 'img "Ilustración: Manteca de cacao" [ref=f30e294]'
+              - generic [ref=f30e301]:
+                - generic [ref=f30e302]: Aceites y mantecas
+                - heading [level=3] [ref=f30e304]:
+                  - link "Manteca de cacao" [ref=f30e305] [cursor=pointer]:
+                    - /url: /ingredientes/manteca-de-cacao
+                - paragraph [ref=f30e306]: Dureza y aroma.
+                - paragraph [ref=f30e307]: Sin recetas documentadas que lo incluyan
+            - article [ref=f30e308]:
+              - 'img "Ilustración: Avena" [ref=f30e311]'
+              - generic [ref=f30e318]:
+                - generic [ref=f30e319]: Exfoliantes y complementarios
+                - heading [level=3] [ref=f30e321]:
+                  - link "Avena" [ref=f30e322] [cursor=pointer]:
+                    - /url: /ingredientes/avena
+                - paragraph [ref=f30e323]: Exfoliante suave.
+                - paragraph [ref=f30e324]: Aparece en Jabón exfoliante
+            - article [ref=f30e325]:
+              - 'img "Ilustración: Semillas de amapola" [ref=f30e328]'
+              - generic [ref=f30e338]:
+                - generic [ref=f30e339]: Exfoliantes y complementarios
+                - heading [level=3] [ref=f30e341]:
+                  - link "Semillas de amapola" [ref=f30e342] [cursor=pointer]:
+                    - /url: /ingredientes/semillas-de-amapola
+                - paragraph [ref=f30e343]: Exfoliación.
+                - paragraph [ref=f30e344]: Aparece en Jabón exfoliante
+            - article [ref=f30e345]:
+              - 'img "Ilustración: Semillas de chía" [ref=f30e348]'
+              - generic [ref=f30e358]:
+                - generic [ref=f30e359]: Exfoliantes y complementarios
+                - heading [level=3] [ref=f30e361]:
+                  - link "Semillas de chía" [ref=f30e362] [cursor=pointer]:
+                    - /url: /ingredientes/semillas-de-chia
+                - paragraph [ref=f30e363]: Exfoliación.
+                - paragraph [ref=f30e364]: Sin recetas documentadas que lo incluyan
+          - generic [ref=f30e365]:
+            - paragraph [ref=f30e367]: El archivo documenta la función de cada ingrediente. Cuando no la describe, la ficha lo indica en lugar de atribuirle propiedades.
+            - generic [ref=f30e368]:
+              - 'img "Ilustración: Ingredientes naturales sobre lienzo" [ref=f30e370]'
+              - generic [ref=f30e375]: Fotografía pendiente
+      - region [ref=f30e376]:
+        - generic [ref=f30e378]:
+          - generic [ref=f30e379]: Todas las recetas
+          - heading "Acceso directo" [level=2] [ref=f30e380]
+          - paragraph [ref=f30e381]: Las seis recetas del archivo original, en orden alfabético.
+        - table "Listado de todas las recetas" [ref=f30e383]:
+          - caption [ref=f30e384]: Listado de todas las recetas
+          - rowgroup [ref=f30e385]:
+            - row [ref=f30e386]:
+              - columnheader "Receta" [ref=f30e387]
+              - columnheader "Categoría" [ref=f30e388]
+              - columnheader "Ingrediente principal" [ref=f30e389]
+              - columnheader "Estado" [ref=f30e390]
+          - rowgroup [ref=f30e391]:
+            - row [ref=f30e392]:
+              - rowheader "Jabón básico para empezar" [ref=f30e393]:
+                - link "Jabón básico para empezar" [ref=f30e394] [cursor=pointer]:
+                  - /url: /recetas/jabon-basico-para-empezar
+              - cell "Básicos" [ref=f30e395]
+              - cell "Base de glicerina" [ref=f30e396]
+              - cell "Pasos documentados" [ref=f30e397]
+            - row [ref=f30e399]:
+              - rowheader "Jabón de arroz absorbente" [ref=f30e400]:
+                - link "Jabón de arroz absorbente" [ref=f30e401] [cursor=pointer]:
+                  - /url: /recetas/jabon-de-arroz-absorbente
+              - cell "Absorbentes" [ref=f30e402]
+              - cell "Arroz en polvo" [ref=f30e403]
+              - cell "Pasos pendientes" [ref=f30e404]
+            - row [ref=f30e406]:
+              - rowheader "Jabón de café exfoliante" [ref=f30e407]:
+                - link "Jabón de café exfoliante" [ref=f30e408] [cursor=pointer]:
+                  - /url: /recetas/jabon-de-cafe-exfoliante
+              - cell "Exfoliantes" [ref=f30e409]
+              - cell "Café molido" [ref=f30e410]
+              - cell "Pasos pendientes" [ref=f30e411]
+            - row [ref=f30e413]:
+              - rowheader "Jabón de manzanilla y cúrcuma" [ref=f30e414]:
+                - link "Jabón de manzanilla y cúrcuma" [ref=f30e415] [cursor=pointer]:
+                  - /url: /recetas/jabon-de-manzanilla-y-curcuma
+              - cell "Aromáticos" [ref=f30e416]
+              - cell "Manzanilla deshidratada" [ref=f30e417]
+              - cell "Pasos pendientes" [ref=f30e418]
+            - row [ref=f30e420]:
+              - rowheader "Jabón exfoliante" [ref=f30e421]:
+                - link "Jabón exfoliante" [ref=f30e422] [cursor=pointer]:
+                  - /url: /recetas/jabon-exfoliante
+              - cell "Exfoliantes" [ref=f30e423]
+              - cell "Avena molida o semillas de amapola" [ref=f30e424]
+              - cell "Pasos pendientes" [ref=f30e425]
+            - row [ref=f30e427]:
+              - rowheader "Jabón hidratante" [ref=f30e428]:
+                - link "Jabón hidratante" [ref=f30e429] [cursor=pointer]:
+                  - /url: /recetas/jabon-hidratante
+              - cell "Hidratantes" [ref=f30e430]
+              - cell "Aceite de almendras o coco" [ref=f30e431]
+              - cell "Pasos pendientes" [ref=f30e432]
+      - region [ref=f30e434]:
+        - generic [ref=f30e435]:
+          - article [ref=f30e436]:
+            - generic [ref=f30e437]:
+              - 'img "Ilustración: Utensilios básicos de elaboración" [ref=f30e439]'
+              - generic [ref=f30e444]: Fotografía pendiente
+            - generic [ref=f30e445]:
+              - heading "Herramientas y materiales" [level=3] [ref=f30e446]
+              - paragraph [ref=f30e447]: "Molde, recipiente, espátula, fuente de calor y alcohol en spray: lo mínimo para trabajar la glicerina."
+              - link "Ver utensilios" [ref=f30e448] [cursor=pointer]:
+                - /url: /utensilios
+          - article [ref=f30e452]:
+            - generic [ref=f30e453]:
+              - heading "Lista de compras" [level=3] [ref=f30e454]
+              - paragraph [ref=f30e455]: El kit de arranque descrito en el archivo, con casillas para marcar lo que ya tienes.
+              - link "Abrir la lista" [ref=f30e456] [cursor=pointer]:
+                - /url: /compras
+    - contentinfo [ref=f30e464]:
+      - generic [ref=f30e465]:
+        - generic [ref=f30e466]:
+          - generic [ref=f30e467]:
+            - generic [ref=f30e468]: El Jardín del Jabón
+            - paragraph [ref=f30e469]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f30e470]:
+            - text: Secciones
+            - list [ref=f30e471]:
+              - listitem [ref=f30e472]:
+                - link "Catálogo de recetas" [ref=f30e473] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f30e474]:
+                - link "Biblioteca de ingredientes" [ref=f30e475] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f30e476]:
+                - link "Herramientas y materiales" [ref=f30e477] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f30e478]:
+                - link "Lista de compras" [ref=f30e479] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f30e480]:
+                - link "Favoritos" [ref=f30e481] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f30e482]:
+            - generic [ref=f30e483]: Contenido
+            - paragraph [ref=f30e484]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f30e485]: Los cambios se guardan en este navegador.
+          - generic [ref=f30e486]:
+            - generic [ref=f30e487]: Antes de empezar
+            - paragraph [ref=f30e488]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f30e489]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f30e490]
+        - paragraph [ref=f30e491]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

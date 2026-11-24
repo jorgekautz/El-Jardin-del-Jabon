@@ -1,0 +1,96 @@
+/* ==========================================================================
+   El Jardín del Jabón · Sistema de diseño
+   Dirección: botica y herbario. Papel crema, tinta marrón corteza,
+   un solo acento verde salvia, reglas finas en lugar de sombras.
+   ========================================================================== */
+
+:root {
+  /* TIPO — proporción 1.333 (cuarta) aplicada a toda la escala. */
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-text: 'Karla', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
+
+  --step--2: 0.75rem;
+  --step--1: 1rem;
+  --step-0: 1rem;
+  --step-1: 1.333rem;
+  --step-2: 1.777rem;
+  --step-3: 2.369rem;
+  --step-4: 3.158rem;
+  --step-5: 4.21rem;
+  --step-6: 5.61rem;
+
+  --leading-body: 1.62;
+  --leading-tight: 1.14;
+  --tracking-label: 0.09em;
+
+  /* ESPACIO — una unidad base y sus múltiplos. Nada fuera de la escala. */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4.5rem;
+  --space-3xl: 7rem;
+
+  /* COLOR — rampa de tinta y papel, un único acento. */
+  --paper: #f2f0e8;
+  --paper-2: #e9e6db;
+  --surface: #fbfaf6;
+  --surface-2: #efecdf;
+  --deep: #1e2620;
+  --deep-2: #2a342c;
+
+  --ink: #2b2a23;
+  --ink-2: #565346;
+  --ink-3: #7b766a;
+  --line: #d9d5c8;
+  --line-strong: #c3bdac;
+
+  --accent: #6c8a6a;
+  --accent-ink: #3d5a3d;
+  --accent-soft: #e2eade;
+  --accent-line: #b6c8b2;
+
+  /* Estados semánticos: pendientes (ámbar botánico) y favoritas (el mismo acento). */
+  --pending: #8a5a2b;
+  --pending-soft: #f2e6d6;
+  --pending-line: #dcc3a4;
+
+  --on-deep: #eef1e9;
+  --on-deep-2: #b3bfae;
+
+  /* FORMA — radio por rol: contenedor, control, insignia. */
+  --radius-container: 10px;
+  --radius-control: 7px;
+  --radius-badge: 999px;
+  --border: 1px solid var(--line);
+  --border-strong: 1px solid var(--line-strong);
+  --rule: 1px solid var(--line);
+
+  /* SOMBRA — solo para lo que flota: menús, diálogos, avisos. */
+  --shadow-overlay: 0 1px 2px rgba(43, 42, 35, 0.1), 0 12px 32px rgba(43, 42, 35, 0.14);
+  --shadow-lift: 0 1px 1px rgba(43, 42, 35, 0.06), 0 6px 16px rgba(43, 42, 35, 0.08);
+
+  /* MOVIMIENTO — tres duraciones, dos curvas. */
+  --dur-fast: 120ms;
+  --dur: 220ms;
+  --dur-slow: 420ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* LAYOUT */
+  --page-width: 1400px;
+  --page-gutter: clamp(1rem, 5vw, 3rem);
+  --header-height: 4rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 1ms;
+    --dur: 1ms;
+    --dur-slow: 1ms;
+  }
+}

@@ -1,0 +1,652 @@
+- generic [ref=f97e2]:
+  - generic [ref=f97e3]:
+    - link "Saltar al contenido" [ref=f97e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f97e5]:
+      - generic [ref=f97e6]:
+        - link "El Jardín del Jabón" [ref=f97e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f97e11] [cursor=pointer]
+    - main [ref=f97e14]:
+      - generic [ref=f97e15]:
+        - generic [ref=f97e16]:
+          - generic [ref=f97e17]: Zona de contenido
+          - heading "Administración" [level=1] [ref=f97e18]
+          - paragraph [ref=f97e19]: Crear, editar y completar recetas e ingredientes. Los cambios se guardan en este navegador.
+        - generic [ref=f97e20]:
+          - paragraph [ref=f97e21]: Cómo funciona el acceso
+          - paragraph [ref=f97e24]: "No hay contraseña en el sitio. Una clave guardada en JavaScript o en LocalStorage no es seguridad: cualquiera la lee en el navegador. Este panel está pensado para un sitio local o de un solo editor. Para publicar el contenido en un servidor, la autenticación, la validación y el guardado deben vivir en el backend."
+        - navigation "Secciones de administración" [ref=f97e25]:
+          - generic [ref=f97e26]:
+            - link "Resumen" [ref=f97e27] [cursor=pointer]:
+              - /url: /administracion
+            - link "Nueva receta" [ref=f97e31] [cursor=pointer]:
+              - /url: /administracion/recetas/nueva
+            - link "Nuevo ingrediente" [ref=f97e34] [cursor=pointer]:
+              - /url: /administracion/ingredientes/nuevo
+          - paragraph [ref=f97e37]: 6 recetas · 27 ingredientes · Los cambios se guardan en este navegador.
+        - generic [ref=f97e38]:
+          - generic [ref=f97e39]:
+            - generic [ref=f97e40]: Resumen
+            - heading "Contenido de la biblioteca" [level=2] [ref=f97e41]
+            - paragraph [ref=f97e42]: Todo lo que se muestra en el sitio público, con los huecos que el archivo original no documenta.
+          - generic [ref=f97e44]:
+            - link "Nueva receta" [ref=f97e45] [cursor=pointer]:
+              - /url: /administracion/recetas/nueva
+            - link "Nuevo ingrediente" [ref=f97e49] [cursor=pointer]:
+              - /url: /administracion/ingredientes/nuevo
+        - generic [ref=f97e53]:
+          - generic [ref=f97e54]:
+            - generic [ref=f97e55]: "6"
+            - generic [ref=f97e56]: recetas
+          - generic [ref=f97e57]:
+            - generic [ref=f97e58]: "5"
+            - generic [ref=f97e59]: destacadas en portada
+          - generic [ref=f97e60]:
+            - generic [ref=f97e61]: "27"
+            - generic [ref=f97e62]: fichas de ingrediente
+          - generic [ref=f97e63]:
+            - generic [ref=f97e64]: "0"
+            - generic [ref=f97e65]: favoritas guardadas
+          - generic [ref=f97e66]:
+            - generic [ref=f97e67]:
+              - text: "0"
+              - generic [ref=f97e68]: /6
+            - generic [ref=f97e69]: con fotografía
+          - generic [ref=f97e70]:
+            - generic [ref=f97e71]: "21"
+            - generic [ref=f97e72]: campos pendientes
+        - region "Recetas" [ref=f97e73]:
+          - generic [ref=f97e74]:
+            - heading "Recetas" [level=2] [ref=f97e75]
+            - generic [ref=f97e76]: 6 de 6 con información pendiente
+          - table "Recetas de la biblioteca con su estado" [ref=f97e78]:
+            - caption [ref=f97e79]: Recetas de la biblioteca con su estado
+            - rowgroup [ref=f97e80]:
+              - row [ref=f97e81]:
+                - rowheader "Jabón básico para empezar Cantidades de ingredientes" [ref=f97e82]:
+                  - link "Jabón básico para empezar" [ref=f97e83] [cursor=pointer]:
+                    - /url: /recetas/jabon-basico-para-empezar
+                  - generic [ref=f97e84]: Cantidades de ingredientes
+                - cell "Tipo Básicos" [ref=f97e85]
+                - cell "Nivel Principiante" [ref=f97e86]
+                - cell "Completitud 86%" [ref=f97e87]:
+                  - text: Completitud
+                  - generic [ref=f97e88]: 86%
+                - cell [ref=f97e92]:
+                  - text: Destacada
+                  - button "Quitar Jabón básico para empezar de destacadas" [pressed] [ref=f97e93] [cursor=pointer]
+                - cell [ref=f97e96]:
+                  - text: Acciones
+                  - generic [ref=f97e97]:
+                    - link "Editar Jabón básico para empezar" [ref=f97e98] [cursor=pointer]:
+                      - /url: /administracion/recetas/r-jabon-basico/editar
+                    - button "Eliminar Jabón básico para empezar" [ref=f97e102] [cursor=pointer]
+              - row [ref=f97e106]:
+                - rowheader "Jabón de arroz absorbente Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración · Descripción" [ref=f97e107]:
+                  - link "Jabón de arroz absorbente" [ref=f97e108] [cursor=pointer]:
+                    - /url: /recetas/jabon-de-arroz-absorbente
+                  - generic [ref=f97e109]: Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración · Descripción
+                - cell "Tipo Absorbentes" [ref=f97e110]
+                - cell "Nivel Intermedio" [ref=f97e111]
+                - cell "Completitud 43%" [ref=f97e112]:
+                  - text: Completitud
+                  - generic [ref=f97e113]: 43%
+                - cell [ref=f97e117]:
+                  - text: Destacada
+                  - button "Marcar Jabón de arroz absorbente como destacada" [ref=f97e118] [cursor=pointer]
+                - cell [ref=f97e121]:
+                  - text: Acciones
+                  - generic [ref=f97e122]:
+                    - link "Editar Jabón de arroz absorbente" [ref=f97e123] [cursor=pointer]:
+                      - /url: /administracion/recetas/r-jabon-arroz/editar
+                    - button "Eliminar Jabón de arroz absorbente" [ref=f97e127] [cursor=pointer]
+              - row [ref=f97e131]:
+                - rowheader "Jabón de café exfoliante Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración · Descripción" [ref=f97e132]:
+                  - link "Jabón de café exfoliante" [ref=f97e133] [cursor=pointer]:
+                    - /url: /recetas/jabon-de-cafe-exfoliante
+                  - generic [ref=f97e134]: Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración · Descripción
+                - cell "Tipo Exfoliantes" [ref=f97e135]
+                - cell "Nivel Intermedio" [ref=f97e136]
+                - cell "Completitud 43%" [ref=f97e137]:
+                  - text: Completitud
+                  - generic [ref=f97e138]: 43%
+                - cell [ref=f97e142]:
+                  - text: Destacada
+                  - button "Quitar Jabón de café exfoliante de destacadas" [pressed] [ref=f97e143] [cursor=pointer]
+                - cell [ref=f97e146]:
+                  - text: Acciones
+                  - generic [ref=f97e147]:
+                    - link "Editar Jabón de café exfoliante" [ref=f97e148] [cursor=pointer]:
+                      - /url: /administracion/recetas/r-jabon-cafe/editar
+                    - button "Eliminar Jabón de café exfoliante" [ref=f97e152] [cursor=pointer]
+              - row [ref=f97e156]:
+                - rowheader "Jabón de manzanilla y cúrcuma Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración · Descripción" [ref=f97e157]:
+                  - link "Jabón de manzanilla y cúrcuma" [ref=f97e158] [cursor=pointer]:
+                    - /url: /recetas/jabon-de-manzanilla-y-curcuma
+                  - generic [ref=f97e159]: Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración · Descripción
+                - cell "Tipo Aromáticos" [ref=f97e160]
+                - cell "Nivel Intermedio" [ref=f97e161]
+                - cell "Completitud 43%" [ref=f97e162]:
+                  - text: Completitud
+                  - generic [ref=f97e163]: 43%
+                - cell [ref=f97e167]:
+                  - text: Destacada
+                  - button "Quitar Jabón de manzanilla y cúrcuma de destacadas" [pressed] [ref=f97e168] [cursor=pointer]
+                - cell [ref=f97e171]:
+                  - text: Acciones
+                  - generic [ref=f97e172]:
+                    - link "Editar Jabón de manzanilla y cúrcuma" [ref=f97e173] [cursor=pointer]:
+                      - /url: /administracion/recetas/r-jabon-manzanilla-curcuma/editar
+                    - button "Eliminar Jabón de manzanilla y cúrcuma" [ref=f97e177] [cursor=pointer]
+              - row [ref=f97e181]:
+                - rowheader "Jabón exfoliante Cantidades de ingredientes · Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración" [ref=f97e182]:
+                  - link "Jabón exfoliante" [ref=f97e183] [cursor=pointer]:
+                    - /url: /recetas/jabon-exfoliante
+                  - generic [ref=f97e184]: Cantidades de ingredientes · Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración
+                - cell "Tipo Exfoliantes" [ref=f97e185]
+                - cell "Nivel Principiante" [ref=f97e186]
+                - cell "Completitud 43%" [ref=f97e187]:
+                  - text: Completitud
+                  - generic [ref=f97e188]: 43%
+                - cell [ref=f97e192]:
+                  - text: Destacada
+                  - button "Quitar Jabón exfoliante de destacadas" [pressed] [ref=f97e193] [cursor=pointer]
+                - cell [ref=f97e196]:
+                  - text: Acciones
+                  - generic [ref=f97e197]:
+                    - link "Editar Jabón exfoliante" [ref=f97e198] [cursor=pointer]:
+                      - /url: /administracion/recetas/r-jabon-exfoliante/editar
+                    - button "Eliminar Jabón exfoliante" [ref=f97e202] [cursor=pointer]
+              - row [ref=f97e206]:
+                - rowheader "Jabón hidratante Cantidades de ingredientes · Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración" [ref=f97e207]:
+                  - link "Jabón hidratante" [ref=f97e208] [cursor=pointer]:
+                    - /url: /recetas/jabon-hidratante
+                  - generic [ref=f97e209]: Cantidades de ingredientes · Preparación paso a paso · Utensilios necesarios · Tiempo de elaboración
+                - cell "Tipo Hidratantes" [ref=f97e210]
+                - cell "Nivel Principiante" [ref=f97e211]
+                - cell "Completitud 43%" [ref=f97e212]:
+                  - text: Completitud
+                  - generic [ref=f97e213]: 43%
+                - cell [ref=f97e217]:
+                  - text: Destacada
+                  - button "Quitar Jabón hidratante de destacadas" [pressed] [ref=f97e218] [cursor=pointer]
+                - cell [ref=f97e221]:
+                  - text: Acciones
+                  - generic [ref=f97e222]:
+                    - link "Editar Jabón hidratante" [ref=f97e223] [cursor=pointer]:
+                      - /url: /administracion/recetas/r-jabon-hidratante/editar
+                    - button "Eliminar Jabón hidratante" [ref=f97e227] [cursor=pointer]
+        - region "Ingredientes" [ref=f97e231]:
+          - generic [ref=f97e232]:
+            - heading "Ingredientes" [level=2] [ref=f97e233]
+            - generic [ref=f97e234]: 5 fichas sin propiedad documentada
+          - table "Fichas de ingredientes con su procedencia" [ref=f97e236]:
+            - caption [ref=f97e237]: Fichas de ingredientes con su procedencia
+            - rowgroup [ref=f97e238]:
+              - row [ref=f97e239]:
+                - rowheader "Aceite de almendras" [ref=f97e240]:
+                  - link "Aceite de almendras" [ref=f97e241] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-de-almendras
+                - cell "Propiedad Suavidad." [ref=f97e242]
+                - cell "Origen Archivo" [ref=f97e243]:
+                  - text: Origen
+                  - generic [ref=f97e244]: Archivo
+                - cell [ref=f97e245]:
+                  - text: Acciones
+                  - generic [ref=f97e246]:
+                    - link "Editar Aceite de almendras" [ref=f97e247] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/aceite-de-almendras/editar
+                    - button "Eliminar Aceite de almendras" [ref=f97e251] [cursor=pointer]
+              - row [ref=f97e255]:
+                - rowheader "Aceite de coco" [ref=f97e256]:
+                  - link "Aceite de coco" [ref=f97e257] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-de-coco
+                - cell "Propiedad Espuma y limpieza." [ref=f97e258]
+                - cell "Origen Archivo" [ref=f97e259]:
+                  - text: Origen
+                  - generic [ref=f97e260]: Archivo
+                - cell [ref=f97e261]:
+                  - text: Acciones
+                  - generic [ref=f97e262]:
+                    - link "Editar Aceite de coco" [ref=f97e263] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/aceite-de-coco/editar
+                    - button "Eliminar Aceite de coco" [ref=f97e267] [cursor=pointer]
+              - row [ref=f97e271]:
+                - rowheader "Aceite de oliva" [ref=f97e272]:
+                  - link "Aceite de oliva" [ref=f97e273] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-de-oliva
+                - cell "Propiedad Hidratación." [ref=f97e274]
+                - cell "Origen Archivo" [ref=f97e275]:
+                  - text: Origen
+                  - generic [ref=f97e276]: Archivo
+                - cell [ref=f97e277]:
+                  - text: Acciones
+                  - generic [ref=f97e278]:
+                    - link "Editar Aceite de oliva" [ref=f97e279] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/aceite-de-oliva/editar
+                    - button "Eliminar Aceite de oliva" [ref=f97e283] [cursor=pointer]
+              - row [ref=f97e287]:
+                - rowheader "Aceite esencial de eucalipto" [ref=f97e288]:
+                  - link "Aceite esencial de eucalipto" [ref=f97e289] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-esencial-de-eucalipto
+                - cell "Propiedad Refrescante." [ref=f97e290]
+                - cell "Origen Archivo" [ref=f97e291]:
+                  - text: Origen
+                  - generic [ref=f97e292]: Archivo
+                - cell [ref=f97e293]:
+                  - text: Acciones
+                  - generic [ref=f97e294]:
+                    - link "Editar Aceite esencial de eucalipto" [ref=f97e295] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/ae-eucalipto/editar
+                    - button "Eliminar Aceite esencial de eucalipto" [ref=f97e299] [cursor=pointer]
+              - row [ref=f97e303]:
+                - rowheader "Aceite esencial de lavanda" [ref=f97e304]:
+                  - link "Aceite esencial de lavanda" [ref=f97e305] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-esencial-de-lavanda
+                - cell "Propiedad Relajante." [ref=f97e306]
+                - cell "Origen Archivo" [ref=f97e307]:
+                  - text: Origen
+                  - generic [ref=f97e308]: Archivo
+                - cell [ref=f97e309]:
+                  - text: Acciones
+                  - generic [ref=f97e310]:
+                    - link "Editar Aceite esencial de lavanda" [ref=f97e311] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/ae-lavanda/editar
+                    - button "Eliminar Aceite esencial de lavanda" [ref=f97e315] [cursor=pointer]
+              - row [ref=f97e319]:
+                - rowheader "Aceite esencial de limón" [ref=f97e320]:
+                  - link "Aceite esencial de limón" [ref=f97e321] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-esencial-de-limon
+                - cell "Propiedad Energizante." [ref=f97e322]
+                - cell "Origen Archivo" [ref=f97e323]:
+                  - text: Origen
+                  - generic [ref=f97e324]: Archivo
+                - cell [ref=f97e325]:
+                  - text: Acciones
+                  - generic [ref=f97e326]:
+                    - link "Editar Aceite esencial de limón" [ref=f97e327] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/ae-limon/editar
+                    - button "Eliminar Aceite esencial de limón" [ref=f97e331] [cursor=pointer]
+              - row [ref=f97e335]:
+                - rowheader "Aceite esencial de naranja" [ref=f97e336]:
+                  - link "Aceite esencial de naranja" [ref=f97e337] [cursor=pointer]:
+                    - /url: /ingredientes/aceite-esencial-de-naranja
+                - cell "Propiedad Energizante." [ref=f97e338]
+                - cell "Origen Archivo" [ref=f97e339]:
+                  - text: Origen
+                  - generic [ref=f97e340]: Archivo
+                - cell [ref=f97e341]:
+                  - text: Acciones
+                  - generic [ref=f97e342]:
+                    - link "Editar Aceite esencial de naranja" [ref=f97e343] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/ae-naranja/editar
+                    - button "Eliminar Aceite esencial de naranja" [ref=f97e347] [cursor=pointer]
+              - row [ref=f97e351]:
+                - rowheader "Arcillas" [ref=f97e352]:
+                  - link "Arcillas" [ref=f97e353] [cursor=pointer]:
+                    - /url: /ingredientes/arcillas
+                - cell "Propiedad Limpieza profunda." [ref=f97e354]
+                - cell "Origen Archivo" [ref=f97e355]:
+                  - text: Origen
+                  - generic [ref=f97e356]: Archivo
+                - cell [ref=f97e357]:
+                  - text: Acciones
+                  - generic [ref=f97e358]:
+                    - link "Editar Arcillas" [ref=f97e359] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/arcillas/editar
+                    - button "Eliminar Arcillas" [ref=f97e363] [cursor=pointer]
+              - row [ref=f97e367]:
+                - rowheader "Arroz en polvo" [ref=f97e368]:
+                  - link "Arroz en polvo" [ref=f97e369] [cursor=pointer]:
+                    - /url: /ingredientes/arroz-en-polvo
+                - cell "Propiedad Pendiente" [ref=f97e370]:
+                  - text: Propiedad
+                  - generic [ref=f97e371]: Pendiente
+                - cell "Origen Archivo" [ref=f97e372]:
+                  - text: Origen
+                  - generic [ref=f97e373]: Archivo
+                - cell [ref=f97e374]:
+                  - text: Acciones
+                  - generic [ref=f97e375]:
+                    - link "Editar Arroz en polvo" [ref=f97e376] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/arroz-en-polvo/editar
+                    - button "Eliminar Arroz en polvo" [ref=f97e380] [cursor=pointer]
+              - row [ref=f97e384]:
+                - rowheader "Avena" [ref=f97e385]:
+                  - link "Avena" [ref=f97e386] [cursor=pointer]:
+                    - /url: /ingredientes/avena
+                - cell "Propiedad Exfoliante suave." [ref=f97e387]
+                - cell "Origen Archivo" [ref=f97e388]:
+                  - text: Origen
+                  - generic [ref=f97e389]: Archivo
+                - cell [ref=f97e390]:
+                  - text: Acciones
+                  - generic [ref=f97e391]:
+                    - link "Editar Avena" [ref=f97e392] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/avena/editar
+                    - button "Eliminar Avena" [ref=f97e396] [cursor=pointer]
+              - row [ref=f97e400]:
+                - rowheader "Base con aloe vera" [ref=f97e401]:
+                  - link "Base con aloe vera" [ref=f97e402] [cursor=pointer]:
+                    - /url: /ingredientes/base-de-aloe-vera
+                - cell "Propiedad Base con aloe vera. El archivo no describe propiedades adicionales." [ref=f97e403]
+                - cell "Origen Archivo" [ref=f97e404]:
+                  - text: Origen
+                  - generic [ref=f97e405]: Archivo
+                - cell [ref=f97e406]:
+                  - text: Acciones
+                  - generic [ref=f97e407]:
+                    - link "Editar Base con aloe vera" [ref=f97e408] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/base-aloe-vera/editar
+                    - button "Eliminar Base con aloe vera" [ref=f97e412] [cursor=pointer]
+              - row [ref=f97e416]:
+                - rowheader "Base con carbón activado" [ref=f97e417]:
+                  - link "Base con carbón activado" [ref=f97e418] [cursor=pointer]:
+                    - /url: /ingredientes/base-de-carbon-activado
+                - cell "Propiedad Base con carbón activado. El archivo no describe propiedades adicionales." [ref=f97e419]
+                - cell "Origen Archivo" [ref=f97e420]:
+                  - text: Origen
+                  - generic [ref=f97e421]: Archivo
+                - cell [ref=f97e422]:
+                  - text: Acciones
+                  - generic [ref=f97e423]:
+                    - link "Editar Base con carbón activado" [ref=f97e424] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/base-carbon-activado/editar
+                    - button "Eliminar Base con carbón activado" [ref=f97e428] [cursor=pointer]
+              - row [ref=f97e432]:
+                - rowheader "Base con leche de cabra" [ref=f97e433]:
+                  - link "Base con leche de cabra" [ref=f97e434] [cursor=pointer]:
+                    - /url: /ingredientes/base-de-leche-de-cabra
+                - cell "Propiedad Base con leche de cabra. El archivo no describe propiedades adicionales." [ref=f97e435]
+                - cell "Origen Archivo" [ref=f97e436]:
+                  - text: Origen
+                  - generic [ref=f97e437]: Archivo
+                - cell [ref=f97e438]:
+                  - text: Acciones
+                  - generic [ref=f97e439]:
+                    - link "Editar Base con leche de cabra" [ref=f97e440] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/base-leche-de-cabra/editar
+                    - button "Eliminar Base con leche de cabra" [ref=f97e444] [cursor=pointer]
+              - row [ref=f97e448]:
+                - rowheader "Base de glicerina" [ref=f97e449]:
+                  - link "Base de glicerina" [ref=f97e450] [cursor=pointer]:
+                    - /url: /ingredientes/base-de-glicerina
+                - 'cell "Propiedad Ideal para empezar: solo derretir y moldear." [ref=f97e451]'
+                - cell "Origen Archivo" [ref=f97e452]:
+                  - text: Origen
+                  - generic [ref=f97e453]: Archivo
+                - cell [ref=f97e454]:
+                  - text: Acciones
+                  - generic [ref=f97e455]:
+                    - link "Editar Base de glicerina" [ref=f97e456] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/base-glicerina/editar
+                    - button "Eliminar Base de glicerina" [ref=f97e460] [cursor=pointer]
+              - row [ref=f97e464]:
+                - rowheader "Base de glicerina blanca (opaca)" [ref=f97e465]:
+                  - link "Base de glicerina blanca (opaca)" [ref=f97e466] [cursor=pointer]:
+                    - /url: /ingredientes/base-de-glicerina-blanca-opaca
+                - cell "Propiedad Variante blanca u opaca de la base de glicerina." [ref=f97e467]
+                - cell "Origen Archivo" [ref=f97e468]:
+                  - text: Origen
+                  - generic [ref=f97e469]: Archivo
+                - cell [ref=f97e470]:
+                  - text: Acciones
+                  - generic [ref=f97e471]:
+                    - link "Editar Base de glicerina blanca (opaca)" [ref=f97e472] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/base-glicerina-blanca/editar
+                    - button "Eliminar Base de glicerina blanca (opaca)" [ref=f97e476] [cursor=pointer]
+              - row [ref=f97e480]:
+                - rowheader "Base de glicerina transparente" [ref=f97e481]:
+                  - link "Base de glicerina transparente" [ref=f97e482] [cursor=pointer]:
+                    - /url: /ingredientes/base-de-glicerina-transparente
+                - cell "Propiedad Variante transparente de la base de glicerina." [ref=f97e483]
+                - cell "Origen Archivo" [ref=f97e484]:
+                  - text: Origen
+                  - generic [ref=f97e485]: Archivo
+                - cell [ref=f97e486]:
+                  - text: Acciones
+                  - generic [ref=f97e487]:
+                    - link "Editar Base de glicerina transparente" [ref=f97e488] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/base-glicerina-transparente/editar
+                    - button "Eliminar Base de glicerina transparente" [ref=f97e492] [cursor=pointer]
+              - row [ref=f97e496]:
+                - rowheader "Café molido" [ref=f97e497]:
+                  - link "Café molido" [ref=f97e498] [cursor=pointer]:
+                    - /url: /ingredientes/cafe-molido
+                - cell "Propiedad Pendiente" [ref=f97e499]:
+                  - text: Propiedad
+                  - generic [ref=f97e500]: Pendiente
+                - cell "Origen Archivo" [ref=f97e501]:
+                  - text: Origen
+                  - generic [ref=f97e502]: Archivo
+                - cell [ref=f97e503]:
+                  - text: Acciones
+                  - generic [ref=f97e504]:
+                    - link "Editar Café molido" [ref=f97e505] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/cafe-molido/editar
+                    - button "Eliminar Café molido" [ref=f97e509] [cursor=pointer]
+              - row [ref=f97e513]:
+                - rowheader "Colorantes" [ref=f97e514]:
+                  - link "Colorantes" [ref=f97e515] [cursor=pointer]:
+                    - /url: /ingredientes/colorantes
+                - cell "Propiedad Pendiente" [ref=f97e516]:
+                  - text: Propiedad
+                  - generic [ref=f97e517]: Pendiente
+                - cell "Origen Archivo" [ref=f97e518]:
+                  - text: Origen
+                  - generic [ref=f97e519]: Archivo
+                - cell [ref=f97e520]:
+                  - text: Acciones
+                  - generic [ref=f97e521]:
+                    - link "Editar Colorantes" [ref=f97e522] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/colorantes/editar
+                    - button "Eliminar Colorantes" [ref=f97e526] [cursor=pointer]
+              - row [ref=f97e530]:
+                - rowheader "Cúrcuma en polvo" [ref=f97e531]:
+                  - link "Cúrcuma en polvo" [ref=f97e532] [cursor=pointer]:
+                    - /url: /ingredientes/curcuma-en-polvo
+                - cell "Propiedad Pendiente" [ref=f97e533]:
+                  - text: Propiedad
+                  - generic [ref=f97e534]: Pendiente
+                - cell "Origen Archivo" [ref=f97e535]:
+                  - text: Origen
+                  - generic [ref=f97e536]: Archivo
+                - cell [ref=f97e537]:
+                  - text: Acciones
+                  - generic [ref=f97e538]:
+                    - link "Editar Cúrcuma en polvo" [ref=f97e539] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/curcuma-en-polvo/editar
+                    - button "Eliminar Cúrcuma en polvo" [ref=f97e543] [cursor=pointer]
+              - row [ref=f97e547]:
+                - rowheader "Fragancias cosméticas" [ref=f97e548]:
+                  - link "Fragancias cosméticas" [ref=f97e549] [cursor=pointer]:
+                    - /url: /ingredientes/fragancias-cosmeticas
+                - cell "Propiedad Más variedad de aromas." [ref=f97e550]
+                - cell "Origen Archivo" [ref=f97e551]:
+                  - text: Origen
+                  - generic [ref=f97e552]: Archivo
+                - cell [ref=f97e553]:
+                  - text: Acciones
+                  - generic [ref=f97e554]:
+                    - link "Editar Fragancias cosméticas" [ref=f97e555] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/fragancias-cosmeticas/editar
+                    - button "Eliminar Fragancias cosméticas" [ref=f97e559] [cursor=pointer]
+              - row [ref=f97e563]:
+                - rowheader "Manteca de cacao" [ref=f97e564]:
+                  - link "Manteca de cacao" [ref=f97e565] [cursor=pointer]:
+                    - /url: /ingredientes/manteca-de-cacao
+                - cell "Propiedad Dureza y aroma." [ref=f97e566]
+                - cell "Origen Archivo" [ref=f97e567]:
+                  - text: Origen
+                  - generic [ref=f97e568]: Archivo
+                - cell [ref=f97e569]:
+                  - text: Acciones
+                  - generic [ref=f97e570]:
+                    - link "Editar Manteca de cacao" [ref=f97e571] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/manteca-de-cacao/editar
+                    - button "Eliminar Manteca de cacao" [ref=f97e575] [cursor=pointer]
+              - row [ref=f97e579]:
+                - rowheader "Manteca de karité" [ref=f97e580]:
+                  - link "Manteca de karité" [ref=f97e581] [cursor=pointer]:
+                    - /url: /ingredientes/manteca-de-karite
+                - cell "Propiedad Nutrición profunda." [ref=f97e582]
+                - cell "Origen Archivo" [ref=f97e583]:
+                  - text: Origen
+                  - generic [ref=f97e584]: Archivo
+                - cell [ref=f97e585]:
+                  - text: Acciones
+                  - generic [ref=f97e586]:
+                    - link "Editar Manteca de karité" [ref=f97e587] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/manteca-de-karite/editar
+                    - button "Eliminar Manteca de karité" [ref=f97e591] [cursor=pointer]
+              - row [ref=f97e595]:
+                - rowheader "Manzanilla deshidratada" [ref=f97e596]:
+                  - link "Manzanilla deshidratada" [ref=f97e597] [cursor=pointer]:
+                    - /url: /ingredientes/manzanilla-deshidratada
+                - cell "Propiedad Pendiente" [ref=f97e598]:
+                  - text: Propiedad
+                  - generic [ref=f97e599]: Pendiente
+                - cell "Origen Archivo" [ref=f97e600]:
+                  - text: Origen
+                  - generic [ref=f97e601]: Archivo
+                - cell [ref=f97e602]:
+                  - text: Acciones
+                  - generic [ref=f97e603]:
+                    - link "Editar Manzanilla deshidratada" [ref=f97e604] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/manzanilla-deshidratada/editar
+                    - button "Eliminar Manzanilla deshidratada" [ref=f97e608] [cursor=pointer]
+              - row [ref=f97e612]:
+                - rowheader "Miel" [ref=f97e613]:
+                  - link "Miel" [ref=f97e614] [cursor=pointer]:
+                    - /url: /ingredientes/miel
+                - cell "Propiedad Hidratante." [ref=f97e615]
+                - cell "Origen Archivo" [ref=f97e616]:
+                  - text: Origen
+                  - generic [ref=f97e617]: Archivo
+                - cell [ref=f97e618]:
+                  - text: Acciones
+                  - generic [ref=f97e619]:
+                    - link "Editar Miel" [ref=f97e620] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/miel/editar
+                    - button "Eliminar Miel" [ref=f97e624] [cursor=pointer]
+              - row [ref=f97e628]:
+                - rowheader "Pétalos secos" [ref=f97e629]:
+                  - link "Pétalos secos" [ref=f97e630] [cursor=pointer]:
+                    - /url: /ingredientes/petalos-secos
+                - cell "Propiedad Decoración." [ref=f97e631]
+                - cell "Origen Archivo" [ref=f97e632]:
+                  - text: Origen
+                  - generic [ref=f97e633]: Archivo
+                - cell [ref=f97e634]:
+                  - text: Acciones
+                  - generic [ref=f97e635]:
+                    - link "Editar Pétalos secos" [ref=f97e636] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/petalos-secos/editar
+                    - button "Eliminar Pétalos secos" [ref=f97e640] [cursor=pointer]
+              - row [ref=f97e644]:
+                - rowheader "Semillas de amapola" [ref=f97e645]:
+                  - link "Semillas de amapola" [ref=f97e646] [cursor=pointer]:
+                    - /url: /ingredientes/semillas-de-amapola
+                - cell "Propiedad Exfoliación." [ref=f97e647]
+                - cell "Origen Archivo" [ref=f97e648]:
+                  - text: Origen
+                  - generic [ref=f97e649]: Archivo
+                - cell [ref=f97e650]:
+                  - text: Acciones
+                  - generic [ref=f97e651]:
+                    - link "Editar Semillas de amapola" [ref=f97e652] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/semillas-de-amapola/editar
+                    - button "Eliminar Semillas de amapola" [ref=f97e656] [cursor=pointer]
+              - row [ref=f97e660]:
+                - rowheader "Semillas de chía" [ref=f97e661]:
+                  - link "Semillas de chía" [ref=f97e662] [cursor=pointer]:
+                    - /url: /ingredientes/semillas-de-chia
+                - cell "Propiedad Exfoliación." [ref=f97e663]
+                - cell "Origen Archivo" [ref=f97e664]:
+                  - text: Origen
+                  - generic [ref=f97e665]: Archivo
+                - cell [ref=f97e666]:
+                  - text: Acciones
+                  - generic [ref=f97e667]:
+                    - link "Editar Semillas de chía" [ref=f97e668] [cursor=pointer]:
+                      - /url: /administracion/ingredientes/semillas-de-chia/editar
+                    - button "Eliminar Semillas de chía" [ref=f97e672] [cursor=pointer]
+        - region "Fotografías" [ref=f97e676]:
+          - generic [ref=f97e677]:
+            - heading "Fotografías" [level=2] [ref=f97e678]
+            - paragraph [ref=f97e679]:
+              - text: Las imágenes se depositan en
+              - code [ref=f97e680]: src/assets/images/recipes/
+              - text: con el nombre del slug de la receta, y en
+              - code [ref=f97e681]: src/assets/images/sections/
+              - text: como
+              - code [ref=f97e682]: hero
+              - text: ","
+              - code [ref=f97e683]: botanicals
+              - text: "y"
+              - code [ref=f97e684]: tools
+              - text: . Mientras no estén, el sitio muestra la placa botánica y el aviso de fotografía pendiente.
+          - generic [ref=f97e685]:
+            - generic [ref=f97e686]: Jabón básico para empezar
+            - generic [ref=f97e687]: Jabón de arroz absorbente
+            - generic [ref=f97e688]: Jabón de café exfoliante
+            - generic [ref=f97e689]: Jabón de manzanilla y cúrcuma
+            - generic [ref=f97e690]: Jabón exfoliante
+            - generic [ref=f97e691]: Jabón hidratante
+          - paragraph [ref=f97e692]: "Imágenes detectadas: 0 de recetas · 0 de secciones."
+        - region "Lista de compra" [ref=f97e693]:
+          - generic [ref=f97e694]:
+            - heading "Lista de compra" [level=2] [ref=f97e695]
+            - generic [ref=f97e696]: 0 de 6 adquiridos
+          - paragraph [ref=f97e697]:
+            - text: Las casillas se guardan en este navegador. Puedes editar la lista desde la
+            - link "pantalla de compras" [ref=f97e698] [cursor=pointer]:
+              - /url: /compras
+            - text: ": ahí se añaden y se quitan productos."
+        - region "Restablecer el contenido" [ref=f97e699]:
+          - generic [ref=f97e700]:
+            - heading "Restablecer el contenido" [level=2] [ref=f97e701]
+            - paragraph [ref=f97e702]:
+              - text: Vuelve al contenido transcrito de
+              - code [ref=f97e703]: recetas.txt
+              - text: ": se borrarán las recetas y fichas creadas aquí, las ediciones sobre las originales, la lista de compra propia y las recetas favoritas."
+          - generic [ref=f97e704]:
+            - button "Restablecer todo" [ref=f97e705] [cursor=pointer]
+            - link "Ver el sitio público" [ref=f97e710] [cursor=pointer]:
+              - /url: /recetas
+    - contentinfo [ref=f97e714]:
+      - generic [ref=f97e715]:
+        - generic [ref=f97e716]:
+          - generic [ref=f97e717]:
+            - generic [ref=f97e718]: El Jardín del Jabón
+            - paragraph [ref=f97e719]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f97e720]:
+            - text: Secciones
+            - list [ref=f97e721]:
+              - listitem [ref=f97e722]:
+                - link "Catálogo de recetas" [ref=f97e723] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f97e724]:
+                - link "Biblioteca de ingredientes" [ref=f97e725] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f97e726]:
+                - link "Herramientas y materiales" [ref=f97e727] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f97e728]:
+                - link "Lista de compras" [ref=f97e729] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f97e730]:
+                - link "Favoritos" [ref=f97e731] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f97e732]:
+            - generic [ref=f97e733]: Contenido
+            - paragraph [ref=f97e734]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f97e735]: Los cambios se guardan en este navegador.
+          - generic [ref=f97e736]:
+            - generic [ref=f97e737]: Antes de empezar
+            - paragraph [ref=f97e738]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f97e739]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f97e740]
+        - paragraph [ref=f97e741]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

@@ -1,0 +1,167 @@
+- generic [ref=f18e2]:
+  - generic [ref=f18e3]:
+    - link "Saltar al contenido" [ref=f18e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f18e5]:
+      - generic [ref=f18e6]:
+        - link "El Jardín del Jabón" [ref=f18e7] [cursor=pointer]:
+          - /url: /
+        - combobox "Buscar recetas e ingredientes" [ref=f18e13]
+        - navigation "Principal" [ref=f18e14]:
+          - link "Recetas (sección actual)" [ref=f18e228] [cursor=pointer]:
+            - /url: /recetas
+            - text: Recetas
+            - generic [ref=f18e229]: (sección actual)
+          - link "Ingredientes" [ref=f18e16] [cursor=pointer]:
+            - /url: /ingredientes
+          - link "Utensilios" [ref=f18e17] [cursor=pointer]:
+            - /url: /utensilios
+          - link "Lista de compras" [ref=f18e18] [cursor=pointer]:
+            - /url: /compras
+          - link "Favoritos" [ref=f18e19] [cursor=pointer]:
+            - /url: /favoritos
+          - link "Administración" [ref=f18e230] [cursor=pointer]:
+            - /url: /administracion
+    - main [ref=f18e22]:
+      - article [ref=f18e231]:
+        - navigation "Migas de pan" [ref=f18e232]:
+          - link "Catálogo de recetas" [ref=f18e233] [cursor=pointer]:
+            - /url: /recetas
+          - generic [aria-hidden] [ref=f18e236]: /
+          - generic [ref=f18e237]: Jabón de avena y miel
+        - generic [ref=f18e238]:
+          - generic [ref=f18e239]:
+            - generic [ref=f18e240]:
+              - generic [ref=f18e241]: Otros
+              - generic [ref=f18e242]: 6 datos pendientes
+            - generic [ref=f18e243]:
+              - heading "Jabón de avena y miel" [level=1] [ref=f18e244]
+              - paragraph [ref=f18e245]: Descripción pendiente de completar.
+            - generic [ref=f18e246]:
+              - button "Guardar Jabón de avena y miel en favoritos" [ref=f18e247] [cursor=pointer]: Añadir a favoritos
+              - button "Imprimir receta" [ref=f18e250] [cursor=pointer]
+              - link "Editar" [ref=f18e256] [cursor=pointer]:
+                - /url: /administracion/recetas/r-1fdfe9ba/editar
+            - generic [ref=f18e261]:
+              - generic [ref=f18e262]:
+                - generic [ref=f18e263]: Ingrediente principal
+                - generic [ref=f18e264]: Pendiente de completar
+              - generic [ref=f18e265]:
+                - generic [ref=f18e266]: Propiedades
+                - generic [ref=f18e267]:
+                  - generic [ref=f18e268]: exfoliante
+                  - generic "Documentado en recetas.txt" [ref=f18e269]
+              - generic [ref=f18e270]:
+                - generic [ref=f18e271]: Nivel
+                - generic "Información pendiente de completar" [ref=f18e273]: Nivel pendiente
+              - generic [ref=f18e274]:
+                - generic [ref=f18e275]: Elaboración
+                - generic "Información pendiente de completar" [ref=f18e277]: Tiempo pendiente de completar
+              - generic [ref=f18e278]:
+                - generic [ref=f18e279]: Categoría
+                - generic [ref=f18e280]:
+                  - text: Otros
+                  - generic "Clasificación editorial" [ref=f18e281]
+              - generic [ref=f18e282]:
+                - generic [ref=f18e283]: Completitud
+                - generic [ref=f18e284]: 14 % de los campos clave con dato
+          - generic [ref=f18e288]:
+            - 'img "Ilustración: Fotografía de Jabón de avena y miel" [ref=f18e290]'
+            - generic [ref=f18e297]: Fotografía pendiente
+        - region "Ingredientes y cantidades" [ref=f18e298]:
+          - generic [ref=f18e299]:
+            - generic [ref=f18e300]: Fórmula
+            - heading "Ingredientes y cantidades" [level=2] [ref=f18e301]
+          - paragraph [ref=f18e302]: Información pendiente de completar.
+        - region "Utensilios necesarios" [ref=f18e303]:
+          - generic [ref=f18e304]:
+            - generic [ref=f18e305]: Mesa de trabajo
+            - heading "Utensilios necesarios" [level=2] [ref=f18e306]
+          - paragraph [ref=f18e307]: "Información pendiente de completar: el archivo no especifica los utensilios de esta receta. Las herramientas básicas del sitio aplican al método de glicerina."
+        - region "Preparación paso a paso" [ref=f18e308]:
+          - generic [ref=f18e309]:
+            - generic [ref=f18e310]: Elaboración
+            - heading "Preparación paso a paso" [level=2] [ref=f18e311]
+          - paragraph [ref=f18e312]: "Información pendiente de completar: el archivo no describe la secuencia de pasos de esta receta."
+        - region "Estado de la información" [ref=f18e313]:
+          - generic [ref=f18e314]:
+            - generic [ref=f18e315]:
+              - generic [ref=f18e316]: Observaciones
+              - heading "Estado de la información" [level=2] [ref=f18e317]
+            - generic [ref=f18e318]:
+              - paragraph [ref=f18e319]: Información pendiente de completar
+              - paragraph [ref=f18e322]: "El archivo original no documenta estos datos. El sitio no los inventa: quedan vacíos hasta que se completen con una fuente de confianza."
+              - list [ref=f18e323]:
+                - listitem [ref=f18e324]:
+                  - strong [ref=f18e325]: Preparación paso a paso
+                  - generic [ref=f18e326]: El archivo no describe los pasos de esta receta.
+                - listitem [ref=f18e327]:
+                  - strong [ref=f18e328]: Utensilios necesarios
+                  - generic [ref=f18e329]: El archivo no especifica los utensilios de esta receta.
+                - listitem [ref=f18e330]:
+                  - strong [ref=f18e331]: Tiempo de elaboración
+                  - generic [ref=f18e332]: Sin tiempo documentado.
+                - listitem [ref=f18e333]:
+                  - strong [ref=f18e334]: Nivel de dificultad
+                  - generic [ref=f18e335]: El archivo no clasifica el nivel de esta receta.
+                - listitem [ref=f18e336]:
+                  - strong [ref=f18e337]: Descripción
+                  - generic [ref=f18e338]: Sin descripción breve.
+                - listitem [ref=f18e339]:
+                  - strong [ref=f18e340]: Fotografía
+                  - generic [ref=f18e341]: Aún no hay imagen para esta receta.
+              - paragraph [ref=f18e342]:
+                - link "Completar desde la administración" [ref=f18e343] [cursor=pointer]:
+                  - /url: /administracion/recetas/r-1fdfe9ba/editar
+          - generic [ref=f18e347]:
+            - generic [ref=f18e348]:
+              - generic [ref=f18e349]: Responsabilidad
+              - heading "Advertencias" [level=2] [ref=f18e350]
+            - region "Antes de elaborar" [ref=f18e351]:
+              - paragraph [ref=f18e352]: Antes de elaborar
+              - list [ref=f18e355]:
+                - listitem [ref=f18e356]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+                - listitem [ref=f18e357]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+                - listitem [ref=f18e358]: Estas recetas son cosméticas. No tratan enfermedades ni sustituyen la indicación de un profesional de la salud.
+                - listitem [ref=f18e359]: "El archivo no documenta dosificaciones seguras para todos los ingredientes: no excedas las cantidades indicadas y completa los huecos con fuentes de confianza."
+                - listitem [ref=f18e360]: Etiqueta cada jabón con sus ingredientes para poder identificar qué causó una reacción.
+                - listitem [ref=f18e361]: "Derretir la base requiere calor y líquido caliente: usa recipiente apto, manipula con cuidado y ventila la zona de trabajo."
+              - paragraph [ref=f18e362]: Recomendaciones generales del sitio. No sustituyen la ficha técnica del proveedor de cada ingrediente.
+    - contentinfo [ref=f18e200]:
+      - generic [ref=f18e201]:
+        - generic [ref=f18e202]:
+          - generic [ref=f18e203]:
+            - generic [ref=f18e204]: El Jardín del Jabón
+            - paragraph [ref=f18e205]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f18e206]:
+            - text: Secciones
+            - list [ref=f18e207]:
+              - listitem [ref=f18e208]:
+                - link "Catálogo de recetas" [ref=f18e209] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f18e210]:
+                - link "Biblioteca de ingredientes" [ref=f18e211] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f18e212]:
+                - link "Herramientas y materiales" [ref=f18e213] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f18e214]:
+                - link "Lista de compras" [ref=f18e215] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f18e216]:
+                - link "Favoritos" [ref=f18e217] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f18e218]:
+            - generic [ref=f18e219]: Contenido
+            - paragraph [ref=f18e220]: 7 recetas · 27 ingredientes documentados
+            - paragraph [ref=f18e221]: Los cambios se guardan en este navegador.
+          - generic [ref=f18e222]:
+            - generic [ref=f18e223]: Antes de empezar
+            - paragraph [ref=f18e224]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f18e225]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f18e226]
+        - paragraph [ref=f18e227]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status:
+    - paragraph [ref=f18e363]:
+      - generic [ref=f18e366]: Receta creada.
+      - button "Ocultar" [ref=f18e367] [cursor=pointer]

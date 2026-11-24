@@ -1,0 +1,141 @@
+- generic [ref=f53e2]:
+  - generic [ref=f53e3]:
+    - link "Saltar al contenido" [ref=f53e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f53e5]:
+      - generic [ref=f53e6]:
+        - link "El Jardín del Jabón" [ref=f53e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f53e11] [cursor=pointer]
+    - main [ref=f53e14]:
+      - generic [ref=f53e15]:
+        - generic [ref=f53e16]:
+          - generic [ref=f53e17]:
+            - generic [ref=f53e18]: Kit mínimo
+            - heading "Herramientas y materiales" [level=2] [ref=f53e19]
+            - paragraph [ref=f53e20]: Los utensilios que el archivo enumera como herramientas básicas, más la lista de compra realista.
+          - link "Lista de compras" [ref=f53e22] [cursor=pointer]:
+            - /url: /compras
+        - generic [ref=f53e28]:
+          - generic [ref=f53e29]:
+            - paragraph [ref=f53e30]: Para el método de derretir y verter hacen falta cinco cosas. Todo lo demás es comodidad, no necesidad.
+            - paragraph [ref=f53e31]: El archivo describe el uso del alcohol en spray; para el resto de utensilios no documenta indicaciones, y así se muestra.
+          - generic [ref=f53e32]:
+            - 'img "Ilustración: Utensilios básicos sobre lienzo" [ref=f53e34]'
+            - generic [ref=f53e39]: Fotografía pendiente
+        - generic [ref=f53e40]:
+          - article [ref=f53e41]:
+            - 'img "Ilustración: Ilustración de Molde de silicona" [ref=f53e44]'
+            - generic [ref=f53e49]:
+              - heading "Molde de silicona" [level=3] [ref=f53e50]
+              - paragraph [ref=f53e51]: "Uso pendiente de completar: el archivo no describe este utensilio."
+              - generic "Información pendiente de completar" [ref=f53e53]
+          - article [ref=f53e54]:
+            - 'img "Ilustración: Ilustración de Recipiente para derretir" [ref=f53e57]'
+            - generic [ref=f53e61]:
+              - heading "Recipiente para derretir" [level=3] [ref=f53e62]
+              - paragraph [ref=f53e63]: "Uso pendiente de completar: el archivo no describe este utensilio."
+              - generic "Información pendiente de completar" [ref=f53e65]
+          - article [ref=f53e66]:
+            - 'img "Ilustración: Ilustración de Espátula" [ref=f53e69]'
+            - generic [ref=f53e74]:
+              - heading "Espátula" [level=3] [ref=f53e75]
+              - paragraph [ref=f53e76]: "Uso pendiente de completar: el archivo no describe este utensilio."
+              - generic "Información pendiente de completar" [ref=f53e78]
+          - article [ref=f53e79]:
+            - 'img "Ilustración: Ilustración de Microondas o baño María" [ref=f53e82]'
+            - generic [ref=f53e86]:
+              - heading "Microondas o baño María" [level=3] [ref=f53e87]
+              - paragraph [ref=f53e88]: "Uso pendiente de completar: el archivo no describe este utensilio."
+              - generic "Información pendiente de completar" [ref=f53e90]
+          - article [ref=f53e91]:
+            - 'img "Ilustración: Ilustración de Alcohol en spray" [ref=f53e94]'
+            - generic [ref=f53e98]:
+              - heading "Alcohol en spray" [level=3] [ref=f53e99]
+              - paragraph [ref=f53e100]: Rociar al final para quitar las burbujas.
+              - generic "Documentado en recetas.txt" [ref=f53e102]
+        - region "Lo que hay que comprar para empezar" [ref=f53e103]:
+          - generic [ref=f53e104]:
+            - generic [ref=f53e105]:
+              - generic [ref=f53e106]: Lista de compra básica
+              - heading "Lo que hay que comprar para empezar" [level=2] [ref=f53e107]
+            - generic [ref=f53e108]: 0 de 6 adquiridos
+          - table "Lista de compra básica del archivo" [ref=f53e110]:
+            - caption [ref=f53e111]: Lista de compra básica del archivo
+            - rowgroup [ref=f53e112]:
+              - row [ref=f53e113]:
+                - columnheader "Producto" [ref=f53e114]
+                - columnheader "Cantidad" [ref=f53e115]
+                - columnheader "Nota" [ref=f53e116]
+                - columnheader "Estado" [ref=f53e117]
+            - rowgroup [ref=f53e118]:
+              - row [ref=f53e119]:
+                - rowheader "Base de glicerina" [ref=f53e120]
+                - cell "500 g – 1 kg" [ref=f53e121]
+                - cell "El archivo la describe como el punto de partida del kit." [ref=f53e122]
+                - cell "Por adquirir" [ref=f53e123]
+              - row [ref=f53e125]:
+                - rowheader "Fragancias o aceites esenciales" [ref=f53e126]
+                - cell "1–2" [ref=f53e127]
+                - cell "Uno o dos aromas bastan para empezar." [ref=f53e128]
+                - cell "Por adquirir" [ref=f53e129]
+              - row [ref=f53e131]:
+                - rowheader "Colorantes" [ref=f53e132]
+                - cell "1–2" [ref=f53e133]
+                - cell "Opcionales en la receta básica." [ref=f53e134]
+                - cell "Por adquirir" [ref=f53e135]
+              - row [ref=f53e137]:
+                - rowheader "Molde de silicona" [ref=f53e138]
+                - cell "1" [ref=f53e139]
+                - cell "El molde se desmolda sin engrasar." [ref=f53e140]
+                - cell "Por adquirir" [ref=f53e141]
+              - row [ref=f53e143]:
+                - rowheader "Alcohol en spray" [ref=f53e144]
+                - cell "1" [ref=f53e145]
+                - cell "Quita las burbujas al verter." [ref=f53e146]
+                - cell "Por adquirir" [ref=f53e147]
+              - row [ref=f53e149]:
+                - rowheader "Espátula o cuchara" [ref=f53e150]
+                - cell "1" [ref=f53e151]
+                - cell "Para mezclar y mover la masa." [ref=f53e152]
+                - cell "Por adquirir" [ref=f53e153]
+          - paragraph [ref=f53e155]:
+            - text: Las casillas se guardan en este navegador. Marca y desmarca desde la
+            - link "lista interactiva" [ref=f53e156] [cursor=pointer]:
+              - /url: /compras
+            - text: .
+    - contentinfo [ref=f53e157]:
+      - generic [ref=f53e158]:
+        - generic [ref=f53e159]:
+          - generic [ref=f53e160]:
+            - generic [ref=f53e161]: El Jardín del Jabón
+            - paragraph [ref=f53e162]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f53e163]:
+            - text: Secciones
+            - list [ref=f53e164]:
+              - listitem [ref=f53e165]:
+                - link "Catálogo de recetas" [ref=f53e166] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f53e167]:
+                - link "Biblioteca de ingredientes" [ref=f53e168] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f53e169]:
+                - link "Herramientas y materiales" [ref=f53e170] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f53e171]:
+                - link "Lista de compras" [ref=f53e172] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f53e173]:
+                - link "Favoritos" [ref=f53e174] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f53e175]:
+            - generic [ref=f53e176]: Contenido
+            - paragraph [ref=f53e177]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f53e178]: Los cambios se guardan en este navegador.
+          - generic [ref=f53e179]:
+            - generic [ref=f53e180]: Antes de empezar
+            - paragraph [ref=f53e181]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f53e182]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f53e183]
+        - paragraph [ref=f53e184]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

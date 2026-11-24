@@ -1,0 +1,229 @@
+- generic [ref=f80e2]:
+  - generic [ref=f80e3]:
+    - link "Saltar al contenido" [ref=f80e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f80e5]:
+      - generic [ref=f80e6]:
+        - link "El Jardín del Jabón" [ref=f80e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f80e11] [cursor=pointer]
+    - main [ref=f80e14]:
+      - generic [ref=f80e15]:
+        - generic [ref=f80e16]:
+          - generic [ref=f80e17]: Zona de contenido
+          - heading "Administración" [level=1] [ref=f80e18]
+          - paragraph [ref=f80e19]: Crear, editar y completar recetas e ingredientes. Los cambios se guardan en este navegador.
+        - generic [ref=f80e20]:
+          - paragraph [ref=f80e21]: Cómo funciona el acceso
+          - paragraph [ref=f80e24]: "No hay contraseña en el sitio. Una clave guardada en JavaScript o en LocalStorage no es seguridad: cualquiera la lee en el navegador. Este panel está pensado para un sitio local o de un solo editor. Para publicar el contenido en un servidor, la autenticación, la validación y el guardado deben vivir en el backend."
+        - navigation "Secciones de administración" [ref=f80e25]:
+          - generic [ref=f80e26]:
+            - link "Resumen" [ref=f80e27] [cursor=pointer]:
+              - /url: /administracion
+            - link "Nueva receta" [ref=f80e31] [cursor=pointer]:
+              - /url: /administracion/recetas/nueva
+            - link "Nuevo ingrediente" [ref=f80e34] [cursor=pointer]:
+              - /url: /administracion/ingredientes/nuevo
+          - paragraph [ref=f80e37]: 6 recetas · 27 ingredientes · Los cambios se guardan en este navegador.
+        - generic [ref=f80e38]:
+          - generic [ref=f80e39]:
+            - generic [ref=f80e40]: Creación
+            - heading "Nueva receta" [level=2] [ref=f80e41]
+            - paragraph [ref=f80e42]: Rellena solo lo que tengas documentado. Los huecos quedan marcados como pendientes.
+          - generic [ref=f80e43]: 6 campos pendientes
+        - form "Formulario de receta" [ref=f80e49]:
+          - region "Datos básicos" [ref=f80e50]:
+            - heading "Datos básicos" [level=2] [ref=f80e51]
+            - generic [ref=f80e52]:
+              - generic [ref=f80e53]:
+                - generic [ref=f80e54]: Nombre de la receta *
+                - textbox "Nombre de la receta" [ref=f80e55]:
+                  - /placeholder: Jabón de avena y miel
+              - generic [ref=f80e56]:
+                - generic [ref=f80e57]: Enlace (slug)
+                - textbox "Enlace (slug)" [ref=f80e58]:
+                  - /placeholder: se calcula desde el nombre
+                - generic [ref=f80e59]: Coincide con el nombre del archivo en src/assets/images/recipes/.
+              - generic [ref=f80e60]:
+                - generic [ref=f80e61]: Descripción breve
+                - textbox "Descripción breve" [ref=f80e62]:
+                  - /placeholder: Pensado para piel seca.
+              - generic [ref=f80e63]:
+                - generic [ref=f80e64]: Ingrediente principal
+                - textbox "Ingrediente principal" [ref=f80e65]:
+                  - /placeholder: Avena molida
+              - generic [ref=f80e66]:
+                - generic [ref=f80e67]: Categoría
+                - combobox "Categoría" [ref=f80e68]:
+                  - option "Básicos"
+                  - option "Exfoliantes"
+                  - option "Hidratantes"
+                  - option "Absorbentes"
+                  - option "Botánicos y aromáticos"
+                  - option "Otros" [selected]
+              - generic [ref=f80e69]:
+                - generic [ref=f80e70]: Nivel de dificultad
+                - combobox "Nivel de dificultad" [ref=f80e71]:
+                  - option "Sin clasificar (pendiente)" [selected]
+                  - option "Principiante"
+                  - option "Intermedio"
+                  - option "Avanzado"
+                - generic [ref=f80e72]: "El archivo no clasifica niveles: es una etiqueta del sitio."
+              - generic [ref=f80e73]:
+                - generic [ref=f80e74]: Tiempo de elaboración
+                - textbox "Tiempo de elaboración" [ref=f80e75]:
+                  - /placeholder: 1–2 horas
+              - generic [ref=f80e76]:
+                - generic [ref=f80e77]: Clave de fotografía
+                - textbox "Clave de fotografía" [ref=f80e78]:
+                  - /placeholder: slug-de-la-receta
+                - generic [ref=f80e79]: "Sin imagen: la receta mostrará la placa botánica."
+            - group "Propiedades o finalidad" [ref=f80e80]:
+              - group "Propiedades de la receta" [ref=f80e82]:
+                - button "limpieza" [ref=f80e83] [cursor=pointer]
+                - button "exfoliante" [ref=f80e84] [cursor=pointer]
+                - button "hidratación" [ref=f80e85] [cursor=pointer]
+                - button "absorción" [ref=f80e86] [cursor=pointer]
+              - generic [ref=f80e87]: Se usan en los filtros del catálogo. Añádelas solo si el archivo las describe.
+            - generic [ref=f80e88] [cursor=pointer]:
+              - checkbox "Marcar como destacadaAparece en la portada junto a las otras destacadas." [ref=f80e89]
+              - generic [ref=f80e90]:
+                - strong [ref=f80e91]: Marcar como destacada
+                - text: Aparece en la portada junto a las otras destacadas.
+          - region "Ingredientes y cantidades" [ref=f80e92]:
+            - generic [ref=f80e93]:
+              - heading "Ingredientes y cantidades" [level=2] [ref=f80e94]
+              - button "Añadir línea" [ref=f80e95] [cursor=pointer]
+            - generic [ref=f80e99]: Las líneas vacías se descartan al guardar.
+            - generic [ref=f80e101]:
+              - generic [ref=f80e102]:
+                - generic [ref=f80e103]: Ingrediente 1
+                - textbox "Ingrediente 1" [ref=f80e104]:
+                  - /placeholder: Base de glicerina blanca
+              - generic [ref=f80e105]:
+                - generic [ref=f80e106]: Cantidad
+                - textbox "Cantidad" [ref=f80e107]:
+                  - /placeholder: 120 g
+              - generic [ref=f80e108]:
+                - generic [ref=f80e109]: Enlace a ficha
+                - combobox "Enlace a ficha" [ref=f80e110]:
+                  - option "Sin ficha enlazada" [selected]
+                  - option "Base de glicerina"
+                  - option "Base de glicerina transparente"
+                  - option "Base de glicerina blanca (opaca)"
+                  - option "Base con aloe vera"
+                  - option "Base con leche de cabra"
+                  - option "Base con carbón activado"
+                  - option "Aceite de coco"
+                  - option "Aceite de oliva"
+                  - option "Aceite de almendras"
+                  - option "Manteca de karité"
+                  - option "Manteca de cacao"
+                  - option "Aceite esencial de lavanda"
+                  - option "Aceite esencial de eucalipto"
+                  - option "Aceite esencial de naranja"
+                  - option "Aceite esencial de limón"
+                  - option "Fragancias cosméticas"
+                  - option "Avena"
+                  - option "Semillas de amapola"
+                  - option "Semillas de chía"
+                  - option "Pétalos secos"
+                  - option "Arcillas"
+                  - option "Miel"
+                  - option "Manzanilla deshidratada"
+                  - option "Cúrcuma en polvo"
+                  - option "Café molido"
+                  - option "Arroz en polvo"
+                  - option "Colorantes"
+              - generic [ref=f80e111]:
+                - button "Subir ingrediente" [disabled] [ref=f80e112]: ↑
+                - button "Bajar ingrediente" [disabled] [ref=f80e113]: ↓
+                - button "Quitar ingrediente" [ref=f80e114] [cursor=pointer]
+          - region "Preparación paso a paso" [ref=f80e118]:
+            - generic [ref=f80e119]:
+              - heading "Preparación paso a paso" [level=2] [ref=f80e120]
+              - button "Añadir paso" [ref=f80e121] [cursor=pointer]
+            - generic [ref=f80e125]: Los pasos vacíos se descartan al guardar.
+            - generic [ref=f80e127]:
+              - generic [ref=f80e128]:
+                - generic [ref=f80e129]: Paso 1
+                - textbox "Paso 1" [ref=f80e130]:
+                  - /placeholder: Derretir la base a fuego suave
+              - generic [ref=f80e131]:
+                - button "Subir paso 1" [disabled] [ref=f80e132]: ↑
+                - button "Bajar paso 1" [disabled] [ref=f80e133]: ↓
+                - button "Quitar paso 1" [ref=f80e134] [cursor=pointer]
+          - region "Utensilios, consejos y advertencias" [ref=f80e138]:
+            - heading "Utensilios, consejos y advertencias" [level=2] [ref=f80e139]
+            - generic [ref=f80e140]:
+              - generic [ref=f80e141]:
+                - generic [ref=f80e142]: Utensilios
+                - paragraph [ref=f80e144]: Sin elementos.
+                - button "Añadir" [ref=f80e145] [cursor=pointer]
+              - generic [ref=f80e149]:
+                - generic [ref=f80e150]: Consejos de elaboración
+                - paragraph [ref=f80e152]: Sin elementos.
+                - button "Añadir" [ref=f80e153] [cursor=pointer]
+              - generic [ref=f80e157]:
+                - generic [ref=f80e158]: Advertencias propias de la receta
+                - paragraph [ref=f80e160]: Sin elementos.
+                - button "Añadir" [ref=f80e161] [cursor=pointer]
+              - generic [ref=f80e165]:
+                - generic [ref=f80e166]: Nota del archivo
+                - textbox "Nota del archivo" [ref=f80e167]:
+                  - /placeholder: Contexto textual que acompaña a la receta.
+          - region "Procedencia de los datos" [ref=f80e168]:
+            - heading "Procedencia de los datos" [level=2] [ref=f80e169]
+            - generic [ref=f80e171]:
+              - generic [ref=f80e172]: Descripción breve
+              - combobox "Descripción breve" [ref=f80e173]:
+                - option "Documentado en recetas.txt"
+                - option "Clasificación del sitio"
+                - option "Pendiente de completar" [selected]
+              - generic [ref=f80e174]: Indica si el texto viene del archivo o es una etiqueta del sitio.
+            - generic [ref=f80e175]:
+              - generic [ref=f80e176]: Cantidades de ingredientes
+              - generic [ref=f80e177]: Utensilios necesarios
+              - generic [ref=f80e178]: Tiempo de elaboración
+              - generic [ref=f80e179]: Nivel de dificultad
+              - generic [ref=f80e180]: Descripción
+              - generic [ref=f80e181]: Fotografía
+          - generic [ref=f80e183]:
+            - button "Crear receta" [ref=f80e184] [cursor=pointer]
+            - link "Cancelar" [ref=f80e188] [cursor=pointer]:
+              - /url: /administracion
+    - contentinfo [ref=f80e192]:
+      - generic [ref=f80e193]:
+        - generic [ref=f80e194]:
+          - generic [ref=f80e195]:
+            - generic [ref=f80e196]: El Jardín del Jabón
+            - paragraph [ref=f80e197]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f80e198]:
+            - text: Secciones
+            - list [ref=f80e199]:
+              - listitem [ref=f80e200]:
+                - link "Catálogo de recetas" [ref=f80e201] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f80e202]:
+                - link "Biblioteca de ingredientes" [ref=f80e203] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f80e204]:
+                - link "Herramientas y materiales" [ref=f80e205] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f80e206]:
+                - link "Lista de compras" [ref=f80e207] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f80e208]:
+                - link "Favoritos" [ref=f80e209] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f80e210]:
+            - generic [ref=f80e211]: Contenido
+            - paragraph [ref=f80e212]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f80e213]: Los cambios se guardan en este navegador.
+          - generic [ref=f80e214]:
+            - generic [ref=f80e215]: Antes de empezar
+            - paragraph [ref=f80e216]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f80e217]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f80e218]
+        - paragraph [ref=f80e219]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

@@ -1,0 +1,178 @@
+- generic [ref=f157e2]:
+  - generic [ref=f157e3]:
+    - link "Saltar al contenido" [ref=f157e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f157e5]:
+      - generic [ref=f157e6]:
+        - link "El Jardín del Jabón" [ref=f157e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f157e11] [cursor=pointer]
+    - main [ref=f157e14]:
+      - article [ref=f157e15]:
+        - navigation "Migas de pan" [ref=f157e16]:
+          - link "Catálogo de recetas" [ref=f157e17] [cursor=pointer]:
+            - /url: /recetas
+          - generic [aria-hidden] [ref=f157e20]: /
+          - generic [ref=f157e21]: Jabón de manzanilla y cúrcuma
+        - generic [ref=f157e22]:
+          - generic [ref=f157e23]:
+            - generic [ref=f157e24]:
+              - generic [ref=f157e25]: Aromáticos
+              - generic [ref=f157e26]: 4 datos pendientes
+            - generic [ref=f157e27]:
+              - heading "Jabón de manzanilla y cúrcuma" [level=1] [ref=f157e28]
+              - paragraph [ref=f157e29]: Descripción pendiente de completar.
+            - generic [ref=f157e30]:
+              - button "Guardar Jabón de manzanilla y cúrcuma en favoritos" [ref=f157e31] [cursor=pointer]: Añadir a favoritos
+              - button "Imprimir receta" [ref=f157e34] [cursor=pointer]
+              - link "Editar" [ref=f157e40] [cursor=pointer]:
+                - /url: /administracion/recetas/r-jabon-manzanilla-curcuma/editar
+            - generic [ref=f157e45]:
+              - generic [ref=f157e46]:
+                - generic [ref=f157e47]: Ingrediente principal
+                - generic [ref=f157e48]: Manzanilla deshidratada
+              - generic [ref=f157e49]:
+                - generic [ref=f157e50]: Propiedades
+                - generic "Información pendiente de completar" [ref=f157e52]: Propiedades pendientes de completar
+              - generic [ref=f157e53]:
+                - generic [ref=f157e54]: Nivel
+                - generic [ref=f157e55]:
+                  - text: Intermedio
+                  - generic "Clasificación editorial" [ref=f157e56]
+              - generic [ref=f157e57]:
+                - generic [ref=f157e58]: Elaboración
+                - generic "Información pendiente de completar" [ref=f157e60]: Tiempo pendiente de completar
+              - generic [ref=f157e61]:
+                - generic [ref=f157e62]: Categoría
+                - generic [ref=f157e63]:
+                  - text: Aromáticos
+                  - generic "Clasificación editorial" [ref=f157e64]
+              - generic [ref=f157e65]:
+                - generic [ref=f157e66]: Completitud
+                - generic [ref=f157e67]: 43 % de los campos clave con dato
+          - generic [ref=f157e71]:
+            - 'img "Ilustración: Fotografía de Jabón de manzanilla y cúrcuma" [ref=f157e73]'
+            - generic [ref=f157e83]: Fotografía pendiente
+        - region "Ingredientes y cantidades" [ref=f157e84]:
+          - generic [ref=f157e85]:
+            - generic [ref=f157e86]: Fórmula
+            - heading "Ingredientes y cantidades" [level=2] [ref=f157e87]
+          - list [ref=f157e88]:
+            - listitem [ref=f157e89]:
+              - generic [aria-hidden] [ref=f157e90]: "01"
+              - strong [ref=f157e92]: Base de jabón blanca
+              - generic [ref=f157e93]: 120 g
+            - listitem [ref=f157e94]:
+              - generic [aria-hidden] [ref=f157e95]: "02"
+              - generic [ref=f157e96]:
+                - strong [ref=f157e97]: Manzanilla deshidratada
+                - generic [ref=f157e98]: o ½ cucharadita
+              - generic [ref=f157e99]: 0,5 g
+            - listitem [ref=f157e100]:
+              - generic [aria-hidden] [ref=f157e101]: "03"
+              - strong [ref=f157e103]: Cúrcuma en polvo
+              - generic [ref=f157e104]: 1,5 g
+          - paragraph [ref=f157e105]: El archivo solo documenta ingredientes y cantidades de esta receta.
+        - region "Utensilios necesarios" [ref=f157e106]:
+          - generic [ref=f157e107]:
+            - generic [ref=f157e108]: Mesa de trabajo
+            - heading "Utensilios necesarios" [level=2] [ref=f157e109]
+          - paragraph [ref=f157e110]: "Información pendiente de completar: el archivo no especifica los utensilios de esta receta. Las herramientas básicas del sitio aplican al método de glicerina."
+        - region "Preparación paso a paso" [ref=f157e111]:
+          - generic [ref=f157e112]:
+            - generic [ref=f157e113]: Elaboración
+            - heading "Preparación paso a paso" [level=2] [ref=f157e114]
+          - paragraph [ref=f157e115]: "Información pendiente de completar: el archivo no describe la secuencia de pasos de esta receta."
+        - region "Estado de la información" [ref=f157e116]:
+          - generic [ref=f157e117]:
+            - generic [ref=f157e118]:
+              - generic [ref=f157e119]: Observaciones
+              - heading "Estado de la información" [level=2] [ref=f157e120]
+            - generic [ref=f157e121]:
+              - paragraph [ref=f157e122]: Información pendiente de completar
+              - paragraph [ref=f157e125]: "El archivo original no documenta estos datos. El sitio no los inventa: quedan vacíos hasta que se completen con una fuente de confianza."
+              - list [ref=f157e126]:
+                - listitem [ref=f157e127]:
+                  - strong [ref=f157e128]: Preparación paso a paso
+                  - generic [ref=f157e129]: El archivo no describe los pasos de esta receta.
+                - listitem [ref=f157e130]:
+                  - strong [ref=f157e131]: Utensilios necesarios
+                  - generic [ref=f157e132]: El archivo no especifica los utensilios de esta receta.
+                - listitem [ref=f157e133]:
+                  - strong [ref=f157e134]: Tiempo de elaboración
+                  - generic [ref=f157e135]: Sin tiempo documentado.
+                - listitem [ref=f157e136]:
+                  - strong [ref=f157e137]: Descripción
+                  - generic [ref=f157e138]: Sin descripción breve.
+              - paragraph [ref=f157e139]:
+                - link "Completar desde la administración" [ref=f157e140] [cursor=pointer]:
+                  - /url: /administracion/recetas/r-jabon-manzanilla-curcuma/editar
+          - generic [ref=f157e144]:
+            - generic [ref=f157e145]:
+              - generic [ref=f157e146]: Responsabilidad
+              - heading "Advertencias" [level=2] [ref=f157e147]
+            - region "Antes de elaborar" [ref=f157e148]:
+              - paragraph [ref=f157e149]: Antes de elaborar
+              - list [ref=f157e152]:
+                - listitem [ref=f157e153]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+                - listitem [ref=f157e154]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+                - listitem [ref=f157e155]: Estas recetas son cosméticas. No tratan enfermedades ni sustituyen la indicación de un profesional de la salud.
+                - listitem [ref=f157e156]: "El archivo no documenta dosificaciones seguras para todos los ingredientes: no excedas las cantidades indicadas y completa los huecos con fuentes de confianza."
+                - listitem [ref=f157e157]: Etiqueta cada jabón con sus ingredientes para poder identificar qué causó una reacción.
+                - listitem [ref=f157e158]: "Derretir la base requiere calor y líquido caliente: usa recipiente apto, manipula con cuidado y ventila la zona de trabajo."
+              - paragraph [ref=f157e159]: Recomendaciones generales del sitio. No sustituyen la ficha técnica del proveedor de cada ingrediente.
+        - region "Ingredientes de esta receta" [ref=f157e160]:
+          - generic [ref=f157e161]:
+            - generic [ref=f157e162]: Fichas relacionadas
+            - heading "Ingredientes de esta receta" [level=2] [ref=f157e163]
+          - list [ref=f157e164]:
+            - listitem [ref=f157e165]:
+              - link "Bases de jabón Base de glicerina blanca (opaca)" [ref=f157e166] [cursor=pointer]:
+                - /url: /ingredientes/base-de-glicerina-blanca-opaca
+                - generic [ref=f157e167]: Bases de jabón
+                - text: Base de glicerina blanca (opaca)
+            - listitem [ref=f157e168]:
+              - link "Exfoliantes y complementarios Manzanilla deshidratada" [ref=f157e169] [cursor=pointer]:
+                - /url: /ingredientes/manzanilla-deshidratada
+                - generic [ref=f157e170]: Exfoliantes y complementarios
+                - text: Manzanilla deshidratada
+            - listitem [ref=f157e171]:
+              - link "Exfoliantes y complementarios Cúrcuma en polvo" [ref=f157e172] [cursor=pointer]:
+                - /url: /ingredientes/curcuma-en-polvo
+                - generic [ref=f157e173]: Exfoliantes y complementarios
+                - text: Cúrcuma en polvo
+    - contentinfo [ref=f157e174]:
+      - generic [ref=f157e175]:
+        - generic [ref=f157e176]:
+          - generic [ref=f157e177]:
+            - generic [ref=f157e178]: El Jardín del Jabón
+            - paragraph [ref=f157e179]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f157e180]:
+            - text: Secciones
+            - list [ref=f157e181]:
+              - listitem [ref=f157e182]:
+                - link "Catálogo de recetas" [ref=f157e183] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f157e184]:
+                - link "Biblioteca de ingredientes" [ref=f157e185] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f157e186]:
+                - link "Herramientas y materiales" [ref=f157e187] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f157e188]:
+                - link "Lista de compras" [ref=f157e189] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f157e190]:
+                - link "Favoritos" [ref=f157e191] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f157e192]:
+            - generic [ref=f157e193]: Contenido
+            - paragraph [ref=f157e194]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f157e195]: Los cambios se guardan en este navegador.
+          - generic [ref=f157e196]:
+            - generic [ref=f157e197]: Antes de empezar
+            - paragraph [ref=f157e198]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f157e199]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f157e200]
+        - paragraph [ref=f157e201]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

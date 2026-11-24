@@ -1,0 +1,180 @@
+- generic [ref=f64e2]:
+  - generic [ref=f64e3]:
+    - link "Saltar al contenido" [ref=f64e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f64e5]:
+      - generic [ref=f64e6]:
+        - link "El Jardín del Jabón" [ref=f64e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f64e11] [cursor=pointer]
+    - main [ref=f64e14]:
+      - article [ref=f64e15]:
+        - navigation "Migas de pan" [ref=f64e16]:
+          - link "Catálogo de recetas" [ref=f64e17] [cursor=pointer]:
+            - /url: /recetas
+          - generic [aria-hidden] [ref=f64e20]: /
+          - generic [ref=f64e21]: Jabón de café exfoliante
+        - generic [ref=f64e22]:
+          - generic [ref=f64e23]:
+            - generic [ref=f64e24]:
+              - generic [ref=f64e25]: Exfoliantes
+              - generic [ref=f64e26]: 4 datos pendientes
+            - generic [ref=f64e27]:
+              - heading "Jabón de café exfoliante" [level=1] [ref=f64e28]
+              - paragraph [ref=f64e29]: Descripción pendiente de completar.
+            - generic [ref=f64e30]:
+              - button "Guardar Jabón de café exfoliante en favoritos" [ref=f64e31] [cursor=pointer]: Añadir a favoritos
+              - button "Imprimir receta" [ref=f64e34] [cursor=pointer]
+              - link "Editar" [ref=f64e40] [cursor=pointer]:
+                - /url: /administracion/recetas/r-jabon-cafe/editar
+            - generic [ref=f64e45]:
+              - generic [ref=f64e46]:
+                - generic [ref=f64e47]: Ingrediente principal
+                - generic [ref=f64e48]: Café molido
+              - generic [ref=f64e49]:
+                - generic [ref=f64e50]: Propiedades
+                - generic [ref=f64e51]:
+                  - generic [ref=f64e52]: exfoliante
+                  - generic "Documentado en recetas.txt" [ref=f64e53]
+              - generic [ref=f64e54]:
+                - generic [ref=f64e55]: Nivel
+                - generic [ref=f64e56]:
+                  - text: Intermedio
+                  - generic "Clasificación editorial" [ref=f64e57]
+              - generic [ref=f64e58]:
+                - generic [ref=f64e59]: Elaboración
+                - generic "Información pendiente de completar" [ref=f64e61]: Tiempo pendiente de completar
+              - generic [ref=f64e62]:
+                - generic [ref=f64e63]: Categoría
+                - generic [ref=f64e64]:
+                  - text: Exfoliantes
+                  - generic "Clasificación editorial" [ref=f64e65]
+              - generic [ref=f64e66]:
+                - generic [ref=f64e67]: Completitud
+                - generic [ref=f64e68]: 43 % de los campos clave con dato
+          - generic [ref=f64e72]:
+            - 'img "Ilustración: Fotografía de Jabón de café exfoliante" [ref=f64e74]'
+            - generic [ref=f64e81]: Fotografía pendiente
+        - region "Ingredientes y cantidades" [ref=f64e82]:
+          - generic [ref=f64e83]:
+            - generic [ref=f64e84]: Fórmula
+            - heading "Ingredientes y cantidades" [level=2] [ref=f64e85]
+          - list [ref=f64e86]:
+            - listitem [ref=f64e87]:
+              - generic [aria-hidden] [ref=f64e88]: "01"
+              - strong [ref=f64e90]: Base de jabón blanca
+              - generic [ref=f64e91]: 120 g
+            - listitem [ref=f64e92]:
+              - generic [aria-hidden] [ref=f64e93]: "02"
+              - strong [ref=f64e95]: Café molido
+              - generic [ref=f64e96]: 6,5 g
+            - listitem [ref=f64e97]:
+              - generic [aria-hidden] [ref=f64e98]: "03"
+              - generic [ref=f64e99]:
+                - strong [ref=f64e100]: Aceite esencial de naranja
+                - generic [ref=f64e101]: 50–60 gotas
+              - generic [ref=f64e102]: 4 g
+          - paragraph [ref=f64e103]: El archivo solo documenta ingredientes y cantidades de esta receta.
+        - region "Utensilios necesarios" [ref=f64e104]:
+          - generic [ref=f64e105]:
+            - generic [ref=f64e106]: Mesa de trabajo
+            - heading "Utensilios necesarios" [level=2] [ref=f64e107]
+          - paragraph [ref=f64e108]: "Información pendiente de completar: el archivo no especifica los utensilios de esta receta. Las herramientas básicas del sitio aplican al método de glicerina."
+        - region "Preparación paso a paso" [ref=f64e109]:
+          - generic [ref=f64e110]:
+            - generic [ref=f64e111]: Elaboración
+            - heading "Preparación paso a paso" [level=2] [ref=f64e112]
+          - paragraph [ref=f64e113]: "Información pendiente de completar: el archivo no describe la secuencia de pasos de esta receta."
+        - region "Estado de la información" [ref=f64e114]:
+          - generic [ref=f64e115]:
+            - generic [ref=f64e116]:
+              - generic [ref=f64e117]: Observaciones
+              - heading "Estado de la información" [level=2] [ref=f64e118]
+            - generic [ref=f64e119]:
+              - paragraph [ref=f64e120]: Información pendiente de completar
+              - paragraph [ref=f64e123]: "El archivo original no documenta estos datos. El sitio no los inventa: quedan vacíos hasta que se completen con una fuente de confianza."
+              - list [ref=f64e124]:
+                - listitem [ref=f64e125]:
+                  - strong [ref=f64e126]: Preparación paso a paso
+                  - generic [ref=f64e127]: El archivo no describe los pasos de esta receta.
+                - listitem [ref=f64e128]:
+                  - strong [ref=f64e129]: Utensilios necesarios
+                  - generic [ref=f64e130]: El archivo no especifica los utensilios de esta receta.
+                - listitem [ref=f64e131]:
+                  - strong [ref=f64e132]: Tiempo de elaboración
+                  - generic [ref=f64e133]: Sin tiempo documentado.
+                - listitem [ref=f64e134]:
+                  - strong [ref=f64e135]: Descripción
+                  - generic [ref=f64e136]: Sin descripción breve.
+              - paragraph [ref=f64e137]:
+                - link "Completar desde la administración" [ref=f64e138] [cursor=pointer]:
+                  - /url: /administracion/recetas/r-jabon-cafe/editar
+          - generic [ref=f64e142]:
+            - generic [ref=f64e143]:
+              - generic [ref=f64e144]: Responsabilidad
+              - heading "Advertencias" [level=2] [ref=f64e145]
+            - region "Antes de elaborar" [ref=f64e146]:
+              - paragraph [ref=f64e147]: Antes de elaborar
+              - list [ref=f64e150]:
+                - listitem [ref=f64e151]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+                - listitem [ref=f64e152]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+                - listitem [ref=f64e153]: Estas recetas son cosméticas. No tratan enfermedades ni sustituyen la indicación de un profesional de la salud.
+                - listitem [ref=f64e154]: "El archivo no documenta dosificaciones seguras para todos los ingredientes: no excedas las cantidades indicadas y completa los huecos con fuentes de confianza."
+                - listitem [ref=f64e155]: Etiqueta cada jabón con sus ingredientes para poder identificar qué causó una reacción.
+                - listitem [ref=f64e156]: "Derretir la base requiere calor y líquido caliente: usa recipiente apto, manipula con cuidado y ventila la zona de trabajo."
+              - paragraph [ref=f64e157]: Recomendaciones generales del sitio. No sustituyen la ficha técnica del proveedor de cada ingrediente.
+        - region "Ingredientes de esta receta" [ref=f64e158]:
+          - generic [ref=f64e159]:
+            - generic [ref=f64e160]: Fichas relacionadas
+            - heading "Ingredientes de esta receta" [level=2] [ref=f64e161]
+          - list [ref=f64e162]:
+            - listitem [ref=f64e163]:
+              - link "Bases de jabón Base de glicerina blanca (opaca)" [ref=f64e164] [cursor=pointer]:
+                - /url: /ingredientes/base-de-glicerina-blanca-opaca
+                - generic [ref=f64e165]: Bases de jabón
+                - text: Base de glicerina blanca (opaca)
+            - listitem [ref=f64e166]:
+              - link "Exfoliantes y complementarios Café molido" [ref=f64e167] [cursor=pointer]:
+                - /url: /ingredientes/cafe-molido
+                - generic [ref=f64e168]: Exfoliantes y complementarios
+                - text: Café molido
+            - listitem [ref=f64e169]:
+              - link "Fragancias y aceites esenciales Aceite esencial de naranja" [ref=f64e170] [cursor=pointer]:
+                - /url: /ingredientes/aceite-esencial-de-naranja
+                - generic [ref=f64e171]: Fragancias y aceites esenciales
+                - text: Aceite esencial de naranja
+    - contentinfo [ref=f64e172]:
+      - generic [ref=f64e173]:
+        - generic [ref=f64e174]:
+          - generic [ref=f64e175]:
+            - generic [ref=f64e176]: El Jardín del Jabón
+            - paragraph [ref=f64e177]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f64e178]:
+            - text: Secciones
+            - list [ref=f64e179]:
+              - listitem [ref=f64e180]:
+                - link "Catálogo de recetas" [ref=f64e181] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f64e182]:
+                - link "Biblioteca de ingredientes" [ref=f64e183] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f64e184]:
+                - link "Herramientas y materiales" [ref=f64e185] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f64e186]:
+                - link "Lista de compras" [ref=f64e187] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f64e188]:
+                - link "Favoritos" [ref=f64e189] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f64e190]:
+            - generic [ref=f64e191]: Contenido
+            - paragraph [ref=f64e192]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f64e193]: Los cambios se guardan en este navegador.
+          - generic [ref=f64e194]:
+            - generic [ref=f64e195]: Antes de empezar
+            - paragraph [ref=f64e196]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f64e197]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f64e198]
+        - paragraph [ref=f64e199]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

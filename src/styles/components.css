@@ -1,0 +1,795 @@
+/* ==========================================================================
+   Componentes: botones, insignias, campos, tarjetas, diálogos, avisos.
+   Regla de la dirección: agrupar con reglas y tintes, no con sombras.
+   ========================================================================== */
+
+/* --- Botones -------------------------------------------------------------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  padding: 0.65rem var(--space-m);
+  min-height: 2.75rem;
+  border: 1px solid var(--accent-ink);
+  border-radius: var(--radius-control);
+  background: var(--accent-ink);
+  color: #fbfaf6;
+  font-size: var(--step-0);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background var(--dur-fast) var(--ease),
+    color var(--dur-fast) var(--ease),
+    border-color var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+
+.btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fbfaf6;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:disabled,
+.btn[aria-disabled='true'] {
+  background: var(--paper-2);
+  border-color: var(--line-strong);
+  color: var(--ink-3);
+  cursor: not-allowed;
+}
+
+.btn--outline {
+  background: transparent;
+  border-color: var(--line-strong);
+  color: var(--ink);
+}
+
+.btn--outline:hover {
+  background: var(--surface);
+  border-color: var(--accent-ink);
+  color: var(--accent-ink);
+}
+
+.btn--quiet {
+  background: transparent;
+  border-color: transparent;
+  color: var(--ink-2);
+  padding-inline: var(--space-xs);
+  min-height: 2.25rem;
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+  text-underline-offset: 3px;
+}
+
+.btn--quiet:hover {
+  color: var(--accent-ink);
+  text-decoration-color: currentColor;
+  background: transparent;
+}
+
+.btn--danger {
+  background: transparent;
+  border-color: var(--pending-line);
+  color: var(--pending);
+}
+
+.btn--danger:hover {
+  background: var(--pending);
+  border-color: var(--pending);
+  color: #fbfaf6;
+}
+
+.btn--sm {
+  min-height: 2.25rem;
+  padding: 0.35rem var(--space-s);
+  font-size: var(--step--1);
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.btn[aria-busy='true'] {
+  cursor: progress;
+  opacity: 0.75;
+}
+
+/* --- Insignias ----------------------------------------------------------- */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3xs);
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-badge);
+  background: var(--surface);
+  color: var(--ink-2);
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.badge--accent {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+.badge--pending {
+  border-color: var(--pending-line);
+  background: var(--pending-soft);
+  color: var(--pending);
+}
+
+.badge--solid {
+  border-color: var(--deep);
+  background: var(--deep);
+  color: var(--on-deep);
+}
+
+/* --- Campos de formulario ------------------------------------------------ */
+
+.field {
+  display: grid;
+  gap: var(--space-3xs);
+  min-width: 0;
+}
+
+.field__label {
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.field__hint {
+  font-size: var(--step--1);
+  color: var(--ink-3);
+}
+
+.field__error {
+  font-size: var(--step--1);
+  color: var(--pending);
+  font-weight: 600;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 0.6rem var(--space-xs);
+  min-height: 2.75rem;
+  background: var(--surface);
+  border: var(--border-strong);
+  border-radius: var(--radius-control);
+  color: var(--ink);
+  transition:
+    border-color var(--dur-fast) var(--ease),
+    background var(--dur-fast) var(--ease);
+}
+
+.textarea {
+  min-height: 5.5rem;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.select {
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%),
+    linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
+  background-position:
+    calc(100% - 1rem) calc(50% + 2px),
+    calc(100% - 0.72rem) calc(50% + 2px);
+  background-size:
+    0.45rem 0.45rem,
+    0.45rem 0.45rem;
+  background-repeat: no-repeat;
+  padding-right: var(--space-l);
+}
+
+.input:hover,
+.textarea:hover,
+.select:hover {
+  border-color: var(--accent);
+}
+
+.input[aria-invalid='true'],
+.textarea[aria-invalid='true'],
+.select[aria-invalid='true'] {
+  border-color: var(--pending);
+  background: #fdf7f0;
+}
+
+.checkbox {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: var(--space-xs);
+  cursor: pointer;
+  min-width: 0;
+}
+
+.checkbox input[type='checkbox'] {
+  appearance: none;
+  flex: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0.15rem 0 0;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  background: var(--surface);
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  transition:
+    background var(--dur-fast) var(--ease),
+    border-color var(--dur-fast) var(--ease);
+}
+
+.checkbox input[type='checkbox']::after {
+  content: '';
+  width: 0.7rem;
+  height: 0.4rem;
+  border-left: 2px solid var(--on-deep);
+  border-bottom: 2px solid var(--on-deep);
+  transform: rotate(-45deg) translateY(-1px) scale(0);
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+
+.checkbox input[type='checkbox']:checked {
+  background: var(--accent-ink);
+  border-color: var(--accent-ink);
+}
+
+.checkbox input[type='checkbox']:checked::after {
+  transform: rotate(-45deg) translateY(-1px) scale(1);
+}
+
+.checkbox__text {
+  min-width: 0;
+}
+
+/* --- Tarjetas ------------------------------------------------------------ */
+
+.card {
+  display: block;
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius-container);
+  overflow: hidden;
+  position: relative;
+}
+
+.card--link {
+  text-decoration: none;
+  color: inherit;
+  transition:
+    border-color var(--dur) var(--ease),
+    background var(--dur) var(--ease);
+}
+
+.card--link:hover {
+  border-color: var(--accent);
+  color: inherit;
+}
+
+.card__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--surface-2);
+  border-bottom: var(--border);
+  overflow: hidden;
+}
+
+.card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__body {
+  display: grid;
+  gap: var(--space-xs);
+  padding: var(--space-m);
+}
+
+.card__title {
+  font-size: var(--step-1);
+}
+
+.card__text {
+  font-size: var(--step--1);
+  color: var(--ink-2);
+}
+
+.card__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-m) var(--space-m);
+}
+
+/* Placa botánica: ilustración vectorial cuando no hay fotografía. */
+.plate {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(120% 90% at 30% 15%, var(--surface) 0%, var(--surface-2) 68%, #e4e0d3 100%);
+}
+
+.plate svg {
+  width: 90%;
+  height: 90%;
+}
+
+.media-flag {
+  position: absolute;
+  inset-inline: var(--space-2xs) var(--space-2xs);
+  bottom: var(--space-2xs);
+  margin: 0 auto;
+  width: fit-content;
+  max-width: calc(100% - var(--space-l));
+}
+
+/* --- Fórmula de botica: ingredientes con cantidades monoespaciadas ------- */
+
+.formula {
+  display: grid;
+  gap: var(--space-2xs);
+  border-top: 1px solid var(--ink);
+}
+
+.formula__row {
+  display: grid;
+  grid-template-columns: 2.25rem 1fr auto;
+  align-items: baseline;
+  gap: var(--space-s);
+  padding: var(--space-xs) 0;
+  border-bottom: var(--rule);
+}
+
+.formula__num {
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  color: var(--ink-3);
+  letter-spacing: var(--tracking-label);
+}
+
+.formula__name {
+  min-width: 0;
+}
+
+.formula__note {
+  display: block;
+  font-size: var(--step--1);
+  color: var(--ink-3);
+}
+
+.formula__amount {
+  font-family: var(--font-mono);
+  font-size: var(--step-0);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.formula__amount--pending {
+  color: var(--pending);
+  font-size: var(--step--1);
+}
+
+/* --- Pasos de preparación ------------------------------------------------ */
+
+.steps {
+  display: grid;
+  gap: 0;
+  counter-reset: paso;
+}
+
+.steps__item {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: var(--space-s);
+  padding: var(--space-s) 0;
+  border-bottom: var(--rule);
+  counter-increment: paso;
+}
+
+.steps__item::before {
+  content: counter(paso, decimal-leading-zero);
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--accent-ink);
+  letter-spacing: var(--tracking-label);
+  padding-top: 0.2rem;
+}
+
+/* --- Avisos y paneles ---------------------------------------------------- */
+
+.notice {
+  display: grid;
+  gap: var(--space-2xs);
+  padding: var(--space-m);
+  border: var(--border);
+  border-radius: var(--radius-container);
+  background: var(--surface-2);
+}
+
+.notice--pending {
+  border-color: var(--pending-line);
+  background: var(--pending-soft);
+}
+
+.notice--accent {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.notice--deep {
+  border-color: var(--deep);
+  background: var(--deep);
+  color: var(--on-deep);
+}
+
+.notice--deep h3,
+.notice--deep h4 {
+  color: var(--on-deep);
+}
+
+.notice__title {
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.notice--pending .notice__title {
+  color: var(--pending);
+}
+
+.notice--accent .notice__title {
+  color: var(--accent-ink);
+}
+
+.notice--deep .notice__title {
+  color: var(--on-deep-2);
+}
+
+.pending-list {
+  display: grid;
+  gap: var(--space-2xs);
+}
+
+.pending-list li {
+  display: grid;
+  gap: var(--space-3xs);
+  padding-left: var(--space-m);
+  position: relative;
+  font-size: var(--step--1);
+}
+
+.pending-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--pending);
+}
+
+/* --- Medidor de completitud ---------------------------------------------- */
+
+.meter {
+  display: grid;
+  gap: var(--space-3xs);
+  min-width: 9rem;
+}
+
+.meter__track {
+  height: 4px;
+  background: var(--paper-2);
+  border-radius: var(--radius-badge);
+  overflow: hidden;
+}
+
+.meter__fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: var(--radius-badge);
+  transition: width var(--dur-slow) var(--ease-out);
+}
+
+.meter__fill--partial {
+  background: var(--pending);
+}
+
+/* --- Diálogo ------------------------------------------------------------- */
+
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: var(--space-s);
+  background: rgba(30, 38, 32, 0.42);
+  animation: fade-in var(--dur) var(--ease);
+}
+
+.dialog {
+  width: min(34rem, 100%);
+  background: var(--surface);
+  border: var(--border-strong);
+  border-radius: var(--radius-container);
+  box-shadow: var(--shadow-overlay);
+  padding: var(--space-l);
+  display: grid;
+  gap: var(--space-m);
+  animation: rise var(--dur) var(--ease-out);
+}
+
+/* Cabecera del diálogo: el botón de cierre nunca baja a una segunda línea. */
+.dialog__head {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-s);
+}
+
+.dialog__head h3 {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.dialog__close {
+  flex: none;
+  min-height: 2rem;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+/* --- Avisos flotantes ---------------------------------------------------- */
+
+.toasts {
+  position: fixed;
+  z-index: 70;
+  inset-inline: var(--space-s);
+  bottom: var(--space-s);
+  display: grid;
+  gap: var(--space-2xs);
+  justify-items: center;
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  max-width: 32rem;
+  padding: var(--space-xs) var(--space-m);
+  background: var(--deep);
+  color: var(--on-deep);
+  border-radius: var(--radius-control);
+  box-shadow: var(--shadow-overlay);
+  font-size: var(--step--1);
+  animation: rise var(--dur) var(--ease-out);
+}
+
+.toast__close {
+  background: transparent;
+  border: 0;
+  color: var(--on-deep-2);
+  cursor: pointer;
+  padding: var(--space-3xs);
+  line-height: 1;
+}
+
+.toast__close:hover {
+  color: var(--on-deep);
+}
+
+/* --- Tablas (listados de administración) --------------------------------- */
+
+.table-wrap {
+  overflow-x: auto;
+  border: var(--border);
+  border-radius: var(--radius-container);
+  background: var(--surface);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--step--1);
+}
+
+.table th,
+.table td {
+  padding: var(--space-xs) var(--space-s);
+  text-align: left;
+  border-bottom: var(--rule);
+  vertical-align: middle;
+}
+
+.table th {
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--ink-3);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.table tbody tr:hover {
+  background: var(--surface-2);
+}
+
+.table__actions {
+  display: flex;
+  gap: var(--space-2xs);
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+/*
+ * Tablas apiladas: en pantallas estrechas la tabla deja de ser una rejilla de
+ * seis columnas (que obligaría a desplazar en horizontal) y cada fila se
+ * convierte en una ficha con el nombre arriba y los datos etiquetados.
+ */
+@media (max-width: 40rem) {
+  .table-wrap {
+    overflow-x: visible;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table th,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table tbody tr {
+    display: grid;
+    /* minmax(0,1fr): con la columna «auto», la línea de campos pendientes
+       («Cantidades · Utensilios · Pasos…») fija el ancho de la fila. */
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-2xs);
+    padding: var(--space-s) 0;
+    border-bottom: var(--rule);
+  }
+
+  .table tbody tr:last-child {
+    border-bottom: 0;
+  }
+
+  .table th[scope='row'] {
+    font-family: inherit;
+    font-size: var(--step-0);
+    letter-spacing: normal;
+    text-transform: none;
+    color: var(--ink);
+    /* El `nowrap` de las cabeceras haría una sola línea con la lista de campos
+       pendientes («Preparación paso a paso · Utensilios · Pasos…»). */
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .table td {
+    padding: 0;
+    border: 0;
+  }
+
+  .table td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: var(--space-3xs);
+    font-family: var(--font-mono);
+    font-size: var(--step--2);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .table__actions {
+    justify-content: flex-start;
+  }
+}
+
+/* --- Estado vacío -------------------------------------------------------- */
+
+.empty {
+  display: grid;
+  gap: var(--space-s);
+  justify-items: center;
+  text-align: center;
+  padding: var(--space-2xl) var(--space-s);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-container);
+  background: var(--surface);
+}
+
+/* --- Selector de lista de compras ---------------------------------------- */
+
+.checklist {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--ink);
+}
+
+.checklist__item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: start;
+  gap: var(--space-s);
+  padding: var(--space-s) 0;
+  border-bottom: var(--rule);
+}
+
+.checklist__item[data-checked='true'] .checklist__label {
+  color: var(--ink-3);
+  text-decoration: line-through;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
+}
+
+.checklist__label {
+  font-weight: 600;
+  min-width: 0;
+}
+
+.checklist__detail {
+  display: block;
+  font-weight: 400;
+  font-size: var(--step--1);
+  color: var(--ink-3);
+}
+
+.checklist__qty {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--ink-2);
+  white-space: nowrap;
+}

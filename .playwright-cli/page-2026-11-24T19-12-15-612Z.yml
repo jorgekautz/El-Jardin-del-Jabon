@@ -1,0 +1,354 @@
+- generic [ref=f24e2]:
+  - generic [ref=f24e3]:
+    - link "Saltar al contenido" [ref=f24e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f24e5]:
+      - generic [ref=f24e6]:
+        - link "El Jardín del Jabón" [ref=f24e7] [cursor=pointer]:
+          - /url: /
+        - combobox "Buscar recetas e ingredientes" [ref=f24e13]
+        - navigation "Principal" [ref=f24e14]:
+          - link "Recetas" [ref=f24e15] [cursor=pointer]:
+            - /url: /recetas
+          - link "Ingredientes (sección actual)" [ref=f24e16] [cursor=pointer]:
+            - /url: /ingredientes
+            - text: Ingredientes
+            - generic [ref=f24e17]: (sección actual)
+          - link "Utensilios" [ref=f24e18] [cursor=pointer]:
+            - /url: /utensilios
+          - link "Lista de compras" [ref=f24e19] [cursor=pointer]:
+            - /url: /compras
+          - link "Favoritos" [ref=f24e20] [cursor=pointer]:
+            - /url: /favoritos
+          - link "Administración" [ref=f24e21] [cursor=pointer]:
+            - /url: /administracion
+    - main [ref=f24e22]:
+      - generic [ref=f24e23]:
+        - generic [ref=f24e24]:
+          - generic [ref=f24e25]:
+            - generic [ref=f24e26]: Materia prima
+            - heading "Biblioteca de ingredientes" [level=2] [ref=f24e27]
+            - paragraph [ref=f24e28]: Cada ficha recoge la propiedad que le atribuye el archivo original y las recetas en las que aparece.
+          - link "Nuevo ingrediente" [ref=f24e30] [cursor=pointer]:
+            - /url: /administracion/ingredientes/nuevo
+        - form "Filtros de ingredientes" [ref=f24e34]:
+          - generic [ref=f24e35]:
+            - generic [ref=f24e36]:
+              - generic [ref=f24e37]: Buscar ingrediente
+              - searchbox "Buscar ingrediente" [ref=f24e39]
+            - group "Categoría de ingrediente" [ref=f24e40]:
+              - button "Todas" [pressed] [ref=f24e41] [cursor=pointer]
+              - button "Bases de jabón" [ref=f24e42] [cursor=pointer]
+              - button "Aceites y mantecas" [ref=f24e43] [cursor=pointer]
+              - button "Fragancias y aceites esenciales" [ref=f24e44] [cursor=pointer]
+              - button "Exfoliantes y complementarios" [ref=f24e45] [cursor=pointer]
+            - paragraph [ref=f24e46]: 27 de 27 ingredientes
+        - generic [ref=f24e47]:
+          - region "Bases de jabón" [ref=f24e48]:
+            - generic [ref=f24e49]:
+              - heading "Bases de jabón" [level=2] [ref=f24e50]
+              - generic [ref=f24e51]: 6 fichas
+            - generic [ref=f24e52]:
+              - article [ref=f24e53]:
+                - 'img "Ilustración: Base con aloe vera" [ref=f24e56]'
+                - generic [ref=f24e61]:
+                  - generic [ref=f24e62]: Bases de jabón
+                  - heading [level=3] [ref=f24e64]:
+                    - link "Base con aloe vera" [ref=f24e65] [cursor=pointer]:
+                      - /url: /ingredientes/base-de-aloe-vera
+                  - paragraph [ref=f24e66]: Base con aloe vera. El archivo no describe propiedades adicionales.
+                  - paragraph [ref=f24e67]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e68]:
+                - 'img "Ilustración: Base con carbón activado" [ref=f24e71]'
+                - generic [ref=f24e76]:
+                  - generic [ref=f24e77]: Bases de jabón
+                  - heading [level=3] [ref=f24e79]:
+                    - link "Base con carbón activado" [ref=f24e80] [cursor=pointer]:
+                      - /url: /ingredientes/base-de-carbon-activado
+                  - paragraph [ref=f24e81]: Base con carbón activado. El archivo no describe propiedades adicionales.
+                  - paragraph [ref=f24e82]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e83]:
+                - 'img "Ilustración: Base con leche de cabra" [ref=f24e86]'
+                - generic [ref=f24e91]:
+                  - generic [ref=f24e92]: Bases de jabón
+                  - heading [level=3] [ref=f24e94]:
+                    - link "Base con leche de cabra" [ref=f24e95] [cursor=pointer]:
+                      - /url: /ingredientes/base-de-leche-de-cabra
+                  - paragraph [ref=f24e96]: Base con leche de cabra. El archivo no describe propiedades adicionales.
+                  - paragraph [ref=f24e97]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e98]:
+                - 'img "Ilustración: Base de glicerina" [ref=f24e101]'
+                - generic [ref=f24e105]:
+                  - generic [ref=f24e106]: Bases de jabón
+                  - heading [level=3] [ref=f24e108]:
+                    - link "Base de glicerina" [ref=f24e109] [cursor=pointer]:
+                      - /url: /ingredientes/base-de-glicerina
+                  - paragraph [ref=f24e110]: "Ideal para empezar: solo derretir y moldear."
+                  - paragraph [ref=f24e111]: Aparece en 3 recetas
+              - article [ref=f24e112]:
+                - 'img "Ilustración: Base de glicerina blanca (opaca)" [ref=f24e115]'
+                - generic [ref=f24e119]:
+                  - generic [ref=f24e120]: Bases de jabón
+                  - heading [level=3] [ref=f24e122]:
+                    - link "Base de glicerina blanca (opaca)" [ref=f24e123] [cursor=pointer]:
+                      - /url: /ingredientes/base-de-glicerina-blanca-opaca
+                  - paragraph [ref=f24e124]: Variante blanca u opaca de la base de glicerina.
+                  - paragraph [ref=f24e125]: Aparece en 6 recetas
+              - article [ref=f24e126]:
+                - 'img "Ilustración: Base de glicerina transparente" [ref=f24e129]'
+                - generic [ref=f24e133]:
+                  - generic [ref=f24e134]: Bases de jabón
+                  - heading [level=3] [ref=f24e136]:
+                    - link "Base de glicerina transparente" [ref=f24e137] [cursor=pointer]:
+                      - /url: /ingredientes/base-de-glicerina-transparente
+                  - paragraph [ref=f24e138]: Variante transparente de la base de glicerina.
+                  - paragraph [ref=f24e139]: Aparece en 2 recetas
+          - region "Aceites y mantecas" [ref=f24e140]:
+            - generic [ref=f24e141]:
+              - heading "Aceites y mantecas" [level=2] [ref=f24e142]
+              - generic [ref=f24e143]: 5 fichas
+            - generic [ref=f24e144]:
+              - article [ref=f24e145]:
+                - 'img "Ilustración: Aceite de almendras" [ref=f24e148]'
+                - generic [ref=f24e153]:
+                  - generic [ref=f24e154]: Aceites y mantecas
+                  - heading [level=3] [ref=f24e156]:
+                    - link "Aceite de almendras" [ref=f24e157] [cursor=pointer]:
+                      - /url: /ingredientes/aceite-de-almendras
+                  - paragraph [ref=f24e158]: Suavidad.
+                  - paragraph [ref=f24e159]: Aparece en Jabón hidratante
+              - article [ref=f24e160]:
+                - 'img "Ilustración: Aceite de coco" [ref=f24e163]'
+                - generic [ref=f24e168]:
+                  - generic [ref=f24e169]: Aceites y mantecas
+                  - heading [level=3] [ref=f24e171]:
+                    - link "Aceite de coco" [ref=f24e172] [cursor=pointer]:
+                      - /url: /ingredientes/aceite-de-coco
+                  - paragraph [ref=f24e173]: Espuma y limpieza.
+                  - paragraph [ref=f24e174]: Aparece en Jabón hidratante
+              - article [ref=f24e175]:
+                - 'img "Ilustración: Aceite de oliva" [ref=f24e178]'
+                - generic [ref=f24e183]:
+                  - generic [ref=f24e184]: Aceites y mantecas
+                  - heading [level=3] [ref=f24e186]:
+                    - link "Aceite de oliva" [ref=f24e187] [cursor=pointer]:
+                      - /url: /ingredientes/aceite-de-oliva
+                  - paragraph [ref=f24e188]: Hidratación.
+                  - paragraph [ref=f24e189]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e190]:
+                - 'img "Ilustración: Manteca de cacao" [ref=f24e193]'
+                - generic [ref=f24e200]:
+                  - generic [ref=f24e201]: Aceites y mantecas
+                  - heading [level=3] [ref=f24e203]:
+                    - link "Manteca de cacao" [ref=f24e204] [cursor=pointer]:
+                      - /url: /ingredientes/manteca-de-cacao
+                  - paragraph [ref=f24e205]: Dureza y aroma.
+                  - paragraph [ref=f24e206]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e207]:
+                - 'img "Ilustración: Manteca de karité" [ref=f24e210]'
+                - generic [ref=f24e215]:
+                  - generic [ref=f24e216]: Aceites y mantecas
+                  - heading [level=3] [ref=f24e218]:
+                    - link "Manteca de karité" [ref=f24e219] [cursor=pointer]:
+                      - /url: /ingredientes/manteca-de-karite
+                  - paragraph [ref=f24e220]: Nutrición profunda.
+                  - paragraph [ref=f24e221]: Sin recetas documentadas que lo incluyan
+          - region "Fragancias y aceites esenciales" [ref=f24e222]:
+            - generic [ref=f24e223]:
+              - heading "Fragancias y aceites esenciales" [level=2] [ref=f24e224]
+              - generic [ref=f24e225]: 5 fichas
+            - generic [ref=f24e226]:
+              - article [ref=f24e227]:
+                - 'img "Ilustración: Aceite esencial de eucalipto" [ref=f24e230]'
+                - generic [ref=f24e235]:
+                  - generic [ref=f24e236]: Fragancias y aceites esenciales
+                  - heading [level=3] [ref=f24e238]:
+                    - link "Aceite esencial de eucalipto" [ref=f24e239] [cursor=pointer]:
+                      - /url: /ingredientes/aceite-esencial-de-eucalipto
+                  - paragraph [ref=f24e240]: Refrescante.
+                  - paragraph [ref=f24e241]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e242]:
+                - 'img "Ilustración: Aceite esencial de lavanda" [ref=f24e245]'
+                - generic [ref=f24e251]:
+                  - generic [ref=f24e252]: Fragancias y aceites esenciales
+                  - heading [level=3] [ref=f24e254]:
+                    - link "Aceite esencial de lavanda" [ref=f24e255] [cursor=pointer]:
+                      - /url: /ingredientes/aceite-esencial-de-lavanda
+                  - paragraph [ref=f24e256]: Relajante.
+                  - paragraph [ref=f24e257]: Aparece en Jabón hidratante
+              - article [ref=f24e258]:
+                - 'img "Ilustración: Aceite esencial de limón" [ref=f24e261]'
+                - generic [ref=f24e266]:
+                  - generic [ref=f24e267]: Fragancias y aceites esenciales
+                  - heading [level=3] [ref=f24e269]:
+                    - link "Aceite esencial de limón" [ref=f24e270] [cursor=pointer]:
+                      - /url: /ingredientes/aceite-esencial-de-limon
+                  - paragraph [ref=f24e271]: Energizante.
+                  - paragraph [ref=f24e272]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e273]:
+                - 'img "Ilustración: Aceite esencial de naranja" [ref=f24e276]'
+                - generic [ref=f24e281]:
+                  - generic [ref=f24e282]: Fragancias y aceites esenciales
+                  - heading [level=3] [ref=f24e284]:
+                    - link "Aceite esencial de naranja" [ref=f24e285] [cursor=pointer]:
+                      - /url: /ingredientes/aceite-esencial-de-naranja
+                  - paragraph [ref=f24e286]: Energizante.
+                  - paragraph [ref=f24e287]: Aparece en Jabón de café exfoliante
+              - article [ref=f24e288]:
+                - 'img "Ilustración: Fragancias cosméticas" [ref=f24e291]'
+                - generic [ref=f24e299]:
+                  - generic [ref=f24e300]: Fragancias y aceites esenciales
+                  - heading [level=3] [ref=f24e302]:
+                    - link "Fragancias cosméticas" [ref=f24e303] [cursor=pointer]:
+                      - /url: /ingredientes/fragancias-cosmeticas
+                  - paragraph [ref=f24e304]: Más variedad de aromas.
+                  - paragraph [ref=f24e305]: Aparece en Jabón básico para empezar
+          - region "Exfoliantes y complementarios" [ref=f24e306]:
+            - generic [ref=f24e307]:
+              - heading "Exfoliantes y complementarios" [level=2] [ref=f24e308]
+              - generic [ref=f24e309]: 11 fichas
+            - generic [ref=f24e310]:
+              - article [ref=f24e311]:
+                - 'img "Ilustración: Arcillas" [ref=f24e314]'
+                - generic [ref=f24e319]:
+                  - generic [ref=f24e320]: Exfoliantes y complementarios
+                  - heading [level=3] [ref=f24e322]:
+                    - link "Arcillas" [ref=f24e323] [cursor=pointer]:
+                      - /url: /ingredientes/arcillas
+                  - paragraph [ref=f24e324]: Limpieza profunda.
+                  - paragraph [ref=f24e325]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e326]:
+                - 'img "Ilustración: Arroz en polvo" [ref=f24e329]'
+                - generic [ref=f24e338]:
+                  - generic [ref=f24e339]:
+                    - generic [ref=f24e340]: Exfoliantes y complementarios
+                    - generic [ref=f24e341]: Propiedad pendiente
+                  - heading [level=3] [ref=f24e342]:
+                    - link "Arroz en polvo" [ref=f24e343] [cursor=pointer]:
+                      - /url: /ingredientes/arroz-en-polvo
+                  - paragraph [ref=f24e344]: Propiedad pendiente de completar.
+                  - paragraph [ref=f24e345]: Aparece en Jabón de arroz absorbente
+              - article [ref=f24e346]:
+                - 'img "Ilustración: Avena" [ref=f24e349]'
+                - generic [ref=f24e356]:
+                  - generic [ref=f24e357]: Exfoliantes y complementarios
+                  - heading [level=3] [ref=f24e359]:
+                    - link "Avena" [ref=f24e360] [cursor=pointer]:
+                      - /url: /ingredientes/avena
+                  - paragraph [ref=f24e361]: Exfoliante suave.
+                  - paragraph [ref=f24e362]: Aparece en Jabón exfoliante
+              - article [ref=f24e363]:
+                - 'img "Ilustración: Café molido" [ref=f24e366]'
+                - generic [ref=f24e373]:
+                  - generic [ref=f24e374]:
+                    - generic [ref=f24e375]: Exfoliantes y complementarios
+                    - generic [ref=f24e376]: Propiedad pendiente
+                  - heading [level=3] [ref=f24e377]:
+                    - link "Café molido" [ref=f24e378] [cursor=pointer]:
+                      - /url: /ingredientes/cafe-molido
+                  - paragraph [ref=f24e379]: Propiedad pendiente de completar.
+                  - paragraph [ref=f24e380]: Aparece en Jabón de café exfoliante
+              - article [ref=f24e381]:
+                - 'img "Ilustración: Colorantes" [ref=f24e384]'
+                - generic [ref=f24e389]:
+                  - generic [ref=f24e390]:
+                    - generic [ref=f24e391]: Exfoliantes y complementarios
+                    - generic [ref=f24e392]: Propiedad pendiente
+                  - heading [level=3] [ref=f24e393]:
+                    - link "Colorantes" [ref=f24e394] [cursor=pointer]:
+                      - /url: /ingredientes/colorantes
+                  - paragraph [ref=f24e395]: Propiedad pendiente de completar.
+                  - paragraph [ref=f24e396]: Aparece en Jabón básico para empezar
+              - article [ref=f24e397]:
+                - 'img "Ilustración: Cúrcuma en polvo" [ref=f24e400]'
+                - generic [ref=f24e410]:
+                  - generic [ref=f24e411]:
+                    - generic [ref=f24e412]: Exfoliantes y complementarios
+                    - generic [ref=f24e413]: Propiedad pendiente
+                  - heading [level=3] [ref=f24e414]:
+                    - link "Cúrcuma en polvo" [ref=f24e415] [cursor=pointer]:
+                      - /url: /ingredientes/curcuma-en-polvo
+                  - paragraph [ref=f24e416]: Propiedad pendiente de completar.
+                  - paragraph [ref=f24e417]: Aparece en Jabón de manzanilla y cúrcuma
+              - article [ref=f24e418]:
+                - 'img "Ilustración: Manzanilla deshidratada" [ref=f24e421]'
+                - generic [ref=f24e431]:
+                  - generic [ref=f24e432]:
+                    - generic [ref=f24e433]: Exfoliantes y complementarios
+                    - generic [ref=f24e434]: Propiedad pendiente
+                  - heading [level=3] [ref=f24e435]:
+                    - link "Manzanilla deshidratada" [ref=f24e436] [cursor=pointer]:
+                      - /url: /ingredientes/manzanilla-deshidratada
+                  - paragraph [ref=f24e437]: Propiedad pendiente de completar.
+                  - paragraph [ref=f24e438]: Aparece en Jabón de manzanilla y cúrcuma
+              - article [ref=f24e439]:
+                - 'img "Ilustración: Miel" [ref=f24e442]'
+                - generic [ref=f24e448]:
+                  - generic [ref=f24e449]: Exfoliantes y complementarios
+                  - heading [level=3] [ref=f24e451]:
+                    - link "Miel" [ref=f24e452] [cursor=pointer]:
+                      - /url: /ingredientes/miel
+                  - paragraph [ref=f24e453]: Hidratante.
+                  - paragraph [ref=f24e454]: Aparece en Jabón exfoliante
+              - article [ref=f24e455]:
+                - 'img "Ilustración: Pétalos secos" [ref=f24e458]'
+                - generic [ref=f24e466]:
+                  - generic [ref=f24e467]: Exfoliantes y complementarios
+                  - heading [level=3] [ref=f24e469]:
+                    - link "Pétalos secos" [ref=f24e470] [cursor=pointer]:
+                      - /url: /ingredientes/petalos-secos
+                  - paragraph [ref=f24e471]: Decoración.
+                  - paragraph [ref=f24e472]: Sin recetas documentadas que lo incluyan
+              - article [ref=f24e473]:
+                - 'img "Ilustración: Semillas de amapola" [ref=f24e476]'
+                - generic [ref=f24e486]:
+                  - generic [ref=f24e487]: Exfoliantes y complementarios
+                  - heading [level=3] [ref=f24e489]:
+                    - link "Semillas de amapola" [ref=f24e490] [cursor=pointer]:
+                      - /url: /ingredientes/semillas-de-amapola
+                  - paragraph [ref=f24e491]: Exfoliación.
+                  - paragraph [ref=f24e492]: Aparece en Jabón exfoliante
+              - article [ref=f24e493]:
+                - 'img "Ilustración: Semillas de chía" [ref=f24e496]'
+                - generic [ref=f24e506]:
+                  - generic [ref=f24e507]: Exfoliantes y complementarios
+                  - heading [level=3] [ref=f24e509]:
+                    - link "Semillas de chía" [ref=f24e510] [cursor=pointer]:
+                      - /url: /ingredientes/semillas-de-chia
+                  - paragraph [ref=f24e511]: Exfoliación.
+                  - paragraph [ref=f24e512]: Sin recetas documentadas que lo incluyan
+    - contentinfo [ref=f24e513]:
+      - generic [ref=f24e514]:
+        - generic [ref=f24e515]:
+          - generic [ref=f24e516]:
+            - generic [ref=f24e517]: El Jardín del Jabón
+            - paragraph [ref=f24e518]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f24e519]:
+            - text: Secciones
+            - list [ref=f24e520]:
+              - listitem [ref=f24e521]:
+                - link "Catálogo de recetas" [ref=f24e522] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f24e523]:
+                - link "Biblioteca de ingredientes" [ref=f24e524] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f24e525]:
+                - link "Herramientas y materiales" [ref=f24e526] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f24e527]:
+                - link "Lista de compras" [ref=f24e528] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f24e529]:
+                - link "Favoritos" [ref=f24e530] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f24e531]:
+            - generic [ref=f24e532]: Contenido
+            - paragraph [ref=f24e533]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f24e534]: Los cambios se guardan en este navegador.
+          - generic [ref=f24e535]:
+            - generic [ref=f24e536]: Antes de empezar
+            - paragraph [ref=f24e537]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f24e538]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f24e539]
+        - paragraph [ref=f24e540]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

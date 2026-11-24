@@ -1,0 +1,113 @@
+- generic [ref=f58e2]:
+  - generic [ref=f58e3]:
+    - link "Saltar al contenido" [ref=f58e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f58e5]:
+      - generic [ref=f58e6]:
+        - link "El Jardín del Jabón" [ref=f58e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f58e11] [cursor=pointer]
+    - main [ref=f58e14]:
+      - generic [ref=f58e15]:
+        - generic [ref=f58e16]:
+          - generic [ref=f58e17]: Zona de contenido
+          - heading "Administración" [level=1] [ref=f58e18]
+          - paragraph [ref=f58e19]: Crear, editar y completar recetas e ingredientes. Los cambios se guardan en este navegador.
+        - generic [ref=f58e20]:
+          - paragraph [ref=f58e21]: Cómo funciona el acceso
+          - paragraph [ref=f58e24]: "No hay contraseña en el sitio. Una clave guardada en JavaScript o en LocalStorage no es seguridad: cualquiera la lee en el navegador. Este panel está pensado para un sitio local o de un solo editor. Para publicar el contenido en un servidor, la autenticación, la validación y el guardado deben vivir en el backend."
+        - navigation "Secciones de administración" [ref=f58e25]:
+          - generic [ref=f58e26]:
+            - link "Resumen" [ref=f58e27] [cursor=pointer]:
+              - /url: /administracion
+            - link "Nueva receta" [ref=f58e31] [cursor=pointer]:
+              - /url: /administracion/recetas/nueva
+            - link "Nuevo ingrediente" [ref=f58e34] [cursor=pointer]:
+              - /url: /administracion/ingredientes/nuevo
+          - paragraph [ref=f58e37]: 6 recetas · 27 ingredientes · Los cambios se guardan en este navegador.
+        - generic [ref=f58e38]:
+          - generic [ref=f58e39]:
+            - generic [ref=f58e40]: Creación
+            - heading "Nuevo ingrediente" [level=2] [ref=f58e41]
+            - paragraph [ref=f58e42]: "La propiedad describe lo que dice el archivo. Si el archivo no lo dice, déjala vacía: la ficha se marcará como pendiente."
+          - generic [ref=f58e43]: Propiedad pendiente
+        - form "Formulario de ingrediente" [ref=f58e45]:
+          - region "Ficha" [ref=f58e46]:
+            - heading "Ficha" [level=2] [ref=f58e47]
+            - generic [ref=f58e48]:
+              - generic [ref=f58e49]:
+                - generic [ref=f58e50]: Nombre *
+                - textbox "Nombre" [ref=f58e51]:
+                  - /placeholder: Manteca de karité
+              - generic [ref=f58e52]:
+                - generic [ref=f58e53]: Categoría
+                - combobox "Categoría" [ref=f58e54]:
+                  - option "Bases de jabón"
+                  - option "Aceites y mantecas"
+                  - option "Fragancias y aceites esenciales"
+                  - option "Exfoliantes y complementarios" [selected]
+              - generic [ref=f58e55]:
+                - generic [ref=f58e56]: Familia o variante
+                - textbox "Familia o variante" [ref=f58e57]:
+                  - /placeholder: Base de glicerina
+                - generic [ref=f58e58]: "Agrupa fichas hermanas: base transparente, base de leche…"
+              - generic [ref=f58e59]:
+                - generic [ref=f58e60]: Enlace (slug)
+                - textbox "Enlace (slug)" [ref=f58e61]:
+                  - /placeholder: se calcula desde el nombre
+            - generic [ref=f58e62]:
+              - generic [ref=f58e63]: Propiedad o función
+              - textbox "Propiedad o función" [ref=f58e64]:
+                - /placeholder: Suaviza y calma la piel seca
+              - generic [ref=f58e65]: Escribe solo lo que aporta una fuente. Los textos vacíos se muestran como información pendiente.
+            - generic [ref=f58e66]:
+              - generic [ref=f58e67]:
+                - generic [ref=f58e68]: Procedencia de la propiedad
+                - combobox "Procedencia de la propiedad" [ref=f58e69]:
+                  - option "Documentado en recetas.txt"
+                  - option "Clasificación del sitio"
+                  - option "Pendiente de completar" [selected]
+              - generic [ref=f58e70]:
+                - generic [ref=f58e71]: Nota de seguridad
+                - textbox "Nota de seguridad" [ref=f58e72]:
+                  - /placeholder: Puede teñir la piel clara
+                - generic [ref=f58e73]: Se muestra junto a la propiedad, destacada como precaución.
+          - generic [ref=f58e75]:
+            - button "Crear ingrediente" [ref=f58e76] [cursor=pointer]
+            - link "Cancelar" [ref=f58e80] [cursor=pointer]:
+              - /url: /administracion
+    - contentinfo [ref=f58e84]:
+      - generic [ref=f58e85]:
+        - generic [ref=f58e86]:
+          - generic [ref=f58e87]:
+            - generic [ref=f58e88]: El Jardín del Jabón
+            - paragraph [ref=f58e89]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f58e90]:
+            - text: Secciones
+            - list [ref=f58e91]:
+              - listitem [ref=f58e92]:
+                - link "Catálogo de recetas" [ref=f58e93] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f58e94]:
+                - link "Biblioteca de ingredientes" [ref=f58e95] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f58e96]:
+                - link "Herramientas y materiales" [ref=f58e97] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f58e98]:
+                - link "Lista de compras" [ref=f58e99] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f58e100]:
+                - link "Favoritos" [ref=f58e101] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f58e102]:
+            - generic [ref=f58e103]: Contenido
+            - paragraph [ref=f58e104]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f58e105]: Los cambios se guardan en este navegador.
+          - generic [ref=f58e106]:
+            - generic [ref=f58e107]: Antes de empezar
+            - paragraph [ref=f58e108]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f58e109]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f58e110]
+        - paragraph [ref=f58e111]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

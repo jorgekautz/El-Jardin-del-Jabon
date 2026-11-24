@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "skills": {
+    "building-accessible-interfaces": {
+      "source": "osmontero/opencode-skills",
+      "commit": "3478280631435fcb9e2d85c5f053f8e8e64364b8",
+      "sourceType": "github",
+      "skillPath": "skills/building-accessible-interfaces/SKILL.md",
+      "computedHash": "4a7f9c552c20ea12a854825100f5856f420a7888ea38a85385e1a497d4635657"
+    },
+    "designing-frontend-interfaces": {
+      "source": "osmontero/opencode-skills",
+      "commit": "3478280631435fcb9e2d85c5f053f8e8e64364b8",
+      "sourceType": "github",
+      "skillPath": "skills/designing-frontend-interfaces/SKILL.md",
+      "computedHash": "ad117694ceb33f6a98d18984bd5991ec8bd13f5f1f0a3d513de0f01be289728a"
+    },
+    "designing-user-experience": {
+      "source": "osmontero/opencode-skills",
+      "commit": "3478280631435fcb9e2d85c5f053f8e8e64364b8",
+      "sourceType": "github",
+      "skillPath": "skills/designing-user-experience/SKILL.md",
+      "computedHash": "c800edd52c4345f98c8de52c1849ade628394f85500027fd62f080aba54811bf"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "83485963700bcf11d5bf78118facb301676b69d918fee2e45a95e7f1a2840f6c"
+    },
+    "frontend-engineering": {
+      "source": "vekzz-dev/opencode-skills",
+      "commit": "fa1b07efe993afbd4ff729115f18565798947b03",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-engineering/SKILL.md",
+      "computedHash": "e9624d60dc85a2f294f12dd708eb6f70401ea88461db7bb054bad662ccaf4835"
+    },
+    "investigating-performance": {
+      "source": "osmontero/opencode-skills",
+      "commit": "3478280631435fcb9e2d85c5f053f8e8e64364b8",
+      "sourceType": "github",
+      "skillPath": "skills/investigating-performance/SKILL.md",
+      "computedHash": "14a94154a5162a62634140b1a6964ba3a775dbecc90340a3a09e7dfd20fca530"
+    },
+    "playwright": {
+      "source": "openai/skills",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourceType": "github",
+      "skillPath": "skills/.curated/playwright/SKILL.md",
+      "computedHash": "d4ba899ecfb8c4b72c52bf11527e308ae07427483380feae0d518ea7d09bb844"
+    },
+    "reviewing-interface-quality": {
+      "source": "osmontero/opencode-skills",
+      "commit": "3478280631435fcb9e2d85c5f053f8e8e64364b8",
+      "sourceType": "github",
+      "skillPath": "skills/reviewing-interface-quality/SKILL.md",
+      "computedHash": "24802c426c628165eca41dbe9df3d4f2d90074b6740b6966ae7c9ac9c66f5d5f"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+- generic [ref=f100e2]:
+  - generic [ref=f100e3]:
+    - link "Saltar al contenido" [ref=f100e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f100e5]:
+      - generic [ref=f100e6]:
+        - link "El Jardín del Jabón" [ref=f100e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f100e11] [cursor=pointer]
+    - main [ref=f100e14]:
+      - generic [ref=f100e15]:
+        - generic [ref=f100e16]:
+          - generic [ref=f100e17]:
+            - generic [ref=f100e18]: Kit mínimo
+            - heading "Herramientas y materiales" [level=2] [ref=f100e19]
+            - paragraph [ref=f100e20]: Los utensilios que el archivo enumera como herramientas básicas, más la lista de compra realista.
+          - link "Lista de compras" [ref=f100e22] [cursor=pointer]:
+            - /url: /compras
+        - generic [ref=f100e28]:
+          - generic [ref=f100e29]:
+            - paragraph [ref=f100e30]: Para el método de derretir y verter hacen falta cinco cosas. Todo lo demás es comodidad, no necesidad.
+            - paragraph [ref=f100e31]: El archivo describe el uso del alcohol en spray; para el resto de utensilios no documenta indicaciones, y así se muestra.
+          - generic [ref=f100e32]:
+            - 'img "Ilustración: Utensilios básicos sobre lienzo" [ref=f100e34]'
+            - generic [ref=f100e39]: Fotografía pendiente
+        - generic [ref=f100e40]:
+          - article [ref=f100e41]:
+            - 'img "Ilustración: Ilustración de Molde de silicona" [ref=f100e44]'
+            - generic [ref=f100e49]:
+              - heading "Molde de silicona" [level=3] [ref=f100e50]
+              - paragraph [ref=f100e51]: "Uso pendiente de completar: el archivo no describe este utensilio."
+              - generic "Información pendiente de completar" [ref=f100e53]
+          - article [ref=f100e54]:
+            - 'img "Ilustración: Ilustración de Recipiente para derretir" [ref=f100e57]'
+            - generic [ref=f100e61]:
+              - heading "Recipiente para derretir" [level=3] [ref=f100e62]
+              - paragraph [ref=f100e63]: "Uso pendiente de completar: el archivo no describe este utensilio."
+              - generic "Información pendiente de completar" [ref=f100e65]
+          - article [ref=f100e66]:
+            - 'img "Ilustración: Ilustración de Espátula" [ref=f100e69]'
+            - generic [ref=f100e74]:
+              - heading "Espátula" [level=3] [ref=f100e75]
+              - paragraph [ref=f100e76]: "Uso pendiente de completar: el archivo no describe este utensilio."
+              - generic "Información pendiente de completar" [ref=f100e78]
+          - article [ref=f100e79]:
+            - 'img "Ilustración: Ilustración de Microondas o baño María" [ref=f100e82]'
+            - generic [ref=f100e86]:
+              - heading "Microondas o baño María" [level=3] [ref=f100e87]
+              - paragraph [ref=f100e88]: "Uso pendiente de completar: el archivo no describe este utensilio."
+              - generic "Información pendiente de completar" [ref=f100e90]
+          - article [ref=f100e91]:
+            - 'img "Ilustración: Ilustración de Alcohol en spray" [ref=f100e94]'
+            - generic [ref=f100e98]:
+              - heading "Alcohol en spray" [level=3] [ref=f100e99]
+              - paragraph [ref=f100e100]: Rociar al final para quitar las burbujas.
+              - generic "Documentado en recetas.txt" [ref=f100e102]
+        - region "Lo que hay que comprar para empezar" [ref=f100e103]:
+          - generic [ref=f100e104]:
+            - generic [ref=f100e105]:
+              - generic [ref=f100e106]: Lista de compra básica
+              - heading "Lo que hay que comprar para empezar" [level=2] [ref=f100e107]
+            - generic [ref=f100e108]: 0 de 6 adquiridos
+          - table "Lista de compra básica del archivo" [ref=f100e110]:
+            - caption [ref=f100e111]: Lista de compra básica del archivo
+            - rowgroup [ref=f100e112]:
+              - row [ref=f100e113]:
+                - rowheader "Base de glicerina" [ref=f100e114]
+                - cell "Cantidad 500 g – 1 kg" [ref=f100e115]
+                - cell "Nota El archivo la describe como el punto de partida del kit." [ref=f100e116]
+                - cell "Estado Por adquirir" [ref=f100e117]:
+                  - text: Estado
+                  - generic [ref=f100e118]: Por adquirir
+              - row [ref=f100e119]:
+                - rowheader "Fragancias o aceites esenciales" [ref=f100e120]
+                - cell "Cantidad 1–2" [ref=f100e121]
+                - cell "Nota Uno o dos aromas bastan para empezar." [ref=f100e122]
+                - cell "Estado Por adquirir" [ref=f100e123]:
+                  - text: Estado
+                  - generic [ref=f100e124]: Por adquirir
+              - row [ref=f100e125]:
+                - rowheader "Colorantes" [ref=f100e126]
+                - cell "Cantidad 1–2" [ref=f100e127]
+                - cell "Nota Opcionales en la receta básica." [ref=f100e128]
+                - cell "Estado Por adquirir" [ref=f100e129]:
+                  - text: Estado
+                  - generic [ref=f100e130]: Por adquirir
+              - row [ref=f100e131]:
+                - rowheader "Molde de silicona" [ref=f100e132]
+                - cell "Cantidad 1" [ref=f100e133]
+                - cell "Nota El molde se desmolda sin engrasar." [ref=f100e134]
+                - cell "Estado Por adquirir" [ref=f100e135]:
+                  - text: Estado
+                  - generic [ref=f100e136]: Por adquirir
+              - row [ref=f100e137]:
+                - rowheader "Alcohol en spray" [ref=f100e138]
+                - cell "Cantidad 1" [ref=f100e139]
+                - cell "Nota Quita las burbujas al verter." [ref=f100e140]
+                - cell "Estado Por adquirir" [ref=f100e141]:
+                  - text: Estado
+                  - generic [ref=f100e142]: Por adquirir
+              - row [ref=f100e143]:
+                - rowheader "Espátula o cuchara" [ref=f100e144]
+                - cell "Cantidad 1" [ref=f100e145]
+                - cell "Nota Para mezclar y mover la masa." [ref=f100e146]
+                - cell "Estado Por adquirir" [ref=f100e147]:
+                  - text: Estado
+                  - generic [ref=f100e148]: Por adquirir
+          - paragraph [ref=f100e149]:
+            - text: Las casillas se guardan en este navegador. Marca y desmarca desde la
+            - link "lista interactiva" [ref=f100e150] [cursor=pointer]:
+              - /url: /compras
+            - text: .
+    - contentinfo [ref=f100e151]:
+      - generic [ref=f100e152]:
+        - generic [ref=f100e153]:
+          - generic [ref=f100e154]:
+            - generic [ref=f100e155]: El Jardín del Jabón
+            - paragraph [ref=f100e156]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f100e157]:
+            - text: Secciones
+            - list [ref=f100e158]:
+              - listitem [ref=f100e159]:
+                - link "Catálogo de recetas" [ref=f100e160] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f100e161]:
+                - link "Biblioteca de ingredientes" [ref=f100e162] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f100e163]:
+                - link "Herramientas y materiales" [ref=f100e164] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f100e165]:
+                - link "Lista de compras" [ref=f100e166] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f100e167]:
+                - link "Favoritos" [ref=f100e168] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f100e169]:
+            - generic [ref=f100e170]: Contenido
+            - paragraph [ref=f100e171]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f100e172]: Los cambios se guardan en este navegador.
+          - generic [ref=f100e173]:
+            - generic [ref=f100e174]: Antes de empezar
+            - paragraph [ref=f100e175]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f100e176]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f100e177]
+        - paragraph [ref=f100e178]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

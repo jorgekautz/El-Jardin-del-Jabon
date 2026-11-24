@@ -1,0 +1,61 @@
+- generic [ref=f168e2]:
+  - generic [ref=f168e3]:
+    - link "Saltar al contenido" [ref=f168e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f168e5]:
+      - generic [ref=f168e6]:
+        - link "El Jardín del Jabón" [ref=f168e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f168e11] [cursor=pointer]
+    - main [ref=f168e14]:
+      - generic [ref=f168e16]:
+        - generic [ref=f168e17]: Enlace roto
+        - heading "Esta página no está en la biblioteca" [level=1] [ref=f168e20]
+        - paragraph [ref=f168e21]: Puede que la receta se haya eliminado desde la administración, o que el enlace esté mal escrito. El catálogo sigue disponible.
+        - generic [ref=f168e22]:
+          - link "Portada" [ref=f168e23] [cursor=pointer]:
+            - /url: /
+          - link "Ver las recetas" [ref=f168e27] [cursor=pointer]:
+            - /url: /recetas
+          - link "Ver los ingredientes" [ref=f168e32] [cursor=pointer]:
+            - /url: /ingredientes
+        - paragraph [ref=f168e34]:
+          - text: ¿Buscas una receta concreta? Empieza por
+          - link "la búsqueda del catálogo" [ref=f168e35] [cursor=pointer]:
+            - /url: /recetas
+          - text: .
+    - contentinfo [ref=f168e36]:
+      - generic [ref=f168e37]:
+        - generic [ref=f168e38]:
+          - generic [ref=f168e39]:
+            - generic [ref=f168e40]: El Jardín del Jabón
+            - paragraph [ref=f168e41]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f168e42]:
+            - text: Secciones
+            - list [ref=f168e43]:
+              - listitem [ref=f168e44]:
+                - link "Catálogo de recetas" [ref=f168e45] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f168e46]:
+                - link "Biblioteca de ingredientes" [ref=f168e47] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f168e48]:
+                - link "Herramientas y materiales" [ref=f168e49] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f168e50]:
+                - link "Lista de compras" [ref=f168e51] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f168e52]:
+                - link "Favoritos" [ref=f168e53] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f168e54]:
+            - generic [ref=f168e55]: Contenido
+            - paragraph [ref=f168e56]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f168e57]: Los cambios se guardan en este navegador.
+          - generic [ref=f168e58]:
+            - generic [ref=f168e59]: Antes de empezar
+            - paragraph [ref=f168e60]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f168e61]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f168e62]
+        - paragraph [ref=f168e63]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

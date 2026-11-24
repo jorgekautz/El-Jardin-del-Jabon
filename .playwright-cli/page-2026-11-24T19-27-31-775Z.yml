@@ -1,0 +1,171 @@
+- generic [ref=f159e2]:
+  - generic [ref=f159e3]:
+    - link "Saltar al contenido" [ref=f159e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f159e5]:
+      - generic [ref=f159e6]:
+        - link "El Jardín del Jabón" [ref=f159e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f159e11] [cursor=pointer]
+    - main [ref=f159e14]:
+      - article [ref=f159e15]:
+        - navigation "Migas de pan" [ref=f159e16]:
+          - link "Catálogo de recetas" [ref=f159e17] [cursor=pointer]:
+            - /url: /recetas
+          - generic [aria-hidden] [ref=f159e20]: /
+          - generic [ref=f159e21]: Jabón de arroz absorbente
+        - generic [ref=f159e22]:
+          - generic [ref=f159e23]:
+            - generic [ref=f159e24]:
+              - generic [ref=f159e25]: Absorbentes
+              - generic [ref=f159e26]: 4 datos pendientes
+            - generic [ref=f159e27]:
+              - heading "Jabón de arroz absorbente" [level=1] [ref=f159e28]
+              - paragraph [ref=f159e29]: Descripción pendiente de completar.
+            - generic [ref=f159e30]:
+              - button "Guardar Jabón de arroz absorbente en favoritos" [ref=f159e31] [cursor=pointer]: Añadir a favoritos
+              - button "Imprimir receta" [ref=f159e34] [cursor=pointer]
+              - link "Editar" [ref=f159e40] [cursor=pointer]:
+                - /url: /administracion/recetas/r-jabon-arroz/editar
+            - generic [ref=f159e45]:
+              - generic [ref=f159e46]:
+                - generic [ref=f159e47]: Ingrediente principal
+                - generic [ref=f159e48]: Arroz en polvo
+              - generic [ref=f159e49]:
+                - generic [ref=f159e50]: Propiedades
+                - generic [ref=f159e51]:
+                  - generic [ref=f159e52]: absorción
+                  - generic "Documentado en recetas.txt" [ref=f159e53]
+              - generic [ref=f159e54]:
+                - generic [ref=f159e55]: Nivel
+                - generic [ref=f159e56]:
+                  - text: Intermedio
+                  - generic "Clasificación editorial" [ref=f159e57]
+              - generic [ref=f159e58]:
+                - generic [ref=f159e59]: Elaboración
+                - generic "Información pendiente de completar" [ref=f159e61]: Tiempo pendiente de completar
+              - generic [ref=f159e62]:
+                - generic [ref=f159e63]: Categoría
+                - generic [ref=f159e64]:
+                  - text: Absorbentes
+                  - generic "Clasificación editorial" [ref=f159e65]
+              - generic [ref=f159e66]:
+                - generic [ref=f159e67]: Completitud
+                - generic [ref=f159e68]: 43 % de los campos clave con dato
+          - generic [ref=f159e72]:
+            - 'img "Ilustración: Fotografía de Jabón de arroz absorbente" [ref=f159e74]'
+            - generic [ref=f159e83]: Fotografía pendiente
+        - region "Ingredientes y cantidades" [ref=f159e84]:
+          - generic [ref=f159e85]:
+            - generic [ref=f159e86]: Fórmula
+            - heading "Ingredientes y cantidades" [level=2] [ref=f159e87]
+          - list [ref=f159e88]:
+            - listitem [ref=f159e89]:
+              - generic [aria-hidden] [ref=f159e90]: "01"
+              - strong [ref=f159e92]: Base de jabón blanca
+              - generic [ref=f159e93]: 180 g
+            - listitem [ref=f159e94]:
+              - generic [aria-hidden] [ref=f159e95]: "02"
+              - generic [ref=f159e96]:
+                - strong [ref=f159e97]: Arroz en polvo
+                - generic [ref=f159e98]: o 2 cucharaditas
+              - generic [ref=f159e99]: 2,5 g
+          - paragraph [ref=f159e100]: El archivo solo documenta ingredientes y cantidades de esta receta.
+        - region "Utensilios necesarios" [ref=f159e101]:
+          - generic [ref=f159e102]:
+            - generic [ref=f159e103]: Mesa de trabajo
+            - heading "Utensilios necesarios" [level=2] [ref=f159e104]
+          - paragraph [ref=f159e105]: "Información pendiente de completar: el archivo no especifica los utensilios de esta receta. Las herramientas básicas del sitio aplican al método de glicerina."
+        - region "Preparación paso a paso" [ref=f159e106]:
+          - generic [ref=f159e107]:
+            - generic [ref=f159e108]: Elaboración
+            - heading "Preparación paso a paso" [level=2] [ref=f159e109]
+          - paragraph [ref=f159e110]: "Información pendiente de completar: el archivo no describe la secuencia de pasos de esta receta."
+        - region "Estado de la información" [ref=f159e111]:
+          - generic [ref=f159e112]:
+            - generic [ref=f159e113]:
+              - generic [ref=f159e114]: Observaciones
+              - heading "Estado de la información" [level=2] [ref=f159e115]
+            - generic [ref=f159e116]:
+              - paragraph [ref=f159e117]: Información pendiente de completar
+              - paragraph [ref=f159e120]: "El archivo original no documenta estos datos. El sitio no los inventa: quedan vacíos hasta que se completen con una fuente de confianza."
+              - list [ref=f159e121]:
+                - listitem [ref=f159e122]:
+                  - strong [ref=f159e123]: Preparación paso a paso
+                  - generic [ref=f159e124]: El archivo no describe los pasos de esta receta.
+                - listitem [ref=f159e125]:
+                  - strong [ref=f159e126]: Utensilios necesarios
+                  - generic [ref=f159e127]: El archivo no especifica los utensilios de esta receta.
+                - listitem [ref=f159e128]:
+                  - strong [ref=f159e129]: Tiempo de elaboración
+                  - generic [ref=f159e130]: Sin tiempo documentado.
+                - listitem [ref=f159e131]:
+                  - strong [ref=f159e132]: Descripción
+                  - generic [ref=f159e133]: Sin descripción breve.
+              - paragraph [ref=f159e134]:
+                - link "Completar desde la administración" [ref=f159e135] [cursor=pointer]:
+                  - /url: /administracion/recetas/r-jabon-arroz/editar
+          - generic [ref=f159e139]:
+            - generic [ref=f159e140]:
+              - generic [ref=f159e141]: Responsabilidad
+              - heading "Advertencias" [level=2] [ref=f159e142]
+            - region "Antes de elaborar" [ref=f159e143]:
+              - paragraph [ref=f159e144]: Antes de elaborar
+              - list [ref=f159e147]:
+                - listitem [ref=f159e148]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+                - listitem [ref=f159e149]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+                - listitem [ref=f159e150]: Estas recetas son cosméticas. No tratan enfermedades ni sustituyen la indicación de un profesional de la salud.
+                - listitem [ref=f159e151]: "El archivo no documenta dosificaciones seguras para todos los ingredientes: no excedas las cantidades indicadas y completa los huecos con fuentes de confianza."
+                - listitem [ref=f159e152]: Etiqueta cada jabón con sus ingredientes para poder identificar qué causó una reacción.
+                - listitem [ref=f159e153]: "Derretir la base requiere calor y líquido caliente: usa recipiente apto, manipula con cuidado y ventila la zona de trabajo."
+              - paragraph [ref=f159e154]: Recomendaciones generales del sitio. No sustituyen la ficha técnica del proveedor de cada ingrediente.
+        - region "Ingredientes de esta receta" [ref=f159e155]:
+          - generic [ref=f159e156]:
+            - generic [ref=f159e157]: Fichas relacionadas
+            - heading "Ingredientes de esta receta" [level=2] [ref=f159e158]
+          - list [ref=f159e159]:
+            - listitem [ref=f159e160]:
+              - link "Bases de jabón Base de glicerina blanca (opaca)" [ref=f159e161] [cursor=pointer]:
+                - /url: /ingredientes/base-de-glicerina-blanca-opaca
+                - generic [ref=f159e162]: Bases de jabón
+                - text: Base de glicerina blanca (opaca)
+            - listitem [ref=f159e163]:
+              - link "Exfoliantes y complementarios Arroz en polvo" [ref=f159e164] [cursor=pointer]:
+                - /url: /ingredientes/arroz-en-polvo
+                - generic [ref=f159e165]: Exfoliantes y complementarios
+                - text: Arroz en polvo
+    - contentinfo [ref=f159e166]:
+      - generic [ref=f159e167]:
+        - generic [ref=f159e168]:
+          - generic [ref=f159e169]:
+            - generic [ref=f159e170]: El Jardín del Jabón
+            - paragraph [ref=f159e171]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f159e172]:
+            - text: Secciones
+            - list [ref=f159e173]:
+              - listitem [ref=f159e174]:
+                - link "Catálogo de recetas" [ref=f159e175] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f159e176]:
+                - link "Biblioteca de ingredientes" [ref=f159e177] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f159e178]:
+                - link "Herramientas y materiales" [ref=f159e179] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f159e180]:
+                - link "Lista de compras" [ref=f159e181] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f159e182]:
+                - link "Favoritos" [ref=f159e183] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f159e184]:
+            - generic [ref=f159e185]: Contenido
+            - paragraph [ref=f159e186]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f159e187]: Los cambios se guardan en este navegador.
+          - generic [ref=f159e188]:
+            - generic [ref=f159e189]: Antes de empezar
+            - paragraph [ref=f159e190]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f159e191]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f159e192]
+        - paragraph [ref=f159e193]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

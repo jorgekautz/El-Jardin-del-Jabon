@@ -1,0 +1,182 @@
+- generic [ref=f156e2]:
+  - generic [ref=f156e3]:
+    - link "Saltar al contenido" [ref=f156e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f156e5]:
+      - generic [ref=f156e6]:
+        - link "El Jardín del Jabón" [ref=f156e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f156e11] [cursor=pointer]
+    - main [ref=f156e14]:
+      - article [ref=f156e15]:
+        - navigation "Migas de pan" [ref=f156e16]:
+          - link "Catálogo de recetas" [ref=f156e17] [cursor=pointer]:
+            - /url: /recetas
+          - generic [aria-hidden] [ref=f156e20]: /
+          - generic [ref=f156e21]: Jabón hidratante
+        - generic [ref=f156e22]:
+          - generic [ref=f156e23]:
+            - generic [ref=f156e24]:
+              - generic [ref=f156e25]: Hidratantes
+              - generic [ref=f156e26]: 4 datos pendientes
+            - generic [ref=f156e27]:
+              - heading "Jabón hidratante" [level=1] [ref=f156e28]
+              - paragraph [ref=f156e29]: Pensado para piel seca.
+            - generic [ref=f156e30]:
+              - button "Guardar Jabón hidratante en favoritos" [ref=f156e31] [cursor=pointer]: Añadir a favoritos
+              - button "Imprimir receta" [ref=f156e34] [cursor=pointer]
+              - link "Editar" [ref=f156e40] [cursor=pointer]:
+                - /url: /administracion/recetas/r-jabon-hidratante/editar
+            - generic [ref=f156e45]:
+              - generic [ref=f156e46]:
+                - generic [ref=f156e47]: Ingrediente principal
+                - generic [ref=f156e48]: Aceite de almendras o coco
+              - generic [ref=f156e49]:
+                - generic [ref=f156e50]: Propiedades
+                - generic [ref=f156e51]:
+                  - generic [ref=f156e52]: hidratación
+                  - generic "Documentado en recetas.txt" [ref=f156e53]
+              - generic [ref=f156e54]:
+                - generic [ref=f156e55]: Nivel
+                - generic [ref=f156e56]:
+                  - text: Principiante
+                  - generic "Clasificación editorial" [ref=f156e57]
+              - generic [ref=f156e58]:
+                - generic [ref=f156e59]: Elaboración
+                - generic "Información pendiente de completar" [ref=f156e61]: Tiempo pendiente de completar
+              - generic [ref=f156e62]:
+                - generic [ref=f156e63]: Categoría
+                - generic [ref=f156e64]:
+                  - text: Hidratantes
+                  - generic "Clasificación editorial" [ref=f156e65]
+              - generic [ref=f156e66]:
+                - generic [ref=f156e67]: Completitud
+                - generic [ref=f156e68]: 43 % de los campos clave con dato
+          - generic [ref=f156e72]:
+            - 'img "Ilustración: Fotografía de Jabón hidratante" [ref=f156e74]'
+            - generic [ref=f156e78]: Fotografía pendiente
+        - region "Ingredientes y cantidades" [ref=f156e79]:
+          - generic [ref=f156e80]:
+            - generic [ref=f156e81]: Fórmula
+            - heading "Ingredientes y cantidades" [level=2] [ref=f156e82]
+          - list [ref=f156e83]:
+            - listitem [ref=f156e84]:
+              - generic [aria-hidden] [ref=f156e85]: "01"
+              - generic [ref=f156e86]:
+                - strong [ref=f156e87]: Base de glicerina blanca
+                - generic "Información pendiente de completar" [ref=f156e89]: Dato del archivo incompleto
+              - generic [ref=f156e90]: Cantidad pendiente
+            - listitem [ref=f156e91]:
+              - generic [aria-hidden] [ref=f156e92]: "02"
+              - strong [ref=f156e94]: Aceite de almendras o coco
+              - generic [ref=f156e95]: 1 cucharada
+            - listitem [ref=f156e96]:
+              - generic [aria-hidden] [ref=f156e97]: "03"
+              - generic [ref=f156e98]:
+                - strong [ref=f156e99]: Esencia suave de lavanda o rosas
+                - generic "Información pendiente de completar" [ref=f156e101]: Dato del archivo incompleto
+              - generic [ref=f156e102]: Cantidad pendiente
+          - paragraph [ref=f156e103]: El archivo indica los ingredientes, pero no las cantidades de base ni de esencia.
+        - region "Utensilios necesarios" [ref=f156e104]:
+          - generic [ref=f156e105]:
+            - generic [ref=f156e106]: Mesa de trabajo
+            - heading "Utensilios necesarios" [level=2] [ref=f156e107]
+          - paragraph [ref=f156e108]: "Información pendiente de completar: el archivo no especifica los utensilios de esta receta. Las herramientas básicas del sitio aplican al método de glicerina."
+        - region "Preparación paso a paso" [ref=f156e109]:
+          - generic [ref=f156e110]:
+            - generic [ref=f156e111]: Elaboración
+            - heading "Preparación paso a paso" [level=2] [ref=f156e112]
+          - paragraph [ref=f156e113]: "Información pendiente de completar: el archivo no describe la secuencia de pasos de esta receta."
+        - region "Estado de la información" [ref=f156e114]:
+          - generic [ref=f156e115]:
+            - generic [ref=f156e116]:
+              - generic [ref=f156e117]: Observaciones
+              - heading "Estado de la información" [level=2] [ref=f156e118]
+            - generic [ref=f156e119]:
+              - paragraph [ref=f156e120]: Información pendiente de completar
+              - paragraph [ref=f156e123]: "El archivo original no documenta estos datos. El sitio no los inventa: quedan vacíos hasta que se completen con una fuente de confianza."
+              - list [ref=f156e124]:
+                - listitem [ref=f156e125]:
+                  - strong [ref=f156e126]: Cantidades de ingredientes
+                  - generic [ref=f156e127]: "Sin cantidad documentada: Base de glicerina blanca, Esencia suave de lavanda o rosas."
+                - listitem [ref=f156e128]:
+                  - strong [ref=f156e129]: Preparación paso a paso
+                  - generic [ref=f156e130]: El archivo no describe los pasos de esta receta.
+                - listitem [ref=f156e131]:
+                  - strong [ref=f156e132]: Utensilios necesarios
+                  - generic [ref=f156e133]: El archivo no especifica los utensilios de esta receta.
+                - listitem [ref=f156e134]:
+                  - strong [ref=f156e135]: Tiempo de elaboración
+                  - generic [ref=f156e136]: Sin tiempo documentado.
+              - paragraph [ref=f156e137]:
+                - link "Completar desde la administración" [ref=f156e138] [cursor=pointer]:
+                  - /url: /administracion/recetas/r-jabon-hidratante/editar
+          - generic [ref=f156e142]:
+            - generic [ref=f156e143]:
+              - generic [ref=f156e144]: Responsabilidad
+              - heading "Advertencias" [level=2] [ref=f156e145]
+            - region "Antes de elaborar" [ref=f156e146]:
+              - paragraph [ref=f156e147]: Antes de elaborar
+              - list [ref=f156e150]:
+                - listitem [ref=f156e151]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+                - listitem [ref=f156e152]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+                - listitem [ref=f156e153]: Estas recetas son cosméticas. No tratan enfermedades ni sustituyen la indicación de un profesional de la salud.
+                - listitem [ref=f156e154]: "El archivo no documenta dosificaciones seguras para todos los ingredientes: no excedas las cantidades indicadas y completa los huecos con fuentes de confianza."
+                - listitem [ref=f156e155]: Etiqueta cada jabón con sus ingredientes para poder identificar qué causó una reacción.
+                - listitem [ref=f156e156]: "Derretir la base requiere calor y líquido caliente: usa recipiente apto, manipula con cuidado y ventila la zona de trabajo."
+              - paragraph [ref=f156e157]: Recomendaciones generales del sitio. No sustituyen la ficha técnica del proveedor de cada ingrediente.
+        - region "Ingredientes de esta receta" [ref=f156e158]:
+          - generic [ref=f156e159]:
+            - generic [ref=f156e160]: Fichas relacionadas
+            - heading "Ingredientes de esta receta" [level=2] [ref=f156e161]
+          - list [ref=f156e162]:
+            - listitem [ref=f156e163]:
+              - link "Bases de jabón Base de glicerina blanca (opaca)" [ref=f156e164] [cursor=pointer]:
+                - /url: /ingredientes/base-de-glicerina-blanca-opaca
+                - generic [ref=f156e165]: Bases de jabón
+                - text: Base de glicerina blanca (opaca)
+            - listitem [ref=f156e166]:
+              - link "Aceites y mantecas Aceite de almendras" [ref=f156e167] [cursor=pointer]:
+                - /url: /ingredientes/aceite-de-almendras
+                - generic [ref=f156e168]: Aceites y mantecas
+                - text: Aceite de almendras
+            - listitem [ref=f156e169]:
+              - link "Fragancias y aceites esenciales Aceite esencial de lavanda" [ref=f156e170] [cursor=pointer]:
+                - /url: /ingredientes/aceite-esencial-de-lavanda
+                - generic [ref=f156e171]: Fragancias y aceites esenciales
+                - text: Aceite esencial de lavanda
+    - contentinfo [ref=f156e172]:
+      - generic [ref=f156e173]:
+        - generic [ref=f156e174]:
+          - generic [ref=f156e175]:
+            - generic [ref=f156e176]: El Jardín del Jabón
+            - paragraph [ref=f156e177]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f156e178]:
+            - text: Secciones
+            - list [ref=f156e179]:
+              - listitem [ref=f156e180]:
+                - link "Catálogo de recetas" [ref=f156e181] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f156e182]:
+                - link "Biblioteca de ingredientes" [ref=f156e183] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f156e184]:
+                - link "Herramientas y materiales" [ref=f156e185] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f156e186]:
+                - link "Lista de compras" [ref=f156e187] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f156e188]:
+                - link "Favoritos" [ref=f156e189] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f156e190]:
+            - generic [ref=f156e191]: Contenido
+            - paragraph [ref=f156e192]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f156e193]: Los cambios se guardan en este navegador.
+          - generic [ref=f156e194]:
+            - generic [ref=f156e195]: Antes de empezar
+            - paragraph [ref=f156e196]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f156e197]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f156e198]
+        - paragraph [ref=f156e199]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

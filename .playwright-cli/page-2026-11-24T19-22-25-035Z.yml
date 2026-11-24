@@ -1,0 +1,202 @@
+- generic [ref=f106e2]:
+  - generic [ref=f106e3]:
+    - link "Saltar al contenido" [ref=f106e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f106e5]:
+      - generic [ref=f106e6]:
+        - link "El Jardín del Jabón" [ref=f106e7] [cursor=pointer]:
+          - /url: /
+        - button "Menú" [ref=f106e11] [cursor=pointer]
+    - main [ref=f106e14]:
+      - article [ref=f106e15]:
+        - navigation "Migas de pan" [ref=f106e16]:
+          - link "Catálogo de recetas" [ref=f106e17] [cursor=pointer]:
+            - /url: /recetas
+          - generic [aria-hidden] [ref=f106e20]: /
+          - generic [ref=f106e21]: Jabón básico para empezar
+        - generic [ref=f106e22]:
+          - generic [ref=f106e23]:
+            - generic [ref=f106e24]:
+              - generic [ref=f106e25]: Básicos
+              - generic [ref=f106e26]: 1 dato pendiente
+            - generic [ref=f106e27]:
+              - heading "Jabón básico para empezar" [level=1] [ref=f106e28]
+              - paragraph [ref=f106e29]: "Para empezar: solo derretir y moldear."
+            - generic [ref=f106e30]:
+              - button "Guardar Jabón básico para empezar en favoritos" [ref=f106e31] [cursor=pointer]: Añadir a favoritos
+              - button "Imprimir receta" [ref=f106e34] [cursor=pointer]
+              - link "Editar" [ref=f106e40] [cursor=pointer]:
+                - /url: /administracion/recetas/r-jabon-basico/editar
+            - generic [ref=f106e45]:
+              - generic [ref=f106e46]:
+                - generic [ref=f106e47]: Ingrediente principal
+                - generic [ref=f106e48]: Base de glicerina
+              - generic [ref=f106e49]:
+                - generic [ref=f106e50]: Propiedades
+                - generic [ref=f106e51]:
+                  - generic [ref=f106e52]: limpieza
+                  - generic "Clasificación editorial" [ref=f106e53]
+              - generic [ref=f106e54]:
+                - generic [ref=f106e55]: Nivel
+                - generic [ref=f106e56]:
+                  - text: Principiante
+                  - generic "Clasificación editorial" [ref=f106e57]
+              - generic [ref=f106e58]:
+                - generic [ref=f106e59]: Elaboración
+                - generic [ref=f106e60]:
+                  - text: 1–2 horas
+                  - generic "Documentado en recetas.txt" [ref=f106e64]
+              - generic [ref=f106e65]:
+                - generic [ref=f106e66]: Categoría
+                - generic [ref=f106e67]:
+                  - text: Básicos
+                  - generic "Clasificación editorial" [ref=f106e68]
+              - generic [ref=f106e69]:
+                - generic [ref=f106e70]: Completitud
+                - generic [ref=f106e71]: 86 % de los campos clave con dato
+          - generic [ref=f106e75]:
+            - 'img "Ilustración: Fotografía de Jabón básico para empezar" [ref=f106e77]'
+            - generic [ref=f106e81]: Fotografía pendiente
+        - region "Ingredientes y cantidades" [ref=f106e82]:
+          - generic [ref=f106e83]:
+            - generic [ref=f106e84]: Fórmula
+            - heading "Ingredientes y cantidades" [level=2] [ref=f106e85]
+          - list [ref=f106e86]:
+            - listitem [ref=f106e87]:
+              - generic [aria-hidden] [ref=f106e88]: "01"
+              - strong [ref=f106e90]: Base de glicerina
+              - generic [ref=f106e91]: 500 g
+            - listitem [ref=f106e92]:
+              - generic [aria-hidden] [ref=f106e93]: "02"
+              - strong [ref=f106e95]: Fragancia
+              - generic [ref=f106e96]: 10–15 gotas
+            - listitem [ref=f106e97]:
+              - generic [aria-hidden] [ref=f106e98]: "03"
+              - generic [ref=f106e99]:
+                - strong [ref=f106e100]: Colorante
+                - generic [ref=f106e101]: Opcional
+              - generic [ref=f106e102]: Cantidad pendiente
+          - paragraph [ref=f106e103]: El archivo lo describe como el 90 % de los jabones artesanales comerciales básicos.
+        - region "Utensilios necesarios" [ref=f106e104]:
+          - generic [ref=f106e105]:
+            - generic [ref=f106e106]: Mesa de trabajo
+            - heading "Utensilios necesarios" [level=2] [ref=f106e107]
+          - list [ref=f106e108]:
+            - listitem [ref=f106e109]:
+              - generic [ref=f106e110]: Molde de silicona
+            - listitem [ref=f106e114]:
+              - generic [ref=f106e115]: Recipiente para derretir
+            - listitem [ref=f106e119]:
+              - generic [ref=f106e120]: Espátula
+            - listitem [ref=f106e124]:
+              - generic [ref=f106e125]: Microondas o baño María
+            - listitem [ref=f106e129]:
+              - generic [ref=f106e130]: Alcohol en spray
+          - generic "Clasificación editorial" [ref=f106e135]
+        - region "Preparación paso a paso" [ref=f106e136]:
+          - generic [ref=f106e137]:
+            - generic [ref=f106e138]: Elaboración
+            - heading "Preparación paso a paso" [level=2] [ref=f106e139]
+          - list [ref=f106e140]:
+            - listitem [ref=f106e141]:
+              - generic [ref=f106e142]: Cortar la glicerina en cubos.
+            - listitem [ref=f106e143]:
+              - generic [ref=f106e144]: Derretir (microondas o baño María).
+            - listitem [ref=f106e145]:
+              - generic [ref=f106e146]: Agregar fragancia y color.
+            - listitem [ref=f106e147]:
+              - generic [ref=f106e148]: Verter en molde.
+            - listitem [ref=f106e149]:
+              - generic [ref=f106e150]: Rociar alcohol para quitar las burbujas.
+            - listitem [ref=f106e151]:
+              - generic [ref=f106e152]: Dejar enfriar entre 1 y 2 horas.
+        - region "Consejos de elaboración" [ref=f106e153]:
+          - generic [ref=f106e154]:
+            - generic [ref=f106e155]: Consejos
+            - heading "Consejos de elaboración" [level=2] [ref=f106e156]
+          - list [ref=f106e157]:
+            - listitem [ref=f106e158]: Rociar alcohol al final elimina las burbujas de la superficie.
+        - region "Estado de la información" [ref=f106e159]:
+          - generic [ref=f106e160]:
+            - generic [ref=f106e161]:
+              - generic [ref=f106e162]: Observaciones
+              - heading "Estado de la información" [level=2] [ref=f106e163]
+            - generic [ref=f106e164]:
+              - paragraph [ref=f106e165]: Información pendiente de completar
+              - paragraph [ref=f106e168]: "El archivo original no documenta estos datos. El sitio no los inventa: quedan vacíos hasta que se completen con una fuente de confianza."
+              - list [ref=f106e169]:
+                - listitem [ref=f106e170]:
+                  - strong [ref=f106e171]: Cantidades de ingredientes
+                  - generic [ref=f106e172]: "Sin cantidad documentada: Colorante."
+              - paragraph [ref=f106e173]:
+                - link "Completar desde la administración" [ref=f106e174] [cursor=pointer]:
+                  - /url: /administracion/recetas/r-jabon-basico/editar
+          - generic [ref=f106e178]:
+            - generic [ref=f106e179]:
+              - generic [ref=f106e180]: Responsabilidad
+              - heading "Advertencias" [level=2] [ref=f106e181]
+            - region "Antes de elaborar" [ref=f106e182]:
+              - paragraph [ref=f106e183]: Antes de elaborar
+              - list [ref=f106e186]:
+                - listitem [ref=f106e187]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+                - listitem [ref=f106e188]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+                - listitem [ref=f106e189]: Estas recetas son cosméticas. No tratan enfermedades ni sustituyen la indicación de un profesional de la salud.
+                - listitem [ref=f106e190]: "El archivo no documenta dosificaciones seguras para todos los ingredientes: no excedas las cantidades indicadas y completa los huecos con fuentes de confianza."
+                - listitem [ref=f106e191]: Etiqueta cada jabón con sus ingredientes para poder identificar qué causó una reacción.
+                - listitem [ref=f106e192]: "Derretir la base requiere calor y líquido caliente: usa recipiente apto, manipula con cuidado y ventila la zona de trabajo."
+              - paragraph [ref=f106e193]: Recomendaciones generales del sitio. No sustituyen la ficha técnica del proveedor de cada ingrediente.
+        - region "Ingredientes de esta receta" [ref=f106e194]:
+          - generic [ref=f106e195]:
+            - generic [ref=f106e196]: Fichas relacionadas
+            - heading "Ingredientes de esta receta" [level=2] [ref=f106e197]
+          - list [ref=f106e198]:
+            - listitem [ref=f106e199]:
+              - link "Bases de jabón Base de glicerina" [ref=f106e200] [cursor=pointer]:
+                - /url: /ingredientes/base-de-glicerina
+                - generic [ref=f106e201]: Bases de jabón
+                - text: Base de glicerina
+            - listitem [ref=f106e202]:
+              - link "Fragancias y aceites esenciales Fragancias cosméticas" [ref=f106e203] [cursor=pointer]:
+                - /url: /ingredientes/fragancias-cosmeticas
+                - generic [ref=f106e204]: Fragancias y aceites esenciales
+                - text: Fragancias cosméticas
+            - listitem [ref=f106e205]:
+              - link "Exfoliantes y complementarios Colorantes" [ref=f106e206] [cursor=pointer]:
+                - /url: /ingredientes/colorantes
+                - generic [ref=f106e207]: Exfoliantes y complementarios
+                - text: Colorantes
+    - contentinfo [ref=f106e208]:
+      - generic [ref=f106e209]:
+        - generic [ref=f106e210]:
+          - generic [ref=f106e211]:
+            - generic [ref=f106e212]: El Jardín del Jabón
+            - paragraph [ref=f106e213]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f106e214]:
+            - text: Secciones
+            - list [ref=f106e215]:
+              - listitem [ref=f106e216]:
+                - link "Catálogo de recetas" [ref=f106e217] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f106e218]:
+                - link "Biblioteca de ingredientes" [ref=f106e219] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f106e220]:
+                - link "Herramientas y materiales" [ref=f106e221] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f106e222]:
+                - link "Lista de compras" [ref=f106e223] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f106e224]:
+                - link "Favoritos" [ref=f106e225] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f106e226]:
+            - generic [ref=f106e227]: Contenido
+            - paragraph [ref=f106e228]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f106e229]: Los cambios se guardan en este navegador.
+          - generic [ref=f106e230]:
+            - generic [ref=f106e231]: Antes de empezar
+            - paragraph [ref=f106e232]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f106e233]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f106e234]
+        - paragraph [ref=f106e235]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

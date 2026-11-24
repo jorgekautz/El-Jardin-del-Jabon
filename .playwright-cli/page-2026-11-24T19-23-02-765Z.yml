@@ -1,0 +1,154 @@
+- generic [ref=f127e2]:
+  - generic [ref=f127e3]:
+    - link "Saltar al contenido" [ref=f127e4] [cursor=pointer]:
+      - /url: "#contenido"
+    - banner [ref=f127e5]:
+      - generic [ref=f127e6]:
+        - link "El Jardín del Jabón" [ref=f127e7] [cursor=pointer]:
+          - /url: /
+        - combobox "Buscar recetas e ingredientes" [ref=f127e13]
+        - navigation "Principal" [ref=f127e14]:
+          - link "Recetas" [ref=f127e15] [cursor=pointer]:
+            - /url: /recetas
+          - link "Ingredientes" [ref=f127e16] [cursor=pointer]:
+            - /url: /ingredientes
+          - link "Utensilios" [ref=f127e17] [cursor=pointer]:
+            - /url: /utensilios
+          - link "Lista de compras (sección actual)" [ref=f127e18] [cursor=pointer]:
+            - /url: /compras
+            - text: Lista de compras
+            - generic [ref=f127e19]: (sección actual)
+          - link "Favoritos" [ref=f127e20] [cursor=pointer]:
+            - /url: /favoritos
+          - link "Administración" [ref=f127e21] [cursor=pointer]:
+            - /url: /administracion
+    - main [ref=f127e22]:
+      - generic [ref=f127e23]:
+        - generic [ref=f127e24]:
+          - generic [ref=f127e25]:
+            - generic [ref=f127e26]: Kit de arranque
+            - heading "Lista de compras" [level=2] [ref=f127e27]
+            - paragraph [ref=f127e28]: La lista mínima que describe el archivo, con casillas para marcar lo que ya tienes.
+          - button "Imprimir lista" [ref=f127e30] [cursor=pointer]
+        - generic [ref=f127e36]: 0 de 6 productos adquiridos
+        - list [ref=f127e40]:
+          - listitem [ref=f127e41]:
+            - generic [ref=f127e42] [cursor=pointer]:
+              - checkbox "Marcar Base de glicerina como adquirido" [ref=f127e43]
+              - generic [ref=f127e44]: Base de glicerina
+            - generic [ref=f127e45]:
+              - text: Base de glicerina
+              - generic [ref=f127e46]: El archivo la describe como el punto de partida del kit.
+            - generic [ref=f127e47]:
+              - generic [ref=f127e48]: 500 g – 1 kg
+              - button "Quitar Base de glicerina de la lista" [ref=f127e49] [cursor=pointer]
+          - listitem [ref=f127e53]:
+            - generic [ref=f127e54] [cursor=pointer]:
+              - checkbox "Marcar Fragancias o aceites esenciales como adquirido" [ref=f127e55]
+              - generic [ref=f127e56]: Fragancias o aceites esenciales
+            - generic [ref=f127e57]:
+              - text: Fragancias o aceites esenciales
+              - generic [ref=f127e58]: Uno o dos aromas bastan para empezar.
+            - generic [ref=f127e59]:
+              - generic [ref=f127e60]: 1–2
+              - button "Quitar Fragancias o aceites esenciales de la lista" [ref=f127e61] [cursor=pointer]
+          - listitem [ref=f127e65]:
+            - generic [ref=f127e66] [cursor=pointer]:
+              - checkbox "Marcar Colorantes como adquirido" [ref=f127e67]
+              - generic [ref=f127e68]: Colorantes
+            - generic [ref=f127e69]:
+              - text: Colorantes
+              - generic [ref=f127e70]: Opcionales en la receta básica.
+            - generic [ref=f127e71]:
+              - generic [ref=f127e72]: 1–2
+              - button "Quitar Colorantes de la lista" [ref=f127e73] [cursor=pointer]
+          - listitem [ref=f127e77]:
+            - generic [ref=f127e78] [cursor=pointer]:
+              - checkbox "Marcar Molde de silicona como adquirido" [ref=f127e79]
+              - generic [ref=f127e80]: Molde de silicona
+            - generic [ref=f127e81]:
+              - text: Molde de silicona
+              - generic [ref=f127e82]: El molde se desmolda sin engrasar.
+            - generic [ref=f127e83]:
+              - generic [ref=f127e84]: "1"
+              - button "Quitar Molde de silicona de la lista" [ref=f127e85] [cursor=pointer]
+          - listitem [ref=f127e89]:
+            - generic [ref=f127e90] [cursor=pointer]:
+              - checkbox "Marcar Alcohol en spray como adquirido" [ref=f127e91]
+              - generic [ref=f127e92]: Alcohol en spray
+            - generic [ref=f127e93]:
+              - text: Alcohol en spray
+              - generic [ref=f127e94]: Quita las burbujas al verter.
+            - generic [ref=f127e95]:
+              - generic [ref=f127e96]: "1"
+              - button "Quitar Alcohol en spray de la lista" [ref=f127e97] [cursor=pointer]
+          - listitem [ref=f127e101]:
+            - generic [ref=f127e102] [cursor=pointer]:
+              - checkbox "Marcar Espátula o cuchara como adquirido" [ref=f127e103]
+              - generic [ref=f127e104]: Espátula o cuchara
+            - generic [ref=f127e105]:
+              - text: Espátula o cuchara
+              - generic [ref=f127e106]: Para mezclar y mover la masa.
+            - generic [ref=f127e107]:
+              - generic [ref=f127e108]: "1"
+              - button "Quitar Espátula o cuchara de la lista" [ref=f127e109] [cursor=pointer]
+        - region "Productos propios" [ref=f127e113]:
+          - generic [ref=f127e114]:
+            - generic [ref=f127e115]:
+              - generic [ref=f127e116]: Añadir
+              - heading "Productos propios" [level=2] [ref=f127e117]
+              - paragraph [ref=f127e118]: "Molde extra, aromas nuevos, colorantes específicos: lo que añadas se guarda igual que la lista del archivo."
+            - generic [ref=f127e119]:
+              - generic [ref=f127e120]:
+                - generic [ref=f127e121]: Producto *
+                - textbox "Producto" [ref=f127e122]:
+                  - /placeholder: Molde de madera
+              - generic [ref=f127e123]:
+                - generic [ref=f127e124]: Cantidad
+                - textbox "Cantidad" [ref=f127e125]:
+                  - /placeholder: "2"
+              - generic [ref=f127e126]:
+                - generic [ref=f127e127]: Nota
+                - textbox "Nota" [ref=f127e128]:
+                  - /placeholder: Para la tanda de avena
+            - generic [ref=f127e129]:
+              - button "Añadir a la lista" [ref=f127e130] [cursor=pointer]
+              - paragraph [ref=f127e134]: Los cambios se guardan en este navegador.
+        - paragraph [ref=f127e135]:
+          - generic [ref=f127e136]: Guardado local
+          - text: "Favoritos y lista de compras viven en este navegador: no se envían a ningún servidor."
+    - contentinfo [ref=f127e137]:
+      - generic [ref=f127e138]:
+        - generic [ref=f127e139]:
+          - generic [ref=f127e140]:
+            - generic [ref=f127e141]: El Jardín del Jabón
+            - paragraph [ref=f127e142]: Biblioteca de recetas de jabones artesanales. El contenido procede del archivo original de recetas; los huecos se muestran como información pendiente.
+          - navigation "Secciones" [ref=f127e143]:
+            - text: Secciones
+            - list [ref=f127e144]:
+              - listitem [ref=f127e145]:
+                - link "Catálogo de recetas" [ref=f127e146] [cursor=pointer]:
+                  - /url: /recetas
+              - listitem [ref=f127e147]:
+                - link "Biblioteca de ingredientes" [ref=f127e148] [cursor=pointer]:
+                  - /url: /ingredientes
+              - listitem [ref=f127e149]:
+                - link "Herramientas y materiales" [ref=f127e150] [cursor=pointer]:
+                  - /url: /utensilios
+              - listitem [ref=f127e151]:
+                - link "Lista de compras" [ref=f127e152] [cursor=pointer]:
+                  - /url: /compras
+              - listitem [ref=f127e153]:
+                - link "Favoritos" [ref=f127e154] [cursor=pointer]:
+                  - /url: /favoritos
+          - generic [ref=f127e155]:
+            - generic [ref=f127e156]: Contenido
+            - paragraph [ref=f127e157]: 6 recetas · 27 ingredientes documentados
+            - paragraph [ref=f127e158]: Los cambios se guardan en este navegador.
+          - generic [ref=f127e159]:
+            - generic [ref=f127e160]: Antes de empezar
+            - paragraph [ref=f127e161]: Verifica que la fragancia o el aceite esencial sea apto para uso cosmético y respeta los límites que indique tu proveedor.
+            - paragraph [ref=f127e162]: "Un ingrediente natural no es inocuo para toda la piel: prueba el jabón en una zona pequeña antes de usarlo de forma habitual."
+        - separator [ref=f127e163]
+        - paragraph [ref=f127e164]: Uso cosmético. Estas recetas no son tratamientos médicos y no garantizan tolerancia en todos los tipos de piel.
+  - status

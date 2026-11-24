@@ -24,7 +24,6 @@ export function HomePage() {
     .filter((ingredient) => ingredient.category === 'complementarios' || ingredient.category === 'aceites')
     .slice(0, 8);
   const heroPhoto = resolveSectionPhoto('hero');
-  const botanicalsPhoto = resolveSectionPhoto('botanicals');
 
   return (
     <>

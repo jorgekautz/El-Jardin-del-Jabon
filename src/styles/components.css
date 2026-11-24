@@ -75,6 +75,10 @@
   background: transparent;
 }
 
+.stack .filters .grid-two .field .btn--quiet {
+  margin-top: var(--space-3xs);
+}
+
 .btn--danger {
   background: transparent;
   border-color: var(--pending-line);
@@ -89,7 +93,7 @@
 
 .btn--sm {
   min-height: 2.25rem;
-  padding: 0.35rem var(--space-s);
+  padding: 0rem var(--space-s);
   font-size: var(--step--3);
 }
 

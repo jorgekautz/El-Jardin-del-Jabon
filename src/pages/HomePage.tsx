@@ -47,7 +47,7 @@ export function HomePage() {
               onSubmit={(event) => event.preventDefault()}
             >
               <SearchBox id="buscador-portada" placeholder="Buscar por nombre o ingrediente" />
-              <Button to="/recetas" size="md">
+              <Button to="/recetas" size="md" className="btn--sm">
                 Explorar recetas
               </Button>
             </form>

@@ -345,7 +345,7 @@ export function RecipeEditorPage() {
                     ...ingredients.map((item) => ({ value: item.id, label: item.name })),
                   ]}
                 />
-                <div className="row" style={{ gap: 'var(--space-3xs)', paddingTop: '1.65rem' }}>
+                <div className="row" style={{ gap: 'var(--space-3xs)', paddingTop: '1.66rem' }}>
                   <button
                     type="button"
                     className="btn btn--quiet btn--sm"
@@ -413,7 +413,7 @@ export function RecipeEditorPage() {
                   }
                   placeholder="Derretir la base a fuego suave"
                 />
-                <div className="row" style={{ gap: 'var(--space-3xs)', paddingTop: '1.4rem' }}>
+                <div className="row" style={{ gap: 'var(--space-3xs)', paddingTop: '0.1rem' }}>
                   <button
                     type="button"
                     className="btn btn--quiet btn--sm"
@@ -549,7 +549,7 @@ export function RecipeEditorPage() {
                 </Button>
                 <Button
                   variant="danger"
-                  size="sm"
+                  size="md"
                   icon="trash"
                   onClick={() => {
                     dispatch({ type: 'deleteRecipe', id: existing.id });

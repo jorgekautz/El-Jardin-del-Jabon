@@ -612,6 +612,11 @@
   grid-template-columns: minmax(0, 1fr) auto auto;
 }
 
+.repeat-row--steps .field .input {
+  width: 92%;
+  margin-left: 1rem;
+}
+
 @media (max-width: 48rem) {
   .repeat-row,
   .repeat-row--steps {

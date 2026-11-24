@@ -190,7 +190,7 @@ export function RecipeDetailPage() {
           <h2 id="ingredientes-titulo">Ingredientes y cantidades</h2>
         </div>
         {recipe.ingredients.length === 0 ? (
-          <p className="lead">Información pendiente de completar.</p>
+          <p className="lead">Información pendiente.</p>
         ) : (
           <ul className="formula">
             {recipe.ingredients.map((line, index) => (

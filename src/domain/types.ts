@@ -151,7 +151,7 @@ export interface PendingItem {
 export const SOURCE_LABELS: Record<SourceKind, string> = {
   documentado: 'Documentado en recetas.txt',
   editorial: 'Clasificación editorial',
-  pendiente: 'Información pendiente de completar',
+  pendiente: 'Información pendiente',
 };
 
 export const CATEGORY_LABELS: Record<CategoryId, string> = {

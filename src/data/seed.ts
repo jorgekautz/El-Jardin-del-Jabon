@@ -452,7 +452,7 @@ export const SEED_RECIPES: Recipe[] = [
     id: 'r-jabon-exfoliante',
     slug: 'jabon-exfoliante',
     name: 'Jabón exfoliante',
-    tagline: 'Muy vendible: avena o amapola en la masa.',
+    tagline: 'Muy vendible: avena o amapola.',
     taglineSource: 'documentado',
     category: 'exfoliantes',
     categorySource: 'editorial',

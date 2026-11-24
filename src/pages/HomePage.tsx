@@ -167,13 +167,6 @@ export function HomePage() {
               El archivo documenta la función de cada ingrediente. Cuando no la describe, la ficha
               lo indica en lugar de atribuirle propiedades.
             </p>
-            <SmartImage
-              photo={botanicalsPhoto}
-              seed="arcilla"
-              motif="clay"
-              alt="Ingredientes naturales sobre lienzo"
-              pendingLabel={botanicalsPhoto ? undefined : 'Fotografía pendiente'}
-            />
           </div>
         </div>
       </section>
